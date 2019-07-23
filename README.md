@@ -1,2 +1,1 @@
-# tarragona
-Projects and resources from Tarragona
+# for testing
