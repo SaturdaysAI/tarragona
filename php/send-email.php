@@ -1,6 +1,6 @@
 <?php	
 	// Your Email
-	$recipient = "yourname@yourdomain.com"; // PLEASE SET YOUR EMAIL ADDRESS
+	$recipient = "team@saturdays.ai"; // PLEASE SET YOUR EMAIL ADDRESS
 	$recaptcha_secret_key = 'yourAPIkey'; // PLEASE SET YOUR GOOGLE RECAPTCHA API KEY.
 
 	// Recaptcha check up
