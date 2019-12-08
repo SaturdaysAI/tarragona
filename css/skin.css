@@ -2491,7 +2491,7 @@ body,
 .hero-5-2-3 .media-column{
 	background-image: url(../images/saturdays/09.jpg);
 }
-.hero-5-2-4 .media-column{
+.hero-5-2-4 .media-column{ /*BCN*/
 	background-image: url(../images/saturdays/15.jpg);
 }
 .hero-5-2-5 .media-column{
@@ -2499,6 +2499,12 @@ body,
 }
 .hero-5-2-6 .media-column{
 	background-image: url(../images/saturdays/bcn.jpg);
+}
+.hero-5-2-7 .media-column{ /*MADRID*/
+	background-image: url(../images/saturdays/madrid.jpg);
+}
+.hero-5-2-8 .media-column{ /*MADRID*/
+	background-image: url(../images/saturdays/madrid_sesion.jpg);
 }
 
 /* @media (max-width:768px){
