@@ -2525,6 +2525,9 @@ body,
 .hero-5-2-8 .media-column{ /*MADRID*/
 	background-image: url(../images/madrid-sesion2.png);
 }
+.hero-5-2-9 .media-column{ /*MADRID*/
+	background-image: url(../images/cartel-madrid2.jpg);
+}
 
 /* @media (max-width:768px){
 	.hero-5-2-1 .media-column{
