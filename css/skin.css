@@ -2489,6 +2489,8 @@ body,
   height: 100%;
   pointer-events: none;
 }*/
+
+
 /*.hero-5-2-1 .media-column{
 	* { box-sizing: border-box; }
 		.video-background {
@@ -4236,9 +4238,9 @@ blockquote.avatar.xlarge span img  {
 }
 
 /* Video Container */
-.video-container{
-	border-radius: 0.3rem;
-}
+
+
+
 
 /* Thumbnail */
 .thumbnail.background-image-container.large{
