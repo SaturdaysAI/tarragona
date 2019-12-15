@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<title>Saturdays.AI</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+	<link rel="stylesheet" href="css/shop.css" class="color-switcher-link">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal"> <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		<span aria-hidden="true">
+			<i class="rt-icon2-cross2"></i>
+		</span>
+	</button>
+		<div class="widget widget_search">
+			<form method="get" class="searchform search-form form-inline" action="./">
+				<div class="form-group bottommargin_0"> <input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input"> </div> <button type="submit" class="theme_button no_bg_button">Search</button> </form>
+		</div>
+	</div>
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls with_padding">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+		</div>
+	</div>
+	<!-- eof .modal -->
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+			<!-- template sections -->
+			<section class="page_topline ds table_section table_section_lg section_padding_top_15 section_padding_bottom_15 columns_margin_0">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-6 text-center text-lg-left hidden-xs">
+							<div class="inline-content big-spacing">
+								<div class="page_social"> <a class="social-icon socicon-instagram" href="#" title="Instagram"><a class="social-icon socicon-facebook" href="#" title="Facebook"></a> <a class="social-icon socicon-twitter" href="#" title="Twitter"></a> <a class="social-icon socicon-google" href="#" title="Google Plus"></a> <a class="social-icon socicon-linkedin"
+									    href="#" title="Linkedin"></a> <a class="social-icon socicon-youtube" href="#" title="Youtube"></a> </div> <span class="xs-block">
+						<i class="fa fa-clock-o highlight3 rightpadding_5" aria-hidden="true"></i>
+						Mon-Fri: 9:00-19:00(Slack); Sat: 09:00-14:30
+					</span> </div>
+						</div>
+						<div class="col-lg-6 text-center text-lg-right">
+							<div id="topline-animation-wrap">
+								<div id="topline-hide" class="inline-content big-spacing"> <span class="hidden-xs">
+							<i class="fa fa-map-marker highlight3 rightpadding_5" aria-hidden="true"></i>
+							Sin direccion Guayaquil, Ecuador
+						</span> <span class="greylinks hidden-xs">
+							<i class="fa fa-pencil highlight3 rightpadding_5" aria-hidden="true"></i>
+							<a href="mailto:guayaquil@saturdays.ai">guayaquil@saturdays.ai</a>
+						</span>
+									<div class="xs-block">
+										<ul class="inline-list menu greylinks">
+											<li> <a href="#0">
+										<i class="fa fa-user" aria-hidden="true"></i>
+									</a> </li>
+											<!--<li> <a href="#0">
+										<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+									</a> </li>-->
+											<!--<li class="dropdown"> <a id="search-show" href="./">
+										<i class="fa fa-search"></i>
+									</a> </li>-->
+										</ul>
+									</div>
+								</div>
+								<div id="topline-show" class="widget widget_search">
+									<form method="get" class="searchform inline-form" action="./">
+										<div class="form-group-wrap">
+											<div class="form-group"> <label class="sr-only" for="topline-widget-search">Search for:</label> <input id="topline-widget-search" type="text" value="" name="search" class="form-control" placeholder="Enter Keyword..."> <a href="./" id="search-close">
+									<i class="fa fa-close"></i>
+								</a> </div> <button type="submit" class="theme_button no_bg_button color1">ok</button> </div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<header class="page_header header_white toggler_xs_right columns_margin_0">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-12 display_table">
+							<div class="header_left_logo display_table_cell"> <a href="./" class="logo logo_with_text">
+                        <img src="images/logo.png" alt="">
+                        <span class="logo_text">
+                            Saturdays.AI
+                            <small class="highlight4" style="color:#f3702b;">Make a difference</small>
+                        </span>
+                    </a> </div>
+							<div class="header_mainmenu display_table_cell text-center">
+								<!-- main nav start -->
+								<nav class="mainmenu_wrapper">
+									<ul class="mainmenu nav sf-menu">
+										<li class="active"> <a href="https://www.saturdays.ai/">Home</a>
+										</li>
+										<li> <a href="about.html">About</a>
+										</li>
+										<!-- eof pages -->
+										<li> <a href="services.html">Cities</a>
+											<ul>
+												<li> <a href="services.html">Barcelona</a> </li>
+												<li> <a href="service-single.html">Madrid</a> </li>
+												<li> <a href="service-single.html">Sevilla</a> </li>
+												<li> <a href="service-single.html">Tarragona</a> </li>
+												<li> <a href="service-single.html">Alicante</a> </li>
+												<li> <a href="service-single.html">Almeria</a> </li>
+												<li> <a href="service-single.html">Guayaquil</a> </li>
+												<li> <a href="service-single.html">Quito</a> </li>
+												<li> <a href="service-single.html">Lima</a> </li>
+												<li> <a href="service-single.html">Bogota</a> </li>
+												<li> <a href="service-single.html">Monterrey</a> </li>
+												<li> <a href="service-single.html">Milan</a> </li>
+											</ul>
+										</li>
+										<!-- gallery -->
+										<li> <a href="gallery-tile.html">Gallery</a>
+										</li>
+										<!-- eof Gallery -->
+										<!-- blog -->
+										<li> <a href="blog-single-left.html">Blog</a>
+										</li>
+										<!-- eof blog -->
+										<!-- contacts -->
+										<li> <a href="Contact2.html">Contacts</a>
+										</li>
+										<!-- eof contacts -->
+									</ul>
+								</nav>
+								<!-- eof main nav -->
+								<!-- header toggler --><span class="toggle_menu"><span></span></span>
+							</div>
+							<div class="header_right_buttons display_table_cell text-right hidden-xs"> <a href="donate.html" class="theme_button color2 margin_0">Donate us now!</a> </div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<section class="page_breadcrumbs ds background_cover section_padding_top_65 section_padding_bottom_65">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2>About</h2>
+							<ol class="breadcrumb greylinks">
+								<li> <a href="./">
+							Home
+						</a> </li>
+								<li> <a href="#">Pages</a> </li>
+								<li class="active">About</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="about" class="ls section_padding_top_110 columns_padding_30">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-md-push-6" data-animation="fadeInUp" data-delay="600">
+							<div class="embed-responsive embed-responsive-3by2"> <a href="https://www.youtube.com/embed/2xCcHZCYp3U" class="embed-placeholder">
+						<img src="images/gallery/01.jpg" alt="">
+					</a> </div>
+						</div>
+						<div class="col-md-6 col-md-pull-6" data-animation="fadeInRight" data-delay="300">
+							<h2 class="section_header color4"> OUR AWESOME TEAM</h2>
+							<p class="section-excerpt grey">Our team is passionate about AI and Human progress, we firmly believe that combining communities with technology is the best way to catalyze change to make the world a better place.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="events" class="ls section_padding_top_100">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 bottommargin_0 to_animate" data-animation="fadeInUp">
+							<div class="row masonry-feed columns_padding_1">
+								<div class="col-xs-12 col-md-3">
+									<div class="row">
+										<div class="col-xs-12 col-sm-6 col-md-12">
+											<div class="vertical-item content-absolute text-center ds">
+												<div class="item-media"> <img src="images/gallery/02.jpg" alt=""> </div>
+												<div class="item-content darken_gradient">
+													<h3 class="entry-title"> <a href="gallery-single.html">Special at Crest Cafe</a> </h3>
+												</div>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-6 col-md-12">
+											<div class="vertical-item content-absolute text-center ds">
+												<div class="item-media"> <img src="images/gallery/03.jpg" alt=""> </div>
+												<div class="item-content darken_gradient">
+													<h3 class="entry-title"> <a href="gallery-single.html">Karaoke at Flicks</a> </h3>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-12 col-md-6">
+									<div class="vertical-item closest-event content-absolute text-center ds">
+										<div class="item-media"> <img src="images/gallery/04.jpg" alt=""> </div>
+										<div class="item-content darken_gradient">
+											<!-- <div id="comingsoon-countdown" data-count-to="March 6, 2018 15:00:00 GMT-05:00" data-format="DHM"></div> -->
+											<div id="comingsoon-countdown" data-format="DHMS"></div>
+											<h3 class="entry-title"> <a href="gallery-single.html">Tuesday All-Day Happy Hour</a> </h3>
+											<div class="entry-meta inline-content"> <span>
+										<i class="fa fa-map-marker highlight4 rightpadding_5" aria-hidden="true"></i>
+										229 Verna Viaduct, new york
+									</span> <span>
+										<i class="fa fa-clock-o highlight4 rightpadding_5" aria-hidden="true"></i>
+										2:00 pm to 2:00 am
+									</span> </div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-12 col-md-3">
+									<div class="row">
+										<div class="col-xs-12 col-sm-6 col-md-12">
+											<div class="vertical-item content-absolute text-center ds">
+												<div class="item-media"> <img src="images/gallery/05.jpeg" alt=""> </div>
+												<div class="item-content darken_gradient">
+													<h3 class="entry-title"> <a href="gallery-single.html">Tuesdays at San Diego Eagle</a> </h3>
+												</div>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-6 col-md-12">
+											<div class="vertical-item content-absolute text-center ds">
+												<div class="item-media"> <img src="images/gallery/06.jpeg" alt=""> </div>
+												<div class="item-content darken_gradient">
+													<h3 class="entry-title"> <a href="gallery-single.html">Turnback Tuesdays at Lips</a> </h3>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<hr/>
+			<footer class="page_footer template_footer ds ms parallax overlay_color section_padding_top_110 section_padding_bottom_100 columns_padding_25">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div id="subscribe" class="widget widget_mailchimp with_padding cs main_color2 parallax overlay_color topmargin_0">
+								<h3 class="widget-title">Our Newsletter</h3>
+								<form class="signup" action="./" method="get">
+									<div class="form-group-wrap">
+										<div class="form-group"> <label for="mailchimp" class="sr-only">Enter your email here</label> <input name="email" type="email" id="mailchimp" class="mailchimp_email form-control text-center" placeholder="Your Email Address"> </div> <button type="submit" class="theme_button color2">Subscribe now</button>										</div>
+									<div class="response"></div>
+								</form>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 col-md-push-4 text-center">
+							<div class="widget widget_text widget_about">
+								<div class="logo logo_with_text bottommargin_10"> <img src="images/logo.png" alt=""> <span class="logo_text">
+                            Saturdays.AI
+                            <small class="highlight4" style="color:#f3702b;">Make a Difference</small>
+                        </span> </div>
+								<p>Saturdays.AI is a non-profit organization in a mission to deliver AI4Good
+								brought to you with LOVE by diverse individuals like you, why not join us?.</p>
+								<p class="topmargin_25"><a class="social-icon border-icon rounded-icon socicon-instagram" href="#" title="Instagram"> <a class="social-icon border-icon rounded-icon socicon-facebook" href="#" title="Facebook"></a> <a class="social-icon border-icon rounded-icon socicon-twitter" href="#" title="Twitter"></a> <a class="social-icon border-icon rounded-icon socicon-google"
+									    href="#" title="Google Plus"></a> <a class="social-icon border-icon rounded-icon socicon-linkedin" href="#" title="Linkedin"></a> <a class="social-icon border-icon rounded-icon socicon-youtube" href="#" title="Youtube"></a> </p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 col-md-pull-4 text-center">
+							<div class="widget widget_text">
+								<h3 class="widget-title">Our Contacts</h3>
+								<ul class="list-unstyled greylinks">
+									<li class="media"> <i class="fa fa-map-marker highlight rightpadding_5" aria-hidden="true"></i> Sin direccion Guayaquil, Ecuador </li>
+									<li class="media"> <i class="fa fa-phone highlight rightpadding_5" aria-hidden="true"></i> 8 (800) 923 4567 (operator) </li>
+									<li class="media"> <i class="fa fa-pencil highlight rightpadding_5" aria-hidden="true"></i> <a href="mailto:guayaquil@saturdays.ai">guayaquil@saturdays.ai</a> </li>
+									<li class="media"> <i class="fa fa-clock-o highlight rightpadding_5" aria-hidden="true"></i> Mon-Fri: 9:00-19:00(Slack); Sat: 09:00-14:30; Sun: Closed</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 hidden-xs hidden-sm text-center">
+							<div class="widget widget_recent_posts">
+								<h3 class="widget-title">Recent Blogs</h3>
+								<ul class="list-unstyled greylinks">
+									<li>
+										<p> <a href="blog-single-left.html">Arrival of Saturdays.AI to Ecuador.</a> </p>
+										<div class="entry-meta inline-content greylinks"> <span>
+									<i class="fa fa-calendar highlight3 rightpadding_5" aria-hidden="true"></i>
+									<a href="blog-single-right.html">
+										<time datetime="2017-10-03T08:50:40+00:00">
+										27 feb, 2019</time>
+									</a>
+								</span> <span>
+									<i class="fa fa-user highlight3 rightpadding_5" aria-hidden="true"></i>
+									<a href="blog-right.html">Christian T</a>
+								</span> <span class="categories-links">
+									<i class="fa fa-tags highlight3 rightpadding_5" aria-hidden="true"></i>
+									<a href="blog-right.html">COMMUNITY</a>
+								</span> </div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<section class="ds ms parallax page_copyright overlay_color section_padding_top_30 section_padding_bottom_30">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<p>&copy; Copyright 2018. All Rights Reserved.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- eof #box_wrapper -->
+	</div>
+	<!-- eof #canvas -->
+	<script src="js/compressed.js"></script>
+	<script src="js/selectize.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

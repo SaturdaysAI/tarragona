@@ -1,0 +1,56 @@
+
+.uio01 {
+	/* imagen luces difuminadas https://upload.wikimedia.org/wikipedia/commons/2/2a/Quito_noche_desde_el_pichincha_teleferico_002.jpg */
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/13/Iglesia_de_San_Francisco%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_217-219_HDR.JPG");
+  opacity: 1;
+}
+
+.btn-uio01 {
+  color: white;
+  background-color: red;
+  border-color: red;
+}
+
+
+.btn-uio02 {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
+
+.btn-uio3 {
+  display: inline-block;
+  font-weight: 200;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;;;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.2rem 0.2rem;
+  font-size: 0.6 rem;
+  line-height: 1.2;
+  border-radius: 0.2rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.tapiz
+{
+	
+	 background-color: rgba(70,70,70,0.8);
+}
+
+.tit01{
+	color: white;
+	position:relative;
+	z-index:1;
+}
+
+.tit02{
+	
+	color: rgb(210,210,210);
+	position:relative;
+	z-index:1;
+}
