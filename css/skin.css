@@ -2530,6 +2530,9 @@ body,
 .hero-5-2-9 .media-column{ /*MADRID*/
 	background-image: url(../images/cartel-madrid2.jpg);
 }
+.hero-5-2-10 .media-column{ /*MADRID*/
+	background-image: url(../images/bci.jpg);
+}
 
 /* @media (max-width:768px){
 	.hero-5-2-1 .media-column{
@@ -4240,7 +4243,28 @@ blockquote.avatar.xlarge span img  {
 /* Video Container */
 
 
+.video-responsive {
+position: relative;
+padding-bottom: 56.25%; /* 16/9 ratio */
+padding-top: 30px; /* IE6 workaround*/
+height: absolute;
+overflow: hidden;
+}
 
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;;
+height: 100% !important;;
+}
+
+
+.video-container{
+	border-radius: 0.3rem;
+}
 
 /* Thumbnail */
 .thumbnail.background-image-container.large{
