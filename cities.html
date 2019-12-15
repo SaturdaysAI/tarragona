@@ -1602,47 +1602,54 @@
         <!-- Carousel Slider End -->
 
         <!-- Custom Call to Action Section -->
-        <div class="section-block bg-light-gray section-pad padb-30-mobile padt-30-mobile">
+        <!-- Custom Call to Action Section -->
+        <div class="section-block section-pad padb-30-mobile padt-30-mobile">
           <div class="row flex two-columns-on-tablet">
             <div class="column width-7 left v-align-middle horizon"
               data-animate-in="preset:slideInLeftShort;duration:1000ms;delay:0;" data-threshold="1">
               <div>
-                <h3 class="color-black size-5 f-weight">
+                <h3 class="color-white size-5 f-weight">
                   Can't find
                   <span class="color-orange f-weight">your city</span>?
                 </h3>
-                <h3 class="color-black f-weight">
+                <h3 class="color-white f-weight">
                   Become an organizer of AI Saturdays
                 </h3>
               </div>
             </div>
+
             <div class="column width-5 right left-on-mobile v-align-middle horizon"
               data-animate-in="preset:slideInRightShort;duration:1000ms;delay:300;" data-threshold="1">
-              <div class="signup-form-container">
-                <form class="signup-form merged-form-elements" action="php/subscribe.php" method="post" novalidate>
+
+                     <!--begin container -->
+                <div class="container">
+                  <!--begin row -->
                   <div class="row">
-                    <div class="column width-12">
-                      <h3 class="color-black text-left">Email</h3>
+
+                    <!--begin col-md-12-->
+                    <div class="col-md-12 padding-bottom-40">
+                      <!--begin newsletter_form_wrapper -->
+                      <div
+                        class="newsletter_form_wrapper wow bounceIn"
+                        data-wow-delay="0.25s"
+                        style="visibility: visible; animation-delay: 0.25s; animation-name: bounceIn;">
+                      <p class="color-gray size-20", align="left">
+                                Pls, contact to:
+                              </p>
+                  <h2 align="left">
+                    <a style="color:orange;" href="mailto:board@saturdays.ai">board@saturdays.ai</a>
+                  </h2>
+                              </div>
+                      <!--end newsletter_form_wrapper -->
                     </div>
-                    <div class="column width-8 pad-left">
-                      <div class="field-wrapper">
-                        <input type="email" id="mail" name="email"
-                          class="form-email form-element rounded medium left br-form" placeholder="Email address*"
-                          tabindex="2" required />
-                      </div>
-                    </div>
-                    <div class="column width-4 pad-left">
-                      <input type="submit" value="Apply"
-                        class="form-submit button rounded medium bkg-theme bkg-hover-theme color-white color-hover-white br-form" />
-                    </div>
+                    <!--end col-md-12 -->
                   </div>
-                  <input type="text" name="honeypot" class="form-honeypot form-element rounded medium" />
-                </form>
-                <div class="form-response show"></div>
+                  <!--end row -->
+                </div>
+                <!--end container -->
+
               </div>
             </div>
-          </div>
-        </div>
         <!-- Custom Call to Action Section End -->
 
         <!-- Cities Modal -->
