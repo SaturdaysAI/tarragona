@@ -2533,6 +2533,10 @@ body,
 .hero-5-2-10 .media-column{ /*MADRID*/
 	background-image: url(../images/bci.jpg);
 }
+.hero-5-2-11 .media-column{ /*MADRID*/
+	background-image: url(../images/eduflow.png);
+}
+
 
 /* @media (max-width:768px){
 	.hero-5-2-1 .media-column{
