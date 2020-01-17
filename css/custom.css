@@ -130,7 +130,7 @@
   width: 335px !important;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .padt-0-mobile {
     padding-top: 0px !important;
   }
@@ -146,7 +146,21 @@
   .why-how-section {
     margin-top: 0;
   }
+  .thumbnail > a,
+  .thumbnail > span {
+    left: 45px;
+  }
+  iframe {
+    width: 100%;
+  }
 }
+@media (max-width: 321px) {
+  .thumbnail > a,
+  .thumbnail > span {
+    left: 16px;
+  }
+}
+
 /*--------------------INDEX END-----------------------*/
 /*--------------------CITIES PAGE---------------------*/
 .bg-light-gray {

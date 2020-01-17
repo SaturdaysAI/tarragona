@@ -1034,7 +1034,8 @@ body,
 	.header .header,
 	.header .header-inner,
 	.header.header-transparent .header-inner{
-		background-color: transparent;
+		/* background-color: transparent; */
+		background-color: #1b2126;
 	}
 	.header .header-inner{
 		/* border-bottom: 1px solid #eee; */
