@@ -7676,12 +7676,12 @@ textarea {
     right: 5% !important;
   }
 }
-#tml-content embed,
+/* #tml-content embed, */
 #tml-content iframe,
 #tml-content object,
 #tml-content video {
   width: 100% !important;
-  height: 100% !important;
+  /* height: 100% !important; */
 }
 #tml-caption {
   font-size: 1.2rem;

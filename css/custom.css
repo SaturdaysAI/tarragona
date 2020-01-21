@@ -79,6 +79,16 @@
   padding: 0px 40px;
 }
 
+.br-0 {
+  border-radius: 0 !important;
+}
+
+.pl-0 {
+  padding-left: 0 !important;
+}
+.pr-0 {
+  padding-right: 0 !important;
+}
 /* .text-pad2 {
   padding: 0px 250px;
 } */
