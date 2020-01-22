@@ -2549,6 +2549,15 @@ body,
 .hero-5-2-15 .media-column{ /*MADRID*/
 	background-image: url(../images/Monterrey-Cartel.jpg);
 }
+.hero-5-2-16 .media-column{ /*MADRID*/
+	background-image: url(../images/lapaz.jpg);
+}
+.hero-5-2-17 .media-column{ /*MADRID*/
+	background-image: url(../images/saturdays/LaPaz-Context.jpg);
+}
+.hero-5-2-18 .media-column{ /*MADRID*/
+	background-image: url(../images/saturdays/LaPaz-Cartel.jpg);
+}
 
 
 /* @media (max-width:768px){
