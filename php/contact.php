@@ -1,6 +1,6 @@
 <?php
 
-$field_first_name = $_POST['names'];
+$field_first_name = $_POST['fname'];
 
 $field_email = $_POST['email'];
 
@@ -8,7 +8,7 @@ $field_phone = $_POST['phone'];
 
 $field_message = $_POST['message'];
 
-$mail_to = 'team@saturdays.ai';
+$mail_to = 'zamora@shugert.com.mx';
 
 $subject = 'Message from a site visitor ' . $field_first_name;
 

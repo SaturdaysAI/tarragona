@@ -95,7 +95,7 @@
 	// Build Message
 	$email_content = "First Name: $fname\n";
 	// $email_content .= "Last Name: $lname\n";
-	$email_content .= "phone: $phone\n";
+	$email_content .= "Phone: $phone\n";
 	$email_content .= "Email: $email\n\n";
 	$email_content .= "Message:\n$message\n\n\n";
 	$email_content .= "CLIENT IP:\n".get_client_ip()."\n";
