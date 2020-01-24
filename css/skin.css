@@ -95,7 +95,7 @@ h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover{
-	color: #6773f1;
+	color: #ff7f00;
 }
 h1 {
 	font-size: 4.381rem;
@@ -236,7 +236,7 @@ ol, ul{
 a, 
 p a,
 .box a:not(.button){
-	color: #6773f1;
+	color: #ff7f00;
 }
 .sidebar .widget :not(.widget-title) a:not(.button),
 .shop .product-summary :not(.widget-title) a:not(.button){
@@ -719,14 +719,14 @@ body,
 	border-color: #ff7f00;
 }
 .border-theme{
-	border-color: #6773f1;
+	border-color: #ff7f00;
 }
 .border-hover-theme:hover,
 .border-focus-theme:focus{ /* #MOD */
 	border-color: #717dfb;
 }
 .color-theme{
-	color: #6773f1;
+	color: #ff7f00;
 }
 .color-hover-theme:hover{
 	color: #717dfb;
@@ -1364,7 +1364,7 @@ body,
 	border-color: #ecedf2;
 }
 .navigation .cart-overview .checkout.button{
-	background-color: #6773f1;
+	background-color: #ff7f00;
 	border-color: #717dfb;
 	color: #fff;
 }
@@ -1411,8 +1411,8 @@ body,
 	padding: 0.1rem 0.4rem;
 	font-size: 1rem;
 	text-transform: uppercase;
-	background-color: #6773f1;
-	border-color: #6773f1;
+	background-color: #ff7f00;
+	border-color: #ff7f00;
 	color: #fff;
 }
 
@@ -1515,7 +1515,7 @@ body,
 }
 .nav-dark .v-align-middle > .button:not(.nav-icon):hover,
 .nav-dark .dropdown > .button:not(.nav-icon):hover{
-	background-color: #6773f1;
+	background-color: #ff7f00;
 	border-color: transparent;
 	color: #fff;
 }
@@ -1535,7 +1535,7 @@ body,
 }
 .header-background .v-align-middle > .button:not(.nav-icon):hover,
 .header-background .dropdown > .button:not(.nav-icon):hover{
-	background-color: #6773f1;
+	background-color: #ff7f00;
 	border-color: transparent;
 	color: #fff;
 }
@@ -1550,7 +1550,7 @@ body,
 	color: #4e4e4d;
 }
 .header-background .social-list li a:hover{
-	color: #6773f1;
+	color: #ff7f00;
 }
 
 /* Compacted Header Dropdown List Margin */
@@ -1573,7 +1573,7 @@ body,
 }
 .mobile .v-align-middle > .button:not(.nav-icon):hover,
 .mobile .dropdown > .button:not(.nav-icon):hover{
-	background-color: #6773f1;
+	background-color: #ff7f00;
 	border-color: transparent;
 	color: #fff;
 }
@@ -1597,7 +1597,7 @@ body,
 	}
 	.header .v-align-middle > .button:not(.nav-icon):hover,
 	.header .dropdown > .button:not(.nav-icon):hover{
-		background-color: #6773f1;
+		background-color: #ff7f00;
 		border-color: transparent;
 		color: #fff;
 	}
@@ -1829,7 +1829,7 @@ body,
 }
 .side-navigation .cart-overview .checkout.button{
 	margin: 0;
-	background-color: #6773f1;
+	background-color: #ff7f00;
 	border-color: #717dfb;
 	color: #fff;
 }
@@ -1974,7 +1974,7 @@ body,
 }
 .overlay-navigation .cart-overview .checkout.button{
 	margin: 0;
-	background-color: #6773f1;
+	background-color: #ff7f00;
 	border-color: #717dfb;
 	color: #fff;
 }
@@ -2389,16 +2389,16 @@ body,
 @keyframes color {
 	100%,
 	0% {
-		stroke: #6773f1;
-		border-bottom-color: #6773f1;
+		stroke: #ff7f00;
+		border-bottom-color: #ff7f00;
 	}
 	40% {
 		stroke: #2fca74;
 		border-bottom-color: #2fca74;
 	}
 	66% {
-		stroke: #6773f1;
-		border-bottom-color: #6773f1;
+		stroke: #ff7f00;
+		border-bottom-color: #ff7f00;
 	}
 	80%,
 	90% {
@@ -2747,7 +2747,7 @@ body,
 }
 .map-pan-link-container a.button.active{
 	background: none;
-	border-color: #6773f1;
+	border-color: #ff7f00;
 	color: #fff;
 }
 
@@ -3351,9 +3351,9 @@ select{
 .input-indication.reverse .form-element:focus + .inherit-style,
 textarea:focus{
 	background-color: #fff;
-	border-color: #6773f1;
+	border-color: #ff7f00 ;
 	box-shadow: none;
-	color: #6773f1;
+	color: #ff7f00 !important;
 }
 input[type="submit"]:focus{
 	box-shadow: 0 0.4rem 0.8rem 0 rgba(0,0,0,.3);
@@ -3366,9 +3366,9 @@ input[type="submit"]:focus{
 .form-element.required-field:focus + label:before
 textarea.required-field:focus{
 	background-color: #fff;
-	border-color: #6773f1;
+	border-color: #ff7f00;
 	box-shadow: none;
-	color: #6773f1;
+	color: #ff7f00;
 }
 
 /* form error */
@@ -3402,12 +3402,12 @@ textarea.required-field{
 }
 .checkbox:checked + .checkbox-label:before {
 	content: '\e63a';
-	background: #6773f1;
-	border-color: #6773f1;
+	background: #ff7f00;
+	border-color: #ff7f00;
 	color: #fff;
 }
 .radio:checked + .radio-label:before {
-	background: #6773f1;
+	background: #ff7f00;
 }
 .checkbox.required-field{
 	position: absolute;
@@ -3418,19 +3418,19 @@ textarea.required-field{
 	color: #666;
 }
 .form-element:focus::-webkit-input-placeholder{
-	color: #6773f1;
+	color: #ff7f00;
 }
 .form-element::-moz-placeholder{
 	color: #666;
 }
 .form-element:focus::-moz-placeholder{
-	color: #6773f1;
+	color: #ff7f00;
 }
 .form-element:-ms-input-placeholder{
 	color: #666;
 }
 .form-element:focus:-ms-input-placeholder{
-	color: #6773f1;
+	color: #ff7f00;
 }
 
 /* Contact Specific */
@@ -3441,19 +3441,19 @@ textarea.required-field{
 	color: #666;
 }
 .contact-form-container :focus::-webkit-input-placeholder{
-	color: #6773f1;
+	color: #ff7f00;
 }
 .contact-form-container ::-moz-placeholder{
 	color: #666;
 }
 .contact-form-container :focus::-moz-placeholder{
-	color: #6773f1;
+	color: #ff7f00;
 }
 .contact-form-container :-ms-input-placeholder{
 	color: #666;
 }
 .contact-form-container :focus:-ms-input-placeholder{
-	color: #6773f1;
+	color: #ff7f00;
 }
 .contact-form-container .form-response{
 	bottom: -3rem;
@@ -3461,25 +3461,25 @@ textarea.required-field{
 
 /* Overlay Search Form Elements */
 .search-form-container .form-element:focus{
-	color: #6773f1;
+	color: #ff7f00;
 }
 .search-form-container ::-webkit-input-placeholder{
 	color: #666;
 }
 .search-form-container :focus::-webkit-input-placeholder{
-	color: #6773f1;
+	color: #ff7f00;
 }
 .search-form-container ::-moz-placeholder{
 	color: #666;
 }
 .search-form-container :focus::-moz-placeholder{
-	color: #6773f1;
+	color: #ff7f00;
 }
 .search-form-container :-ms-input-placeholder{
 	color: #666;
 }
 .search-form-container :focus:-ms-input-placeholder{
-	color: #6773f1;
+	color: #ff7f00;
 }
 
 #signup-lightbox button, 
@@ -3503,19 +3503,19 @@ textarea.required-field{
 	color: #666;
 }
 .signup-1 :focus::-webkit-input-placeholder{
-	color: #6773f1;
+	color: #ff7f00;
 }
 .signup-1 ::-moz-placeholder{
 	color: #666;
 }
 .signup-1 :focus::-moz-placeholder{
-	color: #6773f1;
+	color: #ff7f00;
 }
 .signup-1 :-ms-input-placeholder{
 	color: #666;
 }
 .signup-1 :focus:-ms-input-placeholder{
-	color: #6773f1;
+	color: #ff7f00;
 }
 /* signup 2 */
 .signup-2 .signup-form-container{
@@ -3534,19 +3534,19 @@ textarea.required-field{
 	color: #666;
 }
 .signup-2 :focus::-webkit-input-placeholder{
-	color: #6773f1;
+	color: #ff7f00;
 }
 .signup-2 ::-moz-placeholder{
 	color: #666;
 }
 .signup-2 :focus::-moz-placeholder{
-	color: #6773f1;
+	color: #ff7f00;
 }
 .signup-2 :-ms-input-placeholder{
 	color: #666;
 }
 .signup-2 :focus:-ms-input-placeholder{
-	color: #6773f1;
+	color: #ff7f00;
 }
 
 /* Create Acc. Specific */
@@ -3579,8 +3579,8 @@ textarea.required-field{
 }
 .login-form-container .form-element:focus{
 	background-color: #fff;
-	border-color: #6773f1;
-	color: #6773f1;
+	border-color: #ff7f00;
+	color: #ff7f00;
 }
 .login-form-container .form-element.required-field{
 	border-color: #999;
@@ -3597,19 +3597,19 @@ textarea.required-field{
 	color: #666;
 }
 .login-form-container :focus::-webkit-input-placeholder{
-	color: #6773f1;
+	color: #ff7f00;
 }
 .login-form-container ::-moz-placeholder{
 	color: #666;
 }
 .login-form-container :focus::-moz-placeholder{
-	color: #6773f1;
+	color: #ff7f00;
 }
 .login-form-container :-ms-input-placeholder{
 	color: #666;
 }
 .login-form-container :focus:-ms-input-placeholder{
-	color: #6773f1;
+	color: #ff7f00;
 }
 
 /* Footer Specific */
@@ -3648,7 +3648,7 @@ textarea.required-field{
 .footer-light textarea:focus{
 	background-color: #fff;
 	box-shadow: none;
-	color: #6773f1;
+	color: #ff7f00;
 }
 .footer-light .form-element.required-field,
 .footer-light textarea.required-field{
@@ -3659,7 +3659,7 @@ textarea.required-field{
 .footer-light textarea.required-field:focus{
 	background-color: #fff;
 	box-shadow: none;
-	color: #6773f1;
+	color: #ff7f00;
 }
 @media only screen and (max-width: 768px){
 	.footer .signup-form-container .button{
@@ -3670,19 +3670,19 @@ textarea.required-field{
 	color: #666;
 }
 .footer :focus::-webkit-input-placeholder{
-	color: #6773f1;
+	color: #ff7f00;
 }
 .footer ::-moz-placeholder{
 	color: #666;
 }
 .footer :focus::-moz-placeholder{
-	color: #6773f1;
+	color: #ff7f00;
 }
 .footer :-ms-input-placeholder{
 	color: #666;
 }
 .footer :focus:-ms-input-placeholder{
-	color: #6773f1;
+	color: #ff7f00;
 }
 
 /* Disabled */
@@ -4025,7 +4025,7 @@ hr,
 /* Shop Overlay Tags */
 .shop .products .product .onsale,
 .single-product .product .onsale{
-	background-color: #6773f1;
+	background-color: #ff7f00;
 }
 .shop .products .product .outofstock,
 .single-product .product .outofstock{
@@ -4082,8 +4082,8 @@ hr,
 }
 .shop .cart-overview .button:hover,
 .shop .product .button:hover{
-	background-color: #6773f1;
-	border-color: #6773f1;
+	background-color: #ff7f00;
+	border-color: #ff7f00;
 	color: #fff;
 }
 
@@ -4251,7 +4251,7 @@ hr,
 
 /* Blockquote */
 blockquote.border{
-	border-color: #6773f1 !important;
+	border-color: #ff7f00 !important;
 	border-width: 3px !important;
 }
 blockquote.avatar.small span, 
@@ -4369,7 +4369,7 @@ height: 100% !important;;
 	text-align: center;
 }
 .hero-3 .hero-content{
-	border-color: #6773f1 !important;
+	border-color: #ff7f00 !important;
 }
 
 /* Stats */

@@ -1724,6 +1724,70 @@
                     </a>
                   </div>
                 </li>
+                <li class="tms-slide">
+                  <div
+                    class="thumbnail rounded overlay-fade-img-scale-in"
+                    data-hover-easing="easeInOut"
+                    data-hover-speed="700"
+                    data-hover-bkg-color="#000000"
+                    data-gradient
+                    data-gradient-spread="70%"
+                    data-hover-bkg-opacity="0.6"
+                  >
+                    <a class="overlay-link" href="https://saturdays.ai/hermosillo">
+                      <img
+                        class="img-city"
+                        data-src="images/saturdays/city-hermosillo-small.jpg"
+                        src="images/saturdays/city-hermosillo-small.jpg"
+                        alt="Guayaquil"
+                      />
+                      <span
+                        class="overlay-info v-align-bottom left color-white"
+                      >
+                        <span>
+                          <span>
+                            <span class="project-title size-4">Hermosillo</span>
+                            <span class="project-description size-2-4"
+                              >Campus</span
+                            >
+                          </span>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                </li>
+                <li class="tms-slide">
+                  <div
+                    class="thumbnail rounded overlay-fade-img-scale-in"
+                    data-hover-easing="easeInOut"
+                    data-hover-speed="700"
+                    data-hover-bkg-color="#000000"
+                    data-gradient
+                    data-gradient-spread="70%"
+                    data-hover-bkg-opacity="0.6"
+                  >
+                    <a class="overlay-link" href="https://saturdays.ai/tucson">
+                      <img
+                        class="img-city"
+                        data-src="images/saturdays/city-tucson-small.jpg"
+                        src="images/saturdays/city-tucson-small.jpg"
+                        alt="Guayaquil"
+                      />
+                      <span
+                        class="overlay-info v-align-bottom left color-white"
+                      >
+                        <span>
+                          <span>
+                            <span class="project-title size-4">Tucson</span>
+                            <span class="project-description size-2-4"
+                              >Campus</span
+                            >
+                          </span>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                </li>
               </ul>
             </div>
             <!-- <div class="row">
@@ -2027,7 +2091,7 @@
                   <li class="tms-slide">
                     <div class="tms-content-scalable">
                       <img
-                        data-src="images/partners/AWS.png"
+                        data-src="images/partners/aws.png"
                         src="images/blank.png"
                         alt="AWS"
                       />
@@ -2067,12 +2131,12 @@
           class="section-block section-pad padb-30-mobile padt-30-mobile team-2 bg-dark-blue"
         >
           <div class="row">
-            <div class="column width-12 center">
-              <h3 class="color-white size-5 f-weight">
+            <div class="column width-12">
+              <h3 class="color-white size-5 f-weight text-center">
                 Contact <span class="color-orange f-weight">Global Team</span>
               </h3>
 
-              <p class="color-gray text-pad2 size-20">
+              <p class="color-gray text-pad2 size-20 text-center">
                 Feel free to tell us anything, we'd love to know more about you
                 ;)
               </p>
@@ -2089,17 +2153,54 @@
                       data-wow-delay="0.25s"
                       style="visibility: visible; animation-delay: 0.25s; animation-name: bounceIn;"
                     >
-                      <h2>
-                        <a style="color:orange;" href="mailto:team@saturdays.ai"
-                          >team@saturdays.ai</a
-                        >
-                      </h2>
                     </div>
                     <!--end newsletter_form_wrapper -->
                   </div>
                   <!--end col-md-12 -->
                 </div>
                 <!--end row -->
+                <div class="row d-flex justify-content-center">
+						<div class="column width-6 ">
+							<div class="contact-form-container">
+								<form class="contact-form" action="php/send-email.php" method="post" novalidate>
+									<div class="row">
+										<div class="column width-12">
+											<div class="field-wrapper">
+												<input type="text" name="fname" class="form-fname form-element rounded medium" placeholder="Full Name*" tabindex="1" required>
+											</div>
+										</div>
+										<!-- <div class="column width-6">
+											<div class="field-wrapper">
+												<input type="text" name="lname" class="form-lname form-element rounded medium" placeholder="Last Name*" tabindex="2">
+											</div>
+										</div> -->
+										<div class="column width-6">
+											<div class="field-wrapper">
+												<input type="email" name="email" class="form-email form-element rounded medium" placeholder="Email address*" tabindex="3" required>
+											</div>
+										</div>
+										<div class="column width-6">
+											<div class="field-wrapper">
+												<input type="text" name="phone" class="form-wesite form-element rounded medium" placeholder="Phone*" tabindex="4" maxlength="10">
+											</div>
+										</div>
+										<div class="column width-6">
+											<input type="text" name="honeypot" class="form-honeypot form-element rounded medium">
+										</div>
+									</div>
+									<div class="row">
+										<div class="column width-12">
+											<div class="field-wrapper">
+												<textarea name="message" class="form-message form-element rounded medium" placeholder="Message*" tabindex="7" required></textarea>
+											</div>
+											<input type="submit" value="Send Email" class="form-submit button rounded medium bkg-theme bkg-hover-theme color-white color-hover-white">
+										</div>
+									</div>
+								</form>
+								<div class="form-response"></div>
+							</div>
+						</div>
+					</div>
               </div>
               <!--end container -->
             </div>

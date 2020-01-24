@@ -104,6 +104,15 @@
   left: 0 !important;
   right: unset !important;
 }
+.d-flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
 @media (min-width: 1921px) {
   .hero-right {
     right: 335px !important;

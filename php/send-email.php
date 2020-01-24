@@ -50,7 +50,7 @@
 	}
 
 	// Check for empty required field
-	if(!isset($_POST["email"]) || !isset($_POST["fname"]) || !isset($_POST["message"])) {
+	if(!isset($_POST["email"]) || !isset($_POST["fname"]) || !isset($_POST["message"]) || !isset($_POST["phone"])) {
 		returnAndExitAjaxResponse(
 			constructAjaxResponseArray(
 				FALSE,
@@ -62,19 +62,25 @@
 
 	// Sanitize input
 	$fname	= filter_var($_POST["fname"], FILTER_SANITIZE_STRING);
-	$lname	= filter_var($_POST["lname"], FILTER_SANITIZE_EMAIL);
-	$website = $_POST["website"];
-	if (!preg_match("~^(?:f|ht)tps?://~i", $website)) $website = "http://" . $website;
-	$website = filter_var($website, FILTER_VALIDATE_URL);
+	// $lname	= filter_var($_POST["lname"], FILTER_SANITIZE_EMAIL);
+	$phone = $_POST["phone"];
+	// if (!preg_match("~^(?:f|ht)tps?://~i", $phone)) $phone = "http://" . $phone;
+	// $phone = filter_var($phone, FILTER_VALIDATE_URL);
 	$email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
 	$message = filter_var($_POST["message"], FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 
 	// If non required fields are empty
-	if ( empty($lname) ){
-		$lname = "No last name entered.";
+	if ( empty($fname) ){
+		$fname = "No name entered.";
 	}
-	if ( empty($website) ){
-		$website = "No website entered.";
+	if ( empty($phone) ){
+		$phone = "No phone entered.";
+	}
+	if ( empty($email) ){
+		$email = "No email entered";
+	}
+	if ( empty($phone) ){
+		$message = "Please type your message";
 	}
 
 	// Headers
@@ -87,8 +93,8 @@
 
 	// Build Message
 	$email_content = "First Name: $fname\n";
-	$email_content .= "Last Name: $lname\n";
-	$email_content .= "Website: $website\n";
+	// $email_content .= "Last Name: $lname\n";
+	$email_content .= "phone: $phone\n";
 	$email_content .= "Email: $email\n\n";
 	$email_content .= "Message:\n$message\n\n\n";
 	$email_content .= "CLIENT IP:\n".get_client_ip()."\n";
