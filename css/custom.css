@@ -108,10 +108,28 @@
   display: flex;
 }
 .align-items-center {
-  align-items: center;
+  align-items: center !important;
 }
 .justify-content-center {
-  justify-content: center;
+  justify-content: center !important;
+}
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+.p-0 {
+  padding: 0 !important;
+}
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+.pb-1 {
+  padding-bottom: 1rem !important;
+}
+.m-0 {
+  margin: 0 !important;
+}
+.pb-8 {
+  padding-bottom: 8rem !important;
 }
 @media (min-width: 1921px) {
   .hero-right {
