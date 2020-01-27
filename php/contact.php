@@ -4,7 +4,7 @@ $field_first_name = $_POST['fname'];
 
 $field_email = $_POST['email'];
 
-$field_phone = $_POST['phone'];
+$field_company = $_POST['company'];
 
 $field_message = $_POST['message'];
 
@@ -16,7 +16,7 @@ $body_message = 'From: ' . $field_first_name . "\n";
 
 $body_message .= 'E-mail: ' . $field_email . "\n";
 
-$body_message .= 'Phone: ' . $field_phone . "\n";
+$body_message .= 'Company: ' . $field_company . "\n";
 
 $body_message .= 'Message: ' . $field_message;
 

@@ -6,38 +6,38 @@
 
 	// Recaptcha check up
 	// Requires curl. If your server does not support curl, this script does not work.
-	if(isset($_POST["g-recaptcha-response"]) && $recaptcha_secret_key !== '') {
-		$endpoint = 'https://www.google.com/recaptcha/api/siteverify?secret=' . $recaptcha_secret_key . '&response=' . $_POST['g-recaptcha-response'] ;
-		$curl = curl_init() ;
-		curl_setopt( $curl , CURLOPT_URL , $endpoint ) ;
-		curl_setopt( $curl , CURLOPT_SSL_VERIFYPEER , false ) ;
-		curl_setopt( $curl , CURLOPT_RETURNTRANSFER , true ) ;
-		curl_setopt( $curl , CURLOPT_TIMEOUT , 5 ) ;
-		$json = curl_exec( $curl ) ;
-		curl_close( $curl ) ;
+	// if(isset($_POST["g-recaptcha-response"]) && $recaptcha_secret_key !== '') {
+	// 	$endpoint = 'https://www.google.com/recaptcha/api/siteverify?secret=' . $recaptcha_secret_key . '&response=' . $_POST['g-recaptcha-response'] ;
+	// 	$curl = curl_init() ;
+	// 	curl_setopt( $curl , CURLOPT_URL , $endpoint ) ;
+	// 	curl_setopt( $curl , CURLOPT_SSL_VERIFYPEER , false ) ;
+	// 	curl_setopt( $curl , CURLOPT_RETURNTRANSFER , true ) ;
+	// 	curl_setopt( $curl , CURLOPT_TIMEOUT , 5 ) ;
+	// 	$json = curl_exec( $curl ) ;
+	// 	curl_close( $curl ) ;
 		
-		if($json == FALSE) {
-			returnAndExitAjaxResponse(
-				constructAjaxResponseArray(
-					FALSE,
-					'RECAPTCHA_FAILED',
-					array('error_message'=> 'RECAPTCHA_FAILED')
-				)
-			);
-		}
+	// 	if($json == FALSE) {
+	// 		returnAndExitAjaxResponse(
+	// 			constructAjaxResponseArray(
+	// 				FALSE,
+	// 				'RECAPTCHA_FAILED',
+	// 				array('error_message'=> 'RECAPTCHA_FAILED')
+	// 			)
+	// 		);
+	// 	}
 		
-		$json = json_decode($json);
+	// 	$json = json_decode($json);
 		
-		if($json->success === FALSE) {
-			returnAndExitAjaxResponse(
-				constructAjaxResponseArray(
-					FALSE,
-					'RECAPTCHA_FAIL_RESPONSE',
-					array('error_message'=> 'Recaptcha response is not valid.')
-				)
-			);
-		}
-	}
+	// 	if($json->success === FALSE) {
+	// 		returnAndExitAjaxResponse(
+	// 			constructAjaxResponseArray(
+	// 				FALSE,
+	// 				'RECAPTCHA_FAIL_RESPONSE',
+	// 				array('error_message'=> 'Recaptcha response is not valid.')
+	// 			)
+	// 		);
+	// 	}
+	// }
 	
 	// Check $recipient
 	if($recipient === '') {
