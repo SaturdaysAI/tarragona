@@ -2540,32 +2540,41 @@ body,
 .hero-5-2-12 .media-column{ /*MADRID*/
 	background-image: url(../images/python2.png);
 }
-.hero-5-2-13 .media-column{ /*MADRID*/
+.hero-5-2-13 .media-column{ /*MONTERREY*/
 	background-image: url(../images/monterrey.jpg);
 }
-.hero-5-2-14 .media-column{ /*MADRID*/
+.hero-5-2-14 .media-column{ /*MONTERREY*/
 	background-image: url(../images/saturdays/Monterrey-context.jpg);
 }
-.hero-5-2-15 .media-column{ /*MADRID*/
+.hero-5-2-15 .media-column{ /*MONTERREY*/
 	background-image: url(../images/Monterrey-Cartel.jpg);
 }
-.hero-5-2-16 .media-column{ /*MADRID*/
+.hero-5-2-16 .media-column{ /*LAPAZ*/
 	background-image: url(../images/lapaz.jpg);
 }
-.hero-5-2-17 .media-column{ /*MADRID*/
+.hero-5-2-17 .media-column{ /*LAPAZ*/
 	background-image: url(../images/saturdays/LaPaz-Context.jpg);
 }
-.hero-5-2-18 .media-column{ /*MADRID*/
+.hero-5-2-18 .media-column{ /*LAPAZ*/
 	background-image: url(../images/saturdays/LaPaz-Cartel.jpg);
 }
-.hero-5-2-19 .media-column{ /*MADRID*/
+.hero-5-2-19 .media-column{ /*ASTURIAS*/
 	background-image: url(../images/asturias.png);
 }
-.hero-5-2-20 .media-column{ /*MADRID*/
+.hero-5-2-20 .media-column{ /*ASTURIAS*/
 	background-image: url(../images/saturdays/Asturias-context.jpg);
 }
-.hero-5-2-21 .media-column{ /*MADRID*/
+.hero-5-2-21 .media-column{ /*ASTURIAS*/
 	background-image: url(../images/saturdays/Asturias-Cartel.jpg);
+}
+.hero-5-2-22 .media-column{ /*MALLORCA*/
+	background-image: url(../images/mallorca.jpg);
+}
+.hero-5-2-23 .media-column{ /*MALLORCA*/
+	background-image: url(../images/saturdays/Mallorca-context.jpg);
+}
+.hero-5-2-24 .media-column{ /*MALLORCA*/
+	background-image: url(../images/saturdays/Mallorca-Cartel.png);
 }
 
 
