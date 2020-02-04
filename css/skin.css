@@ -2558,6 +2558,15 @@ body,
 .hero-5-2-18 .media-column{ /*MADRID*/
 	background-image: url(../images/saturdays/LaPaz-Cartel.jpg);
 }
+.hero-5-2-19 .media-column{ /*MADRID*/
+	background-image: url(../images/asturias.png);
+}
+.hero-5-2-20 .media-column{ /*MADRID*/
+	background-image: url(../images/saturdays/Asturias-context.jpg);
+}
+.hero-5-2-21 .media-column{ /*MADRID*/
+	background-image: url(../images/saturdays/Asturias-Cartel.jpg);
+}
 
 
 /* @media (max-width:768px){
