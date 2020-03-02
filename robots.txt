@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://puntacanawellness.com/sitemap.xml

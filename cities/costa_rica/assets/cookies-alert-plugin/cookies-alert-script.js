@@ -1,3 +1,0 @@
-
-jQuery(function(){var a=jQuery;a.cookiesDirective({explicitConsent:!1,position:"bottom",duration:9999,limit:0,message:a("input[name=cookieData]").attr("data-cookie-text"),fontFamily:"Arial",fontColor:"#424a4d",fontSize:"13px",backgroundColor:"#eaeff1",backgroundOpacity:"80"});a(".cookieText").find("a").css({color:"#424a4d","text-decoration":"underline"});a("input[name=cookieData]").remove()});
-!function(){try{document.getElementsByClassName("engine")[0].getElementsByTagName("a")[0].removeAttribute("rel")}catch(b){}if(!document.getElementById("top-1")){var a=document.createElement("section");a.id="top-1";a.className="engine";a.innerHTML='<a href="https://mobirise.ws">Mobirise Website Builder</a> v4.11.2';document.body.insertBefore(a,document.body.childNodes[0])}}();
