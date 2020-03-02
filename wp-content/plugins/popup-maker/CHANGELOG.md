@@ -523,7 +523,7 @@ Lastly we now have include our extendable subscription forms right in the free v
 * Improvement: Removed the old styles dropdown as it is no longer needed.
 * Improvement: Added check for old versions of Select2 and replace them with latest which is backward compatible.
 * Fix: Bug that caused Close button delay to not show the close button.
-* Fix: Replaced usage of <% style JS template with <# & {{ for PHP asp_tags compatibility.
+* Fix: Replaced usage of <% style JS template with <# & {{ for PHP asp_tags compatibility.}}
 
 ### v1.4.6 - 4/22/2016
 * Fix: Bug in new post editor JS.
