@@ -1,0 +1,27 @@
+/* ==========================================================================
+   Blog List shortcode - Minimal type style - begin
+   ========================================================================== */
+
+.mkdf-blog-list-holder {
+    
+    &.mkdf-bl-minimal {
+        
+        .mkdf-post-info-date {
+            display: block;
+            margin: 0 0 12px;
+            line-height: 1;
+            
+            a {
+                font-size: 13px;
+                color: $default-text-color;
+                
+                &:hover {
+                    color: $default-heading-color;
+                }
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Blog List shortcode - Minimal type style - end
+   ========================================================================== */

@@ -1,0 +1,18 @@
+/*------------------------------------------------------------------
+ * This is main responsive css file for theme. It is broken into following sections:
+ * 1. Global responsive styles
+ * 2. Blog responsive styles
+ * 3. Footer responsive styles
+ * 4. Header responsive styles
+ * 5. Search responsive styles
+ * 6. Title area responsive styles
+ * 7. Shortcodes responsive styles
+ * 8. Custom Post Types responsive styles
+-------------------------------------------------------------------*/
+
+/* ==========================================================================
+   1. Global responsive styles
+   ========================================================================== */
+@import 'variables';
+@import 'mixins';
+@import 'global-responsive';

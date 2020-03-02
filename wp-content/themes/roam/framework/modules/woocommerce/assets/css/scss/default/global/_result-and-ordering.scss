@@ -1,0 +1,31 @@
+/* ==========================================================================
+   WooCommerce Result and Ordering styles - begin
+   ========================================================================== */
+.mkdf-woocommerce-page {
+
+    .woocommerce-result-count,
+    .woocommerce-ordering {
+        display: inline;
+        width: 50%;
+        margin: 0 0 37px;
+        float: left;
+    }
+
+    .woocommerce-result-count {
+        line-height: 52px;
+    }
+
+    .woocommerce-ordering {
+        text-align: right;
+        
+        .orderby {
+            width: auto;
+	        min-width: 250px;
+	        margin: 0;
+	        text-align: initial;
+        }
+    }
+}
+/* ==========================================================================
+   WooCommerce Result and Ordering styles - end
+   ========================================================================== */

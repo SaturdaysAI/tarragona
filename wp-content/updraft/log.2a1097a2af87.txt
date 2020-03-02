@@ -1,0 +1,174 @@
+0000.001 (0) Opened log file at time: Tue, 25 Feb 2020 11:28:00 +0000 on https://sai.globaladvertising.io
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.3.15 (fpm-fcgi, Linux ip-172-31-2-28 4.15.0-1044-aws #46-Ubuntu SMP Thu Jul 4 13:38:28 UTC 2019 x86_64) MySQL: 10.1.44-MariaDB-0ubuntu0.18.04.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 22.3M | 4M) multisite: N openssl: OpenSSL 1.1.1  11 Sep 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 74325.3 MB
+0000.009 (0) Tasks: Backup files: 1 (schedule: every4hours) Backup DB:  (schedule: daily)
+0000.012 (0) Processed schedules. Combining jobs from co-inciding events. Tasks now: Backup files: 1 Backup DB: 1
+0000.017 (0) Semaphore (fd, kdvFBWA0E_options) being initialised
+0000.024 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.028 (0) Set semaphore last lock (fd) time to 2020-02-25 11:28:00
+0000.029 (0) Semaphore lock (fd) complete
+0000.034 (0) Backup run: resumption=0, nonce=2a1097a2af87, file_nonce=2a1097a2af87 begun at=1582630080 (0s ago), job type=backup
+0000.037 (0) Scheduling a resumption (1) after 300 seconds (1582630380) in case this run gets aborted
+0000.047 (0) Checking if we have a zip executable available
+0000.051 (0) Creation of backups of directories: beginning
+0000.056 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.909 (0) Total entities for the zip file: 464 directories, 2671 files (0 skipped as non-modified), 50.6 MB
+0000.941 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.971 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.002 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.035 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.053 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.055 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.7 MB, 2671 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.916 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 600 files added (on-disk size: 2544.5 KB)
+0001.964 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 700 files added (on-disk size: 2544.5 KB)
+0002.007 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 800 files added (on-disk size: 2544.5 KB)
+0002.046 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 900 files added (on-disk size: 2544.5 KB)
+0002.075 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 1000 files added (on-disk size: 2544.5 KB)
+0002.078 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11.1 MB, 2671 files batched, 501 (1002) added so far); re-opening (prior size: 2544.5 KB)
+0003.172 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 1100 files added (on-disk size: 5881.9 KB)
+0003.198 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 1200 files added (on-disk size: 5881.9 KB)
+0003.226 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 1300 files added (on-disk size: 5881.9 KB)
+0003.253 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 1400 files added (on-disk size: 5881.9 KB)
+0003.283 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 1500 files added (on-disk size: 5881.9 KB)
+0003.288 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.5 MB, 2671 files batched, 501 (1503) added so far); re-opening (prior size: 5881.9 KB)
+0003.500 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 1600 files added (on-disk size: 6572.2 KB)
+0003.539 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 1700 files added (on-disk size: 6572.2 KB)
+0003.560 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 1800 files added (on-disk size: 6572.2 KB)
+0003.578 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 1900 files added (on-disk size: 6572.2 KB)
+0003.596 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 2000 files added (on-disk size: 6572.2 KB)
+0003.599 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.3 MB, 2671 files batched, 501 (2004) added so far); re-opening (prior size: 6572.2 KB)
+0004.122 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 2100 files added (on-disk size: 8358.6 KB)
+0004.140 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 2200 files added (on-disk size: 8358.6 KB)
+0004.161 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 2300 files added (on-disk size: 8358.6 KB)
+0004.181 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 2400 files added (on-disk size: 8358.6 KB)
+0004.200 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 2500 files added (on-disk size: 8358.6 KB)
+0004.204 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (16.7 MB, 2671 files batched, 501 (2505) added so far); re-opening (prior size: 8358.6 KB)
+0005.492 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip.tmp: 2600 files added (on-disk size: 13148.8 KB)
+0005.831 (0) Created plugins zip (0) - 13504.8 KB in 5.8 s (2339.6 KB/s) (sha1: 0ba8da0604b992a10691724ed38307d455d9d468, sha256: c4ed3f187cee2d6f91e6732e1e683faff38e4bc435fd53e12f215bbf9ff57090)
+0005.836 (0) Beginning creation of dump of themes (split every: 400 MB)
+0005.916 (0) Total entities for the zip file: 56 directories, 255 files (0 skipped as non-modified), 4.6 MB
+0005.942 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0005.963 (0) Zip: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0006.210 (0) Created themes zip (0) - 2767 KB in 0.4 s (7444.4 KB/s) (sha1: cffcbdab075fcef5b3a59d100c03857bf81a7b0b, sha256: ad91f36b1bd86ed4206b0853e46b38504f3e0f9f79faa357a7ce639c15456f80)
+0006.215 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0006.217 (0) Looking for candidates to backup in: /var/www/vhosts/globaladvertising.io/sai.globaladvertising.io/wp-content/uploads
+0006.218 (0) finding files: 2020: adding to list (1)
+0006.219 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0006.225 (0) Total entities for the zip file: 2 directories, 0 files (0 skipped as non-modified), 0 MB
+0006.233 (0) Created uploads zip (0) - 0.2 KB in 0 s (19.8 KB/s) (sha1: e9ca54cd3f6867d92220db940f70c0316c2a3cc9, sha256: 5744f359a0201264561009ec24cdc3f945bba993fbff04063525730a698e5f54)
+0006.237 (0) Beginning backup of other directories found in the content directory (index: 0)
+0006.239 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0006.240 (0) Looking for candidates to backup in: /var/www/vhosts/globaladvertising.io/sai.globaladvertising.io/wp-content
+0006.242 (0) finding files: updraft: skipping: this is the updraft directory
+0006.243 (0) finding files: plugins: skipping: this is the plugins directory
+0006.244 (0) finding files: uploads: skipping: this is the uploads directory
+0006.245 (0) finding files: themes: skipping: this is the themes directory
+0006.247 (0) finding files: upgrade: skipping: excluded by options
+0006.248 (0) finding files: index.php: adding to list (1)
+0006.254 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0006.262 (0) Created others zip (0) - 0.1 KB in 0 s (12.5 KB/s) (sha1: 95d38693258ac501d98b9a28eea864ba01537423, sha256: 81e04fec86a010e5cce2c4703da479fdeb72b69efaa0d2ae56cc8537c3ee57f7)
+0006.272 (0) Saving backup status to database (elements: 8)
+0006.276 (0) Beginning creation of database dump (WordPress DB)
+0006.285 (0) Table kdvFBWA0E_options: Total expected rows (approximate): 216
+0006.349 (0) Table kdvFBWA0E_options: Total rows added: 215 in 0.06 seconds
+0006.351 (0) Table kdvFBWA0E_options: finishing file (backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_options.table.gz - 241.9 KB)
+0006.358 (0) Table kdvFBWA0E_users: Total expected rows (approximate): 1
+0006.361 (0) Table kdvFBWA0E_users: Total rows added: 1 in 0.00 seconds
+0006.362 (0) Table kdvFBWA0E_users: finishing file (backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_users.table.gz - 0.6 KB)
+0006.368 (0) Table kdvFBWA0E_usermeta: Total expected rows (approximate): 18
+0006.370 (0) Table kdvFBWA0E_usermeta: Total rows added: 18 in 0.00 seconds
+0006.373 (0) Table kdvFBWA0E_usermeta: finishing file (backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_usermeta.table.gz - 1 KB)
+0006.378 (0) Table kdvFBWA0E_commentmeta: Total expected rows (approximate): 0
+0006.381 (0) Table kdvFBWA0E_commentmeta: Total rows added: 0 in 0.00 seconds
+0006.382 (0) Table kdvFBWA0E_commentmeta: finishing file (backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_commentmeta.table.gz - 0.4 KB)
+0006.388 (0) Table kdvFBWA0E_comments: Total expected rows (approximate): 1
+0006.390 (0) Table kdvFBWA0E_comments: Total rows added: 1 in 0.00 seconds
+0006.392 (0) Table kdvFBWA0E_comments: finishing file (backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_comments.table.gz - 0.7 KB)
+0006.399 (0) Table kdvFBWA0E_links: Total expected rows (approximate): 0
+0006.402 (0) Table kdvFBWA0E_links: Total rows added: 0 in 0.00 seconds
+0006.404 (0) Table kdvFBWA0E_links: finishing file (backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_links.table.gz - 0.4 KB)
+0006.409 (0) Table kdvFBWA0E_postmeta: Total expected rows (approximate): 40
+0006.413 (0) Table kdvFBWA0E_postmeta: Total rows added: 40 in 0.00 seconds
+0006.415 (0) Table kdvFBWA0E_postmeta: finishing file (backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_postmeta.table.gz - 13.8 KB)
+0006.422 (0) Table kdvFBWA0E_posts: Total expected rows (approximate): 7
+0006.427 (0) Table kdvFBWA0E_posts: Total rows added: 7 in 0.00 seconds
+0006.430 (0) Table kdvFBWA0E_posts: finishing file (backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_posts.table.gz - 10.2 KB)
+0006.436 (0) Table kdvFBWA0E_term_relationships: Total expected rows (approximate): 1
+0006.438 (0) Table kdvFBWA0E_term_relationships: Total rows added: 1 in 0.00 seconds
+0006.440 (0) Table kdvFBWA0E_term_relationships: finishing file (backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_term_relationships.table.gz - 0.4 KB)
+0006.445 (0) Table kdvFBWA0E_term_taxonomy: Total expected rows (approximate): 1
+0006.448 (0) Table kdvFBWA0E_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0006.449 (0) Table kdvFBWA0E_term_taxonomy: finishing file (backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_term_taxonomy.table.gz - 0.4 KB)
+0006.454 (0) Table kdvFBWA0E_termmeta: Total expected rows (approximate): 0
+0006.457 (0) Table kdvFBWA0E_termmeta: Total rows added: 0 in 0.00 seconds
+0006.459 (0) Table kdvFBWA0E_termmeta: finishing file (backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_termmeta.table.gz - 0.4 KB)
+0006.465 (0) Table kdvFBWA0E_terms: Total expected rows (approximate): 1
+0006.466 (0) Table kdvFBWA0E_terms: Total rows added: 1 in 0.00 seconds
+0006.468 (0) Table kdvFBWA0E_terms: finishing file (backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_terms.table.gz - 0.4 KB)
+0006.473 (0) backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_options.table.gz (1/12): adding to final database dump
+0006.527 (0) backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_users.table.gz (2/12): adding to final database dump
+0006.529 (0) backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_usermeta.table.gz (3/12): adding to final database dump
+0006.532 (0) backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_commentmeta.table.gz (4/12): adding to final database dump
+0006.533 (0) backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_comments.table.gz (5/12): adding to final database dump
+0006.534 (0) backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_links.table.gz (6/12): adding to final database dump
+0006.536 (0) backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_postmeta.table.gz (7/12): adding to final database dump
+0006.541 (0) backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_posts.table.gz (8/12): adding to final database dump
+0006.547 (0) backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_term_relationships.table.gz (9/12): adding to final database dump
+0006.550 (0) backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_term_taxonomy.table.gz (10/12): adding to final database dump
+0006.552 (0) backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_termmeta.table.gz (11/12): adding to final database dump
+0006.553 (0) backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db-table-kdvFBWA0E_terms.table.gz (12/12): adding to final database dump
+0006.557 (0) backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db.gz: finished writing out complete database file (256 KB)
+0006.572 (0) Total database tables backed up: 12 (backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db.gz, size: 274522, sha1: daf4b013d39aadd49e21606cec1d941f843744ec, sha256: 0df4a2da784bf80585b48fe72c5847a61225c5f664a6711bbed6011c126f1f42)
+0006.581 (0) backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0006.583 (0) backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0006.585 (0) backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0006.587 (0) backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-others.zip: others: This file has not yet been successfully uploaded: will queue
+0006.589 (0) backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db.gz: db: This file has not yet been successfully uploaded: will queue
+0006.590 (0) Saving backup history. Total backup size: 16.2 MB
+0006.594 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0006.601 (0) Cloud backup selection (1/1): s3 with instance (1/1) (last)
+0006.604 (0) Beginning dispatch of backup to remote (s3) (instance identifier s-bdbd4eeaf15419fe94c708af95d93438)
+0006.956 (0) Amazon S3: Set region: us-west-1
+0006.958 (0) Amazon S3: upload (us-west-1): backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip (chunks: 3) -> s3://globaldevsites/backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip
+0007.016 (0) Amazon S3: chunked upload: got multipart ID: nQoMxBb_OVaaTt0nodHLDo85OXwGRh0_BnSeSVcb7o92tBy1BvYOtn._RmhOPmO_gk4HL0ktviJ6MRbFfCMVV1J.u4V6imt05zpwmep4dW5OkceIniMf9Pq6fzRtQ54c
+0007.272 (0) S3 chunked upload: 33.3 % uploaded (1, "837373f1fb0f7310bf0d420f01032b8f")
+0007.448 (0) S3 chunked upload: 66.7 % uploaded (2, "5d84def0d385401d4e7057c487ed10cd")
+0007.621 (0) S3 chunked upload: 100 % uploaded (3, "b988c6aa15ba3cbb2560de8f61ad54ff")
+0007.629 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+0007.727 (0) Amazon S3: upload (plugins0): re-assembly succeeded
+0007.730 (0) Recording as successfully uploaded: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip
+0007.736 (0) Deleting local file: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-plugins.zip: OK
+0007.738 (0) Amazon S3: upload (us-west-1): backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-themes.zip (chunks: 1) -> s3://globaldevsites/backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-themes.zip
+0007.852 (0) Amazon S3: regular upload: success
+0007.855 (0) Recording as successfully uploaded: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-themes.zip
+0007.860 (0) Deleting local file: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-themes.zip: OK
+0007.862 (0) Amazon S3: upload (us-west-1): backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-uploads.zip (chunks: 1) -> s3://globaldevsites/backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-uploads.zip
+0007.890 (0) Amazon S3: regular upload: success
+0007.893 (0) Recording as successfully uploaded: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-uploads.zip
+0007.897 (0) Deleting local file: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-uploads.zip: OK
+0007.900 (0) Amazon S3: upload (us-west-1): backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-others.zip (chunks: 1) -> s3://globaldevsites/backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-others.zip
+0007.929 (0) Amazon S3: regular upload: success
+0007.931 (0) Recording as successfully uploaded: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-others.zip
+0007.936 (0) Deleting local file: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-others.zip: OK
+0007.945 (0) Amazon S3: upload (us-west-1): backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db.gz (chunks: 1) -> s3://globaldevsites/backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db.gz
+0008.038 (0) Amazon S3: regular upload: success
+0008.040 (0) Recording as successfully uploaded: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db.gz
+0008.044 (0) Deleting local file: backup_2020-02-25-1128_Saturdays_Ai_2a1097a2af87-db.gz: OK
+0008.049 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=5, retain_db=5
+0008.050 (0) Number of backup sets in history: 1; groups (db): 1
+0008.052 (0) Examining (for databases) backup set with group_id=0, nonce=2a1097a2af87, datestamp=1582630080 (Feb 25 2020 11:28:00)
+0008.053 (0) This backup set is the backup set just made, so will not be deleted.
+0008.053 (0) Number of backup sets in history: 1; groups (files): 1
+0008.054 (0) Examining (for files) backup set with nonce=2a1097a2af87, datestamp=1582630080 (Feb 25 2020 11:28:00)
+0008.054 (0) This backup set is the backup set just made, so will not be deleted.
+0008.055 (0) This backup set is the backup set just made, so will not be deleted.
+0008.055 (0) This backup set is the backup set just made, so will not be deleted.
+0008.056 (0) This backup set is the backup set just made, so will not be deleted.
+0008.056 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0008.057 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0008.061 (0) Resume backup (2a1097a2af87, 0): finish run
+0008.067 (0) Decremented the semaphore (fd) by 1
+0008.069 (0) Semaphore (fd) unlocked
+0008.070 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0008.074 (0) No email will/can be sent - the user has not configured an email address.
+0008.076 (0) The backup apparently succeeded and is now complete

@@ -1,0 +1,35 @@
+.mkdf-blog-holder.mkdf-blog-single {
+
+    @include ipad-portrait {
+    
+        article {
+        
+            .mkdf-post-info-bottom {
+            
+                .mkdf-post-info-bottom-left,
+                .mkdf-post-info-bottom-right {
+                    width: 100%;
+                    float: none;
+                }
+            
+                .mkdf-post-info-bottom-right {
+                    text-align: inherit;
+                    margin: 10px 0 0;
+                }
+            }
+        }
+    }
+
+    @include phone-landscape{
+    	article {
+    		.mkdf-post-date-inner{
+    			display: none;
+    		}
+
+    		.mkdf-post-text-inner{
+    			display: block;
+    			padding: 0;
+    		}
+    	}
+    }
+}

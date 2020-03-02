@@ -1,0 +1,447 @@
+/* ==========================================================================
+   WPML style start
+   ========================================================================== */
+%wpml-dropdown-styles {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 180px;
+    text-align: left;
+    box-sizing: border-box;
+
+    .lang_sel_sel {
+        position: relative;
+        display: block;
+        padding: 9px 20px;        
+        border: 1px solid $default-border-color;
+        box-sizing: border-box;
+
+        &:after {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            display: block;
+            content: '\33';
+            font-family: 'ElegantIcons';
+            @include mkdfTransform(translateY(-50%));
+        }
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            display: block;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+
+            a {
+                display: block;
+            }
+        }
+
+        ul {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            padding: 13px 20px;
+            background-color: #fff;
+            border: 1px solid $default-border-color;
+            border-top: none;
+            z-index: 10;
+            opacity: 0;
+            visibility: hidden;
+            box-sizing: border-box;
+            @include mkdfTransition(visibility 0s linear 0.25s, opacity 0.25s ease-in-out);
+
+            a {
+                padding: 7px 0;
+            }
+        }
+    }
+
+    &:hover {
+
+        ul ul {
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition-delay: 0s;
+            -moz-transition-delay: 0s;
+            transition-delay: 0s;
+        }
+    }
+}
+
+%wpml-list-horizontal-styles {
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 15px 5px 0;
+
+            &:last-child {
+                margin: 0 0 5px;
+            }
+
+            a {
+                display: block;
+            }
+        }
+    }
+}
+
+%wpml-list-vertical-styles {
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: block;
+            margin: 0;
+            padding: 3px 0;
+
+            a {
+                display: block;
+            }
+        }
+    }
+}
+
+.widget_icl_lang_sel_widget {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+
+    img {
+        position: relative;
+        display: inline-block !important;
+        vertical-align: middle;
+        margin: 0 5px 0 0;
+        top: -1px;
+    }
+
+    #lang_sel,
+    #lang_sel_click {
+        @extend %wpml-dropdown-styles;
+    }
+
+    .lang_sel_list_horizontal {
+        @extend %wpml-list-horizontal-styles;
+    }
+
+    .lang_sel_list_vertical {
+        @extend %wpml-list-vertical-styles;
+    }
+}
+
+.mkdf-sidebar,
+.wpb_widgetised_column,
+.mkdf-page-footer,
+.mkdf-side-menu {
+
+    .widget_icl_lang_sel_widget {
+        width: 100%;
+
+        #lang_sel,
+        #lang_sel_click {
+            width: 100%;
+        }
+    }
+}
+
+.mkdf-page-footer {
+
+    .widget_icl_lang_sel_widget {
+
+        #lang_sel,
+        #lang_sel_click {
+
+            .lang_sel_sel {
+                border-color: #fff;
+            }
+
+            ul {
+
+                li {
+
+                    a {
+                        color: #999;
+
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                }
+
+                ul {
+                    background-color: $default-heading-color;
+                    border-color: #fff;
+                }
+            }
+        }
+
+        .lang_sel_list_horizontal {
+
+            ul {
+
+                li {
+
+                    a {
+                        color: #999;
+
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+
+        .lang_sel_list_vertical {
+
+            ul {
+
+                li {
+
+                    a {
+                        color: #999;
+
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.mkdf-top-bar {
+
+    .widget_icl_lang_sel_widget {
+
+        #lang_sel,
+        #lang_sel_click {
+            width: auto;
+            min-width: 130px;
+
+            .lang_sel_sel {
+                border: 0;
+                padding: 4px 10px;
+
+                &:after {
+                    right: 10px;
+                }
+            }
+
+            ul {
+
+                li {
+
+                    a {
+                        color: #fff;
+                        letter-spacing: 0;
+
+                        &:hover {
+                            color: #999;
+                        }
+                    }
+                }
+
+                ul {
+                    padding: 8px 15px;
+                    background-color: $default-heading-color;
+                    border: 0;
+                }
+            }
+        }
+
+        .lang_sel_list_horizontal {
+
+            ul {
+
+                li {
+                    margin: 0 15px 0 0;
+
+                    &:last-child {
+                        margin: 0;
+                    }
+
+                    a {
+                        color: #fff;
+
+                        &:hover {
+                            color: #999;
+                        }
+                    }
+                }
+            }
+        }
+
+        .lang_sel_list_vertical {
+
+            ul {
+
+                li {
+                    float: left;
+                    margin: 0 15px 0 0;
+                    padding: 0;
+
+                    &:last-child {
+                        margin: 0;
+                    }
+
+                    a {
+                        color: #fff;
+
+                        &:hover {
+                            color: #999;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.mkdf-menu-area {
+
+	.widget_icl_lang_sel_widget {
+
+		.lang_sel_list_horizontal {
+
+			ul {
+
+				li {
+					margin: 0 20px 0 0;
+
+					&:last-child {
+						margin: 0;
+					}
+				}
+			}
+		}
+
+		.lang_sel_list_vertical {
+
+			ul {
+
+				li {
+					float: left;
+					margin: 0 20px 0 0;
+					padding: 0;
+
+					&:last-child {
+						margin: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+.mkdf-main-menu {
+
+    > ul > li.menu-item-language > a {
+
+        span {
+            position: relative;
+            display: block;
+            top: 50%;
+            @include mkdfTransform(translateY(-50%));
+
+            img {
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                top: -1px;
+                margin: 0 5px 0 0;
+            }
+
+            &:after {
+                content: '\33';
+                font-family: 'ElegantIcons';
+
+                position: absolute;
+                right: -15px;
+                top: 50%;
+                display: block;
+
+                @include mkdfTransform(translateY(-50%));
+            }
+        }
+    }
+
+    .menu-item-language {
+
+        .submenu-languages {
+            position: absolute;
+            top: 100%;
+            width: 200px;
+            left: 0;
+            z-index: 10;
+            opacity: 0;
+            visibility: hidden;
+            border-top: none;
+            padding: 18px 0;
+            text-align: left;
+            background-color: #fff;
+            border-top: 1px solid $default-border-color;
+
+            box-sizing: border-box;
+            @include mkdfTransition(visibility 0s linear 0.25s, opacity 0.25s ease-in-out);
+
+            li {
+                display: block;
+                width: 100%;
+                float: none;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            a {
+                display: block;
+                padding: 9px 26px;
+	            color: $default-text-color;
+
+	            &:hover {
+		            color: $default-heading-color;
+	            }
+            }
+
+            img {
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                top: -1px;
+                margin: 0 5px 0 0;
+            }
+        }
+
+        &:hover {
+
+            ul {
+                opacity: 1;
+                visibility: visible;
+
+                -webkit-transition-delay: 0s;
+                -moz-transition-delay: 0s;
+                transition-delay: 0s;
+            }
+        }
+    }
+}
+/* ==========================================================================
+   WPML style start
+   ========================================================================== */

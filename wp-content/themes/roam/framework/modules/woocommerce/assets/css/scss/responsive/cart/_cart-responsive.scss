@@ -1,0 +1,77 @@
+/* ==========================================================================
+   WooCommerce Cart page responsive styles - begin
+   ========================================================================== */
+
+@include ipad-portrait {
+	
+	.mkdf-woocommerce-page {
+		
+		table.cart {
+			
+			td.actions {
+				
+				.coupon {
+					
+					input[type="text"] {
+						width: 180px;
+						margin: 0 17px 0 0;
+						padding: 9px 20px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@include phone-landscape {
+	
+	.mkdf-woocommerce-page {
+		
+		table.cart {
+			
+			tr {
+				
+				th, td {
+					font-size: 12px;
+				}
+				
+				&.cart_item {
+					
+					td {
+						
+						&.product-thumbnail {
+							width: auto;
+							padding-right: 0;
+							
+							img {
+								display: none;
+							}
+						}
+					}
+				}
+			}
+			
+			td.actions {
+				
+				.coupon {
+					margin: 0 0 20px;
+					
+					input[type="text"] {
+						width: 160px;
+						padding: 9px 15px;
+						margin: 0 10px 20px 0;
+					}
+				}
+				
+				.coupon,
+				> input {
+					float: none;
+					display: block;
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   WooCommerce Cart page responsive styles - end
+   ========================================================================== */

@@ -1,0 +1,26 @@
+/* ==========================================================================
+   Centered Title type style - begin
+   ========================================================================== */
+
+.mkdf-title-holder {
+	
+	&.mkdf-centered-type {
+		
+		.mkdf-title-inner {
+			text-align: center;
+		}
+		
+		.mkdf-page-title {
+			margin: 0;
+		}
+		
+		.mkdf-page-subtitle {
+			display: block;
+			margin: 3px 0 0;
+			box-sizing: border-box;
+		}
+	}
+}
+/* ==========================================================================
+   Centered Title type style - end
+   ========================================================================== */

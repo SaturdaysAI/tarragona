@@ -1,0 +1,1253 @@
+0000.000 (0) Opened log file at time: Sat, 29 Feb 2020 09:55:35 +0000 on https://sai.globaladvertising.io
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.21 WP: 5.3.2 PHP: 7.3.15 (fpm-fcgi, Linux ip-172-31-2-28 4.15.0-1044-aws #46-Ubuntu SMP Thu Jul 4 13:38:28 UTC 2019 x86_64) MySQL: 10.1.44-MariaDB-0ubuntu0.18.04.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 42M | 44M) multisite: N openssl: OpenSSL 1.1.1  11 Sep 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 72861.4 MB
+0000.008 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.010 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.019 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1582875639, seconds_ago=94496)
+0000.024 (0) Set semaphore last lock (fd) time to 2020-02-29 09:55:35
+0000.026 (0) Semaphore lock (fd) complete
+0000.031 (0) Backup run: resumption=0, nonce=afbf5af38472, file_nonce=afbf5af38472 begun at=1582970135 (0s ago), job type=backup
+0000.034 (0) Scheduling a resumption (1) after 300 seconds (1582970435) in case this run gets aborted
+0000.047 (0) Checking if we have a zip executable available
+0000.050 (0) Creation of backups of directories: beginning
+0000.057 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0004.235 (0) Total entities for the zip file: 1649 directories, 9462 files (0 skipped as non-modified), 150.5 MB
+0004.244 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0004.313 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 100 files added (on-disk size: 287.7 KB)
+0004.344 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 200 files added (on-disk size: 287.7 KB)
+0004.376 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 300 files added (on-disk size: 287.7 KB)
+0004.412 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 400 files added (on-disk size: 287.7 KB)
+0004.445 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 500 files added (on-disk size: 287.7 KB)
+0004.447 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.9 MB, 9462 files batched, 501 (502) added so far); re-opening (prior size: 287.7 KB)
+0004.946 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 600 files added (on-disk size: 1518 KB)
+0004.979 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 700 files added (on-disk size: 1518 KB)
+0005.008 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 800 files added (on-disk size: 1518 KB)
+0005.038 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 900 files added (on-disk size: 1518 KB)
+0005.067 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 1000 files added (on-disk size: 1518 KB)
+0005.070 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.9 MB, 9462 files batched, 501 (1003) added so far); re-opening (prior size: 1518 KB)
+0005.862 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 1100 files added (on-disk size: 3518.6 KB)
+0005.889 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 1200 files added (on-disk size: 3518.6 KB)
+0005.919 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 1300 files added (on-disk size: 3518.6 KB)
+0005.948 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 1400 files added (on-disk size: 3518.6 KB)
+0005.976 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 1500 files added (on-disk size: 3518.6 KB)
+0005.980 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4 MB, 9462 files batched, 501 (1504) added so far); re-opening (prior size: 3518.6 KB)
+0006.510 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 1600 files added (on-disk size: 4632.9 KB)
+0006.541 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 1700 files added (on-disk size: 4632.9 KB)
+0006.572 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 1800 files added (on-disk size: 4632.9 KB)
+0006.601 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 1900 files added (on-disk size: 4632.9 KB)
+0006.628 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 2000 files added (on-disk size: 4632.9 KB)
+0006.631 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.4 MB, 9462 files batched, 501 (2005) added so far); re-opening (prior size: 4632.9 KB)
+0007.288 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 2100 files added (on-disk size: 6017.3 KB)
+0007.319 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 2200 files added (on-disk size: 6017.3 KB)
+0007.346 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 2300 files added (on-disk size: 6017.3 KB)
+0007.377 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 2400 files added (on-disk size: 6017.3 KB)
+0007.405 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 2500 files added (on-disk size: 6017.3 KB)
+0007.409 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.4 MB, 9462 files batched, 501 (2506) added so far); re-opening (prior size: 6017.3 KB)
+0008.244 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 2600 files added (on-disk size: 8360.1 KB)
+0008.273 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 2700 files added (on-disk size: 8360.1 KB)
+0008.309 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 2800 files added (on-disk size: 8360.1 KB)
+0008.341 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 2900 files added (on-disk size: 8360.1 KB)
+0008.380 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 3000 files added (on-disk size: 8360.1 KB)
+0008.385 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.3 MB, 9462 files batched, 501 (3007) added so far); re-opening (prior size: 8360.1 KB)
+0009.247 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 3100 files added (on-disk size: 10222.1 KB)
+0009.281 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 3200 files added (on-disk size: 10222.1 KB)
+0009.315 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 3300 files added (on-disk size: 10222.1 KB)
+0009.351 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 3400 files added (on-disk size: 10222.1 KB)
+0009.389 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 3500 files added (on-disk size: 10222.1 KB)
+0009.395 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.8 MB, 9462 files batched, 501 (3508) added so far); re-opening (prior size: 10222.1 KB)
+0010.027 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 3600 files added (on-disk size: 11786.4 KB)
+0010.054 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 3700 files added (on-disk size: 11786.4 KB)
+0010.080 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 3800 files added (on-disk size: 11786.4 KB)
+0010.106 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 3900 files added (on-disk size: 11786.4 KB)
+0010.132 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 4000 files added (on-disk size: 11786.4 KB)
+0010.137 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (14.1 MB, 9462 files batched, 501 (4009) added so far); re-opening (prior size: 11786.4 KB)
+0014.140 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 4100 files added (on-disk size: 16981.1 KB)
+0014.167 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 4200 files added (on-disk size: 16981.1 KB)
+0014.191 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 4300 files added (on-disk size: 16981.1 KB)
+0014.223 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 4400 files added (on-disk size: 16981.1 KB)
+0014.256 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 4500 files added (on-disk size: 16981.1 KB)
+0014.262 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.6 MB, 9462 files batched, 501 (4510) added so far); re-opening (prior size: 16981.1 KB)
+0015.219 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 4600 files added (on-disk size: 19143.4 KB)
+0015.245 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 4700 files added (on-disk size: 19143.4 KB)
+0015.277 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 4800 files added (on-disk size: 19143.4 KB)
+0015.321 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 4900 files added (on-disk size: 19143.4 KB)
+0015.357 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 5000 files added (on-disk size: 19143.4 KB)
+0015.363 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.8 MB, 9462 files batched, 501 (5011) added so far); re-opening (prior size: 19143.4 KB)
+0016.489 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 5100 files added (on-disk size: 21000.3 KB)
+0016.528 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 5200 files added (on-disk size: 21000.3 KB)
+0016.566 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 5300 files added (on-disk size: 21000.3 KB)
+0016.602 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 5400 files added (on-disk size: 21000.3 KB)
+0016.635 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 5500 files added (on-disk size: 21000.3 KB)
+0016.641 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12.4 MB, 9462 files batched, 501 (5512) added so far); re-opening (prior size: 21000.3 KB)
+0018.092 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 5600 files added (on-disk size: 23128 KB)
+0018.122 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 5700 files added (on-disk size: 23128 KB)
+0018.154 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 5800 files added (on-disk size: 23128 KB)
+0018.181 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 5900 files added (on-disk size: 23128 KB)
+0018.213 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 6000 files added (on-disk size: 23128 KB)
+0018.219 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.8 MB, 9462 files batched, 501 (6013) added so far); re-opening (prior size: 23128 KB)
+0019.038 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 6100 files added (on-disk size: 27324.8 KB)
+0019.074 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 6200 files added (on-disk size: 27324.8 KB)
+0019.107 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 6300 files added (on-disk size: 27324.8 KB)
+0019.135 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 6400 files added (on-disk size: 27324.8 KB)
+0019.163 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 6500 files added (on-disk size: 27324.8 KB)
+0019.169 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (15.2 MB, 9462 files batched, 501 (6514) added so far); re-opening (prior size: 27324.8 KB)
+0021.173 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 6600 files added (on-disk size: 31713.7 KB)
+0021.208 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 6700 files added (on-disk size: 31713.7 KB)
+0021.246 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 6800 files added (on-disk size: 31713.7 KB)
+0021.286 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 6900 files added (on-disk size: 31713.7 KB)
+0021.323 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 7000 files added (on-disk size: 31713.7 KB)
+0021.331 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.9 MB, 9462 files batched, 501 (7015) added so far); re-opening (prior size: 31713.7 KB)
+0022.146 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 7100 files added (on-disk size: 32588.1 KB)
+0022.183 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 7200 files added (on-disk size: 32588.1 KB)
+0022.222 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 7300 files added (on-disk size: 32588.1 KB)
+0022.259 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 7400 files added (on-disk size: 32588.1 KB)
+0022.287 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 7500 files added (on-disk size: 32588.1 KB)
+0022.294 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.9 MB, 9462 files batched, 501 (7516) added so far); re-opening (prior size: 32588.1 KB)
+0023.038 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 7600 files added (on-disk size: 33556.4 KB)
+0023.070 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 7700 files added (on-disk size: 33556.4 KB)
+0023.101 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 7800 files added (on-disk size: 33556.4 KB)
+0023.130 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 7900 files added (on-disk size: 33556.4 KB)
+0023.159 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 8000 files added (on-disk size: 33556.4 KB)
+0023.166 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.9 MB, 9462 files batched, 501 (8017) added so far); re-opening (prior size: 33556.4 KB)
+0024.219 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 8100 files added (on-disk size: 36265.2 KB)
+0024.244 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 8200 files added (on-disk size: 36265.2 KB)
+0024.270 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 8300 files added (on-disk size: 36265.2 KB)
+0024.297 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 8400 files added (on-disk size: 36265.2 KB)
+0024.324 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 8500 files added (on-disk size: 36265.2 KB)
+0024.331 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (13.2 MB, 9462 files batched, 501 (8518) added so far); re-opening (prior size: 36265.2 KB)
+0025.820 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 8600 files added (on-disk size: 39380.4 KB)
+0025.848 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 8700 files added (on-disk size: 39380.4 KB)
+0025.876 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 8800 files added (on-disk size: 39380.4 KB)
+0025.906 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 8900 files added (on-disk size: 39380.4 KB)
+0025.936 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 9000 files added (on-disk size: 39380.4 KB)
+0025.945 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.6 MB, 9462 files batched, 501 (9019) added so far); re-opening (prior size: 39380.4 KB)
+0027.536 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 9100 files added (on-disk size: 42561.8 KB)
+0027.565 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 9200 files added (on-disk size: 42561.8 KB)
+0027.603 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 9300 files added (on-disk size: 42561.8 KB)
+0027.640 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip.tmp: 9400 files added (on-disk size: 42561.8 KB)
+0029.470 (0) Created plugins zip (0) - 44001.9 KB in 29.4 s (1496.2 KB/s) (sha1: e8a997114322c5cd6a1937c2f03c06293e822c2c, sha256: 1924c643ffa6410ba3d9b5a3146243872e1745da3b963b720b07b65ec5946b8e)
+0029.475 (0) Beginning creation of dump of themes (split every: 400 MB)
+0030.295 (0) Total entities for the zip file: 481 directories, 1058 files (0 skipped as non-modified), 51.2 MB
+0030.323 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0030.353 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0030.370 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 1058 files batched, 243 (243) added so far); re-opening (prior size: 0 KB)
+0031.369 (0) A useful amount of data was added after this amount of zip processing: 1.9 s (normalised: 1.9 s, rate: 13263.1 KB/s)
+0031.374 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.9337930679321, normalised_time=1.9301741386827, max_time=31.371122121811, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0031.398 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-themes.zip.tmp: 300 files added (on-disk size: 21380.6 KB)
+0031.428 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-themes.zip.tmp: 400 files added (on-disk size: 21380.6 KB)
+0031.468 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-themes.zip.tmp: 500 files added (on-disk size: 21380.6 KB)
+0031.507 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-themes.zip.tmp: 600 files added (on-disk size: 21380.6 KB)
+0031.545 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-themes.zip.tmp: 700 files added (on-disk size: 21380.6 KB)
+0031.563 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.6 MB, 1058 files batched, 501 (744) added so far); re-opening (prior size: 21380.6 KB)
+0032.507 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-themes.zip.tmp: 800 files added (on-disk size: 25926.1 KB)
+0032.545 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-themes.zip.tmp: 900 files added (on-disk size: 25926.1 KB)
+0032.572 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-themes.zip.tmp: 1000 files added (on-disk size: 25926.1 KB)
+0033.878 (0) Created themes zip (0) - 41513.8 KB in 4.4 s (9437.9 KB/s) (sha1: c00f73e2f13a82711942cc96d2cc739a4e876db3, sha256: f3b494a06a7fa15296651953a01d3ff013b7efc0d75548565757caab10a87f89)
+0033.883 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0033.885 (0) Looking for candidates to backup in: /var/www/vhosts/globaladvertising.io/sai.globaladvertising.io/wp-content/uploads
+0033.886 (0) finding files: custom-css-js: adding to list (1)
+0033.889 (0) finding files: maxmegamenu: adding to list (2)
+0033.890 (0) finding files: useanyfont: adding to list (3)
+0033.891 (0) finding files: woocommerce-placeholder-1100x1100.png: adding to list (4)
+0033.894 (0) finding files: woocommerce-placeholder.png: adding to list (5)
+0033.895 (0) finding files: js_composer: adding to list (6)
+0033.897 (0) finding files: wp-file-manager-pro: adding to list (7)
+0033.898 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (8)
+0033.899 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (9)
+0033.902 (0) finding files: woocommerce-placeholder-600x600.png: adding to list (10)
+0033.903 (0) finding files: wpseo-redirects: adding to list (11)
+0033.905 (0) finding files: woocommerce-placeholder-550x1100.png: adding to list (12)
+0033.906 (0) finding files: 2017: adding to list (13)
+0033.907 (0) finding files: woocommerce_uploads: adding to list (14)
+0033.909 (0) finding files: wc-logs: adding to list (15)
+0033.910 (0) finding files: wp-megamenu: adding to list (16)
+0033.912 (0) finding files: woocommerce-placeholder-1100x550.png: adding to list (17)
+0033.914 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (18)
+0033.915 (0) finding files: redux: adding to list (19)
+0033.917 (0) finding files: 2016: adding to list (20)
+0033.918 (0) finding files: roam: adding to list (21)
+0033.919 (0) finding files: GeoLite2-Country.mmdb: adding to list (22)
+0033.921 (0) finding files: ac_assets: adding to list (23)
+0033.922 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (24)
+0033.923 (0) finding files: 2020: adding to list (25)
+0033.925 (0) finding files: mkdf-rev-sliders: adding to list (26)
+0033.926 (0) finding files: revslider: adding to list (27)
+0033.927 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (28)
+0033.929 (0) finding files: pum: adding to list (29)
+0033.930 (0) finding files: mphb: adding to list (30)
+0033.932 (0) finding files: elementor: adding to list (31)
+0033.934 (0) finding files: 2019: adding to list (32)
+0033.935 (0) finding files: woocommerce-placeholder-550x550.png: adding to list (33)
+0033.937 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0037.023 (0) Total entities for the zip file: 466 directories, 11582 files (0 skipped as non-modified), 1003.4 MB
+0037.026 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0037.061 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 100 files added (on-disk size: 74.6 KB)
+0037.085 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 200 files added (on-disk size: 74.6 KB)
+0037.109 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 300 files added (on-disk size: 74.6 KB)
+0037.133 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 400 files added (on-disk size: 74.6 KB)
+0037.158 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 500 files added (on-disk size: 74.6 KB)
+0037.161 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (49.5 MB, 11582 files batched, 501 (502) added so far); re-opening (prior size: 74.6 KB)
+0038.236 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 600 files added (on-disk size: 50747.3 KB)
+0038.262 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 700 files added (on-disk size: 50747.3 KB)
+0038.286 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 800 files added (on-disk size: 50747.3 KB)
+0038.312 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 900 files added (on-disk size: 50747.3 KB)
+0038.336 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 1000 files added (on-disk size: 50747.3 KB)
+0038.339 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (42.4 MB, 11582 files batched, 501 (1003) added so far); re-opening (prior size: 50747.3 KB)
+0039.466 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 1100 files added (on-disk size: 94242.2 KB)
+0039.706 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 1200 files added (on-disk size: 94242.2 KB)
+0039.732 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 1300 files added (on-disk size: 94242.2 KB)
+0039.756 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 1400 files added (on-disk size: 94242.2 KB)
+0039.781 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 1500 files added (on-disk size: 94242.2 KB)
+0039.784 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (49.7 MB, 11582 files batched, 501 (1504) added so far); re-opening (prior size: 94242.2 KB)
+0042.287 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 1600 files added (on-disk size: 145230.6 KB)
+0042.312 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 1700 files added (on-disk size: 145230.6 KB)
+0042.337 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 1800 files added (on-disk size: 145230.6 KB)
+0042.362 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 1900 files added (on-disk size: 145230.6 KB)
+0042.387 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 2000 files added (on-disk size: 145230.6 KB)
+0042.390 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (48.5 MB, 11582 files batched, 501 (2005) added so far); re-opening (prior size: 145230.6 KB)
+0045.682 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 2100 files added (on-disk size: 194961.7 KB)
+0045.707 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 2200 files added (on-disk size: 194961.7 KB)
+0045.734 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 2300 files added (on-disk size: 194961.7 KB)
+0045.759 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 2400 files added (on-disk size: 194961.7 KB)
+0045.785 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 2500 files added (on-disk size: 194961.7 KB)
+0045.789 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (58.9 MB, 11582 files batched, 501 (2506) added so far); re-opening (prior size: 194961.7 KB)
+0050.063 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 2600 files added (on-disk size: 255387.1 KB)
+0050.091 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 2700 files added (on-disk size: 255387.1 KB)
+0050.116 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 2800 files added (on-disk size: 255387.1 KB)
+0050.142 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 2900 files added (on-disk size: 255387.1 KB)
+0050.167 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 3000 files added (on-disk size: 255387.1 KB)
+0050.170 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (47.9 MB, 11582 files batched, 501 (3007) added so far); re-opening (prior size: 255387.1 KB)
+0055.101 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 3100 files added (on-disk size: 304530 KB)
+0055.125 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 3200 files added (on-disk size: 304530 KB)
+0055.150 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 3300 files added (on-disk size: 304530 KB)
+0055.174 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 3400 files added (on-disk size: 304530 KB)
+0055.200 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 3500 files added (on-disk size: 304530 KB)
+0055.215 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (49.2 MB, 11582 files batched, 501 (3508) added so far); re-opening (prior size: 304530 KB)
+0060.925 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 3600 files added (on-disk size: 355007 KB)
+0060.952 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 3700 files added (on-disk size: 355007 KB)
+0060.976 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 3800 files added (on-disk size: 355007 KB)
+0061.002 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 3900 files added (on-disk size: 355007 KB)
+0061.027 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 4000 files added (on-disk size: 355007 KB)
+0061.031 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (35.8 MB, 11582 files batched, 501 (4009) added so far); re-opening (prior size: 355007 KB)
+0068.722 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip.tmp: 4100 files added (on-disk size: 389656.1 KB)
+0068.738 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): possibly approaching split limit (19.2 MB, 158 (4167) files added so far); last ratio: 0.9456; re-opening (prior size: 389656.1 KB)
+0075.082 (0) Zip size is at/near split limit (399.8 MB / 400 MB) - bumping index (from: 0)
+0081.524 (0) Created uploads zip (0) - 409387.9 KB in 41.1 s (9949.7 KB/s) (checksums: sha1: 9394a3bc5640def3bd98695cd468eb4a1727b6a9, sha256: 1f0a5f421fa762ca76b8a8bab4ccf893b6b22837824fafb8e584bb450ca967d6)
+0081.530 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.8 MB, 1 (4168) files added so far); re-opening (prior size: 0 KB)
+0081.567 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 4200 files added (on-disk size: 1812.3 KB)
+0081.592 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 4300 files added (on-disk size: 1812.3 KB)
+0081.617 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 4400 files added (on-disk size: 1812.3 KB)
+0081.646 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 4500 files added (on-disk size: 1812.3 KB)
+0081.673 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 4600 files added (on-disk size: 1812.3 KB)
+0081.690 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.8 MB, 11582 files batched, 501 (4669) added so far); re-opening (prior size: 1812.3 KB)
+0082.104 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 4700 files added (on-disk size: 11975.3 KB)
+0082.132 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 4800 files added (on-disk size: 11975.3 KB)
+0082.159 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 4900 files added (on-disk size: 11975.3 KB)
+0082.182 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 5000 files added (on-disk size: 11975.3 KB)
+0082.206 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 5100 files added (on-disk size: 11975.3 KB)
+0082.224 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (25.8 MB, 11582 files batched, 501 (5170) added so far); re-opening (prior size: 11975.3 KB)
+0082.990 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 5200 files added (on-disk size: 38470 KB)
+0083.017 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 5300 files added (on-disk size: 38470 KB)
+0083.044 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 5400 files added (on-disk size: 38470 KB)
+0083.072 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 5500 files added (on-disk size: 38470 KB)
+0083.101 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 5600 files added (on-disk size: 38470 KB)
+0083.122 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (54.6 MB, 11582 files batched, 501 (5671) added so far); re-opening (prior size: 38470 KB)
+0084.240 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 5700 files added (on-disk size: 94524.1 KB)
+0084.491 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 5800 files added (on-disk size: 94524.1 KB)
+0084.515 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 5900 files added (on-disk size: 94524.1 KB)
+0084.540 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 6000 files added (on-disk size: 94524.1 KB)
+0084.564 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 6100 files added (on-disk size: 94524.1 KB)
+0084.584 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (41.5 MB, 11582 files batched, 501 (6172) added so far); re-opening (prior size: 94524.1 KB)
+0086.839 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 6200 files added (on-disk size: 136561.7 KB)
+0086.867 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 6300 files added (on-disk size: 136561.7 KB)
+0086.895 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 6400 files added (on-disk size: 136561.7 KB)
+0086.921 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 6500 files added (on-disk size: 136561.7 KB)
+0086.949 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 6600 files added (on-disk size: 136561.7 KB)
+0086.971 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (29.3 MB, 11582 files batched, 501 (6673) added so far); re-opening (prior size: 136561.7 KB)
+0089.608 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 6700 files added (on-disk size: 166679.2 KB)
+0089.635 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 6800 files added (on-disk size: 166679.2 KB)
+0089.663 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 6900 files added (on-disk size: 166679.2 KB)
+0089.691 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 7000 files added (on-disk size: 166679.2 KB)
+0089.718 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 7100 files added (on-disk size: 166679.2 KB)
+0089.737 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (37.4 MB, 11582 files batched, 501 (7174) added so far); re-opening (prior size: 166679.2 KB)
+0093.085 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 7200 files added (on-disk size: 205096.1 KB)
+0093.112 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 7300 files added (on-disk size: 205096.1 KB)
+0093.140 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 7400 files added (on-disk size: 205096.1 KB)
+0093.165 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 7500 files added (on-disk size: 205096.1 KB)
+0093.191 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 7600 files added (on-disk size: 205096.1 KB)
+0093.211 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (38.3 MB, 11582 files batched, 501 (7675) added so far); re-opening (prior size: 205096.1 KB)
+0097.149 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 7700 files added (on-disk size: 244436.7 KB)
+0097.175 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 7800 files added (on-disk size: 244436.7 KB)
+0097.200 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 7900 files added (on-disk size: 244436.7 KB)
+0097.224 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 8000 files added (on-disk size: 244436.7 KB)
+0097.248 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 8100 files added (on-disk size: 244436.7 KB)
+0097.266 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (62.9 MB, 11582 files batched, 501 (8176) added so far); re-opening (prior size: 244436.7 KB)
+0102.421 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 8200 files added (on-disk size: 308882.5 KB)
+0102.447 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 8300 files added (on-disk size: 308882.5 KB)
+0102.471 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 8400 files added (on-disk size: 308882.5 KB)
+0102.495 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 8500 files added (on-disk size: 308882.5 KB)
+0102.520 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 8600 files added (on-disk size: 308882.5 KB)
+0102.541 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (49.5 MB, 11582 files batched, 501 (8677) added so far); re-opening (prior size: 308882.5 KB)
+0108.330 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 8700 files added (on-disk size: 359661.5 KB)
+0108.355 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 8800 files added (on-disk size: 359661.5 KB)
+0108.380 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 8900 files added (on-disk size: 359661.5 KB)
+0108.403 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 9000 files added (on-disk size: 359661.5 KB)
+0108.427 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip.tmp: 9100 files added (on-disk size: 359661.5 KB)
+0108.440 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): possibly approaching split limit (44.4 MB, 465 (9142) files added so far); last ratio: 1; re-opening (prior size: 359661.5 KB)
+0114.854 (0) Zip size is at/near split limit (395.7 MB / 400 MB) - bumping index (from: 1)
+0121.355 (0) Created uploads zip (1) - 405170.3 KB in 33.3 s (12156.8 KB/s) (checksums: sha1: d9de449a5b6388a8332f8b271188d47c0ee26b94, sha256: a06e7514fa72ab9dd2a8de0427672256b4fbe1ed8d61c02efdb27fcd2142aa36)
+0121.360 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (9143) files added so far); re-opening (prior size: 0 KB)
+0121.378 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 9200 files added (on-disk size: 40 KB)
+0121.404 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 9300 files added (on-disk size: 40 KB)
+0121.432 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 9400 files added (on-disk size: 40 KB)
+0121.458 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 9500 files added (on-disk size: 40 KB)
+0121.488 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 9600 files added (on-disk size: 40 KB)
+0121.500 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (51.3 MB, 11582 files batched, 501 (9644) added so far); re-opening (prior size: 40 KB)
+0122.595 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 9700 files added (on-disk size: 52647.5 KB)
+0122.622 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 9800 files added (on-disk size: 52647.5 KB)
+0122.649 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 9900 files added (on-disk size: 52647.5 KB)
+0122.677 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 10000 files added (on-disk size: 52647.5 KB)
+0122.703 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 10100 files added (on-disk size: 52647.5 KB)
+0122.716 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (41 MB, 11582 files batched, 501 (10145) added so far); re-opening (prior size: 52647.5 KB)
+0123.760 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 10200 files added (on-disk size: 94671.4 KB)
+0124.003 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 10300 files added (on-disk size: 94671.4 KB)
+0124.028 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 10400 files added (on-disk size: 94671.4 KB)
+0124.052 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 10500 files added (on-disk size: 94671.4 KB)
+0124.076 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 10600 files added (on-disk size: 94671.4 KB)
+0124.089 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (46.3 MB, 11582 files batched, 501 (10646) added so far); re-opening (prior size: 94671.4 KB)
+0126.489 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 10700 files added (on-disk size: 142154.7 KB)
+0126.516 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 10800 files added (on-disk size: 142154.7 KB)
+0126.542 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 10900 files added (on-disk size: 142154.7 KB)
+0126.566 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 11000 files added (on-disk size: 142154.7 KB)
+0126.592 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 11100 files added (on-disk size: 142154.7 KB)
+0126.623 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (41.1 MB, 11582 files batched, 501 (11147) added so far); re-opening (prior size: 142154.7 KB)
+0129.659 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 11200 files added (on-disk size: 184346.6 KB)
+0129.688 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 11300 files added (on-disk size: 184346.6 KB)
+0129.713 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 11400 files added (on-disk size: 184346.6 KB)
+0129.738 (0) Zip: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip.tmp: 11500 files added (on-disk size: 184346.6 KB)
+0136.484 (0) Created uploads zip (2) - 212165.1 KB in 15.1 s (14026.1 KB/s) (sha1: dcf1dc5606a53482b5919b174f57792b52b7fb06, sha256: 2a0fb9b8a5b0e05ee92712b655e45dcef6ae1d5bee43d4cfc32ea1f3a8a18262)
+0136.494 (0) Beginning backup of other directories found in the content directory (index: 0)
+0136.495 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0136.497 (0) Looking for candidates to backup in: /var/www/vhosts/globaladvertising.io/sai.globaladvertising.io/wp-content
+0136.498 (0) finding files: wflogs: adding to list (1)
+0136.503 (0) finding files: updraft: skipping: this is the updraft directory
+0136.505 (0) finding files: db-error.php: adding to list (2)
+0136.506 (0) finding files: plugins: skipping: this is the plugins directory
+0136.507 (0) finding files: uploads: skipping: this is the uploads directory
+0136.509 (0) finding files: themes: skipping: this is the themes directory
+0136.510 (0) finding files: index.php-old: adding to list (3)
+0136.510 (0) finding files: advanced-cache.php-old: adding to list (4)
+0136.512 (0) finding files: mu-plugins: adding to list (5)
+0136.513 (0) finding files: maintenance: adding to list (6)
+0136.514 (0) finding files: upgrade: skipping: excluded by options
+0136.515 (0) finding files: db-error.php-old: adding to list (7)
+0136.517 (0) finding files: index.php: adding to list (8)
+0136.518 (0) finding files: maintenance.php-old: adding to list (9)
+0136.519 (0) finding files: wp-rocket-config-old: adding to list (10)
+0136.520 (0) finding files: maintenance.php: adding to list (11)
+0136.538 (0) Total entities for the zip file: 7 directories, 31 files (0 skipped as non-modified), 7.9 MB
+0140.920 (0) Created others zip (0) - 5219.9 KB in 4.4 s (1187.6 KB/s) (sha1: dafc0d14c12f21ef7a155cfda261f771eb3c6474, sha256: acdf75ddb09042d6018233a97650244a4945dde2d2b064abdd135852502f2f37)
+0140.934 (0) Saving backup status to database (elements: 10)
+0140.939 (0) Beginning creation of database dump (WordPress DB)
+0140.957 (0) Table Ak6Ct5K_options: Total expected rows (approximate): 991
+0141.239 (0) Table Ak6Ct5K_options: Total rows added: 1004 in 0.28 seconds
+0141.243 (0) Table Ak6Ct5K_options: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_options.table.gz - 327.1 KB)
+0141.252 (0) Table Ak6Ct5K_users: Total expected rows (approximate): 5
+0141.256 (0) Table Ak6Ct5K_users: Total rows added: 5 in 0.00 seconds
+0141.259 (0) Table Ak6Ct5K_users: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_users.table.gz - 0.9 KB)
+0141.268 (0) Table Ak6Ct5K_usermeta: Total expected rows (approximate): 309
+0141.276 (0) Table Ak6Ct5K_usermeta: Total rows added: 309 in 0.01 seconds
+0141.279 (0) Table Ak6Ct5K_usermeta: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_usermeta.table.gz - 7.7 KB)
+0141.289 (0) Table Ak6Ct5K_commentmeta: Total expected rows (approximate): 0
+0141.294 (0) Table Ak6Ct5K_commentmeta: Total rows added: 0 in 0.00 seconds
+0141.298 (0) Table Ak6Ct5K_commentmeta: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_commentmeta.table.gz - 0.4 KB)
+0141.307 (0) Table Ak6Ct5K_comments: Total expected rows (approximate): 3
+0141.311 (0) Table Ak6Ct5K_comments: Total rows added: 3 in 0.00 seconds
+0141.314 (0) Table Ak6Ct5K_comments: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_comments.table.gz - 0.6 KB)
+0141.325 (0) Table Ak6Ct5K_links: Total expected rows (approximate): 0
+0141.332 (0) Table Ak6Ct5K_links: Total rows added: 0 in 0.00 seconds
+0141.335 (0) Table Ak6Ct5K_links: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_links.table.gz - 0.4 KB)
+0141.344 (0) Table Ak6Ct5K_postmeta: Total expected rows (approximate): 15123
+0145.773 (0) Table Ak6Ct5K_postmeta: Total rows added: 15106 in 4.43 seconds
+0145.775 (0) Table Ak6Ct5K_postmeta: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_postmeta.table.gz - 5741.5 KB)
+0145.783 (0) Table Ak6Ct5K_posts: Total expected rows (approximate): 968
+0147.193 (0) Table Ak6Ct5K_posts: Total rows added: 1129 in 1.41 seconds
+0147.196 (0) Table Ak6Ct5K_posts: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_posts.table.gz - 2139.7 KB)
+0147.206 (0) Table Ak6Ct5K_term_relationships: Total expected rows (approximate): 1364
+0147.220 (0) Table Ak6Ct5K_term_relationships: Total rows added: 1364 in 0.01 seconds
+0147.223 (0) Table Ak6Ct5K_term_relationships: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_term_relationships.table.gz - 4 KB)
+0147.235 (0) Table Ak6Ct5K_term_taxonomy: Total expected rows (approximate): 1549
+0147.260 (0) Table Ak6Ct5K_term_taxonomy: Total rows added: 1549 in 0.02 seconds
+0147.263 (0) Table Ak6Ct5K_term_taxonomy: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_term_taxonomy.table.gz - 9.6 KB)
+0147.273 (0) Table Ak6Ct5K_termmeta: Total expected rows (approximate): 181
+0147.279 (0) Table Ak6Ct5K_termmeta: Total rows added: 181 in 0.00 seconds
+0147.284 (0) Table Ak6Ct5K_termmeta: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_termmeta.table.gz - 1.5 KB)
+0147.298 (0) Table Ak6Ct5K_terms: Total expected rows (approximate): 1549
+0147.327 (0) Table Ak6Ct5K_terms: Total rows added: 1549 in 0.02 seconds
+0147.332 (0) Table Ak6Ct5K_terms: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_terms.table.gz - 20.3 KB)
+0147.346 (0) Table Ak6Ct5K_addonlibrary_addons: Total expected rows (approximate): 15
+0147.352 (0) Table Ak6Ct5K_addonlibrary_addons: Total rows added: 15 in 0.00 seconds
+0147.356 (0) Table Ak6Ct5K_addonlibrary_addons: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_addonlibrary_addons.table.gz - 5.6 KB)
+0147.369 (0) Table Ak6Ct5K_addonlibrary_categories: Total expected rows (approximate): 1
+0147.372 (0) Table Ak6Ct5K_addonlibrary_categories: Total rows added: 1 in 0.00 seconds
+0147.375 (0) Table Ak6Ct5K_addonlibrary_categories: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_addonlibrary_categories.table.gz - 0.4 KB)
+0147.389 (0) Table Ak6Ct5K_atbdp_review: Total expected rows (approximate): 0
+0147.393 (0) Table Ak6Ct5K_atbdp_review: Total rows added: 0 in 0.00 seconds
+0147.395 (0) Table Ak6Ct5K_atbdp_review: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_atbdp_review.table.gz - 0.4 KB)
+0147.409 (0) Table Ak6Ct5K_countries: Total expected rows (approximate): 250
+0147.426 (0) Table Ak6Ct5K_countries: Total rows added: 250 in 0.01 seconds
+0147.433 (0) Table Ak6Ct5K_countries: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_countries.table.gz - 15.8 KB)
+0147.448 (0) Table Ak6Ct5K_dopbsp_api_keys: Total expected rows (approximate): 1
+0147.453 (0) Table Ak6Ct5K_dopbsp_api_keys: Total rows added: 1 in 0.00 seconds
+0147.455 (0) Table Ak6Ct5K_dopbsp_api_keys: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_api_keys.table.gz - 0.4 KB)
+0147.469 (0) Table Ak6Ct5K_dopbsp_availability: Total expected rows (approximate): 3
+0147.473 (0) Table Ak6Ct5K_dopbsp_availability: Total rows added: 3 in 0.00 seconds
+0147.478 (0) Table Ak6Ct5K_dopbsp_availability: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_availability.table.gz - 0.4 KB)
+0147.492 (0) Table Ak6Ct5K_dopbsp_availability_no: Total expected rows (approximate): 3
+0147.496 (0) Table Ak6Ct5K_dopbsp_availability_no: Total rows added: 3 in 0.00 seconds
+0147.502 (0) Table Ak6Ct5K_dopbsp_availability_no: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_availability_no.table.gz - 0.4 KB)
+0147.518 (0) Table Ak6Ct5K_dopbsp_availability_price: Total expected rows (approximate): 3
+0147.525 (0) Table Ak6Ct5K_dopbsp_availability_price: Total rows added: 3 in 0.00 seconds
+0147.529 (0) Table Ak6Ct5K_dopbsp_availability_price: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_availability_price.table.gz - 0.4 KB)
+0147.539 (0) Table Ak6Ct5K_dopbsp_calendars: Total expected rows (approximate): 1
+0147.544 (0) Table Ak6Ct5K_dopbsp_calendars: Total rows added: 1 in 0.00 seconds
+0147.547 (0) Table Ak6Ct5K_dopbsp_calendars: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_calendars.table.gz - 0.7 KB)
+0147.558 (0) Table Ak6Ct5K_dopbsp_coupons: Total expected rows (approximate): 0
+0147.564 (0) Table Ak6Ct5K_dopbsp_coupons: Total rows added: 0 in 0.00 seconds
+0147.567 (0) Table Ak6Ct5K_dopbsp_coupons: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_coupons.table.gz - 0.5 KB)
+0147.583 (0) Table Ak6Ct5K_dopbsp_days: Total expected rows (approximate): 20
+0147.588 (0) Table Ak6Ct5K_dopbsp_days: Total rows added: 20 in 0.00 seconds
+0147.592 (0) Table Ak6Ct5K_dopbsp_days: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_days.table.gz - 0.9 KB)
+0147.605 (0) Table Ak6Ct5K_dopbsp_discounts: Total expected rows (approximate): 0
+0147.611 (0) Table Ak6Ct5K_dopbsp_discounts: Total rows added: 0 in 0.00 seconds
+0147.614 (0) Table Ak6Ct5K_dopbsp_discounts: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_discounts.table.gz - 0.4 KB)
+0147.625 (0) Table Ak6Ct5K_dopbsp_discounts_items: Total expected rows (approximate): 0
+0147.628 (0) Table Ak6Ct5K_dopbsp_discounts_items: Total rows added: 0 in 0.00 seconds
+0147.632 (0) Table Ak6Ct5K_dopbsp_discounts_items: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_discounts_items.table.gz - 0.4 KB)
+0147.646 (0) Table Ak6Ct5K_dopbsp_discounts_items_rules: Total expected rows (approximate): 0
+0147.649 (0) Table Ak6Ct5K_dopbsp_discounts_items_rules: Total rows added: 0 in 0.00 seconds
+0147.652 (0) Table Ak6Ct5K_dopbsp_discounts_items_rules: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_discounts_items_rules.table.gz - 0.5 KB)
+0147.665 (0) Table Ak6Ct5K_dopbsp_emails: Total expected rows (approximate): 1
+0147.668 (0) Table Ak6Ct5K_dopbsp_emails: Total rows added: 1 in 0.00 seconds
+0147.671 (0) Table Ak6Ct5K_dopbsp_emails: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_emails.table.gz - 0.4 KB)
+0147.682 (0) Table Ak6Ct5K_dopbsp_emails_translation: Total expected rows (approximate): 7
+0147.687 (0) Table Ak6Ct5K_dopbsp_emails_translation: Total rows added: 7 in 0.00 seconds
+0147.690 (0) Table Ak6Ct5K_dopbsp_emails_translation: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_emails_translation.table.gz - 0.8 KB)
+0147.701 (0) Table Ak6Ct5K_dopbsp_extras: Total expected rows (approximate): 1
+0147.704 (0) Table Ak6Ct5K_dopbsp_extras: Total rows added: 1 in 0.00 seconds
+0147.707 (0) Table Ak6Ct5K_dopbsp_extras: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_extras.table.gz - 0.4 KB)
+0147.716 (0) Table Ak6Ct5K_dopbsp_extras_groups: Total expected rows (approximate): 2
+0147.722 (0) Table Ak6Ct5K_dopbsp_extras_groups: Total rows added: 2 in 0.00 seconds
+0147.726 (0) Table Ak6Ct5K_dopbsp_extras_groups: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_extras_groups.table.gz - 0.5 KB)
+0147.739 (0) Table Ak6Ct5K_dopbsp_extras_groups_items: Total expected rows (approximate): 9
+0147.744 (0) Table Ak6Ct5K_dopbsp_extras_groups_items: Total rows added: 9 in 0.00 seconds
+0147.747 (0) Table Ak6Ct5K_dopbsp_extras_groups_items: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_extras_groups_items.table.gz - 0.6 KB)
+0147.757 (0) Table Ak6Ct5K_dopbsp_fees: Total expected rows (approximate): 0
+0147.760 (0) Table Ak6Ct5K_dopbsp_fees: Total rows added: 0 in 0.00 seconds
+0147.763 (0) Table Ak6Ct5K_dopbsp_fees: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_fees.table.gz - 0.4 KB)
+0147.778 (0) Table Ak6Ct5K_dopbsp_forms: Total expected rows (approximate): 1
+0147.782 (0) Table Ak6Ct5K_dopbsp_forms: Total rows added: 1 in 0.00 seconds
+0147.785 (0) Table Ak6Ct5K_dopbsp_forms: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_forms.table.gz - 0.4 KB)
+0147.796 (0) Table Ak6Ct5K_dopbsp_forms_fields: Total expected rows (approximate): 5
+0147.801 (0) Table Ak6Ct5K_dopbsp_forms_fields: Total rows added: 5 in 0.00 seconds
+0147.804 (0) Table Ak6Ct5K_dopbsp_forms_fields: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_forms_fields.table.gz - 0.6 KB)
+0147.817 (0) Table Ak6Ct5K_dopbsp_forms_select_options: Total expected rows (approximate): 0
+0147.822 (0) Table Ak6Ct5K_dopbsp_forms_select_options: Total rows added: 0 in 0.00 seconds
+0147.826 (0) Table Ak6Ct5K_dopbsp_forms_select_options: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_forms_select_options.table.gz - 0.4 KB)
+0147.837 (0) Table Ak6Ct5K_dopbsp_languages: Total expected rows (approximate): 56
+0147.845 (0) Table Ak6Ct5K_dopbsp_languages: Total rows added: 56 in 0.00 seconds
+0147.857 (0) Table Ak6Ct5K_dopbsp_languages: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_languages.table.gz - 1.5 KB)
+0147.872 (0) Table Ak6Ct5K_dopbsp_locations: Total expected rows (approximate): 1
+0147.876 (0) Table Ak6Ct5K_dopbsp_locations: Total rows added: 1 in 0.00 seconds
+0147.883 (0) Table Ak6Ct5K_dopbsp_locations: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_locations.table.gz - 0.5 KB)
+0147.895 (0) Table Ak6Ct5K_dopbsp_models: Total expected rows (approximate): 0
+0147.901 (0) Table Ak6Ct5K_dopbsp_models: Total rows added: 0 in 0.00 seconds
+0147.906 (0) Table Ak6Ct5K_dopbsp_models: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_models.table.gz - 0.4 KB)
+0147.919 (0) Table Ak6Ct5K_dopbsp_reservations: Total expected rows (approximate): 0
+0147.926 (0) Table Ak6Ct5K_dopbsp_reservations: Total rows added: 0 in 0.00 seconds
+0147.931 (0) Table Ak6Ct5K_dopbsp_reservations: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_reservations.table.gz - 0.8 KB)
+0147.944 (0) Table Ak6Ct5K_dopbsp_rules: Total expected rows (approximate): 0
+0147.949 (0) Table Ak6Ct5K_dopbsp_rules: Total rows added: 0 in 0.00 seconds
+0147.951 (0) Table Ak6Ct5K_dopbsp_rules: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_rules.table.gz - 0.4 KB)
+0147.963 (0) Table Ak6Ct5K_dopbsp_searches: Total expected rows (approximate): 0
+0147.967 (0) Table Ak6Ct5K_dopbsp_searches: Total rows added: 0 in 0.00 seconds
+0147.970 (0) Table Ak6Ct5K_dopbsp_searches: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_searches.table.gz - 0.4 KB)
+0147.979 (0) Table Ak6Ct5K_dopbsp_settings: Total expected rows (approximate): 0
+0147.983 (0) Table Ak6Ct5K_dopbsp_settings: Total rows added: 0 in 0.00 seconds
+0147.986 (0) Table Ak6Ct5K_dopbsp_settings: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_settings.table.gz - 0.4 KB)
+0147.996 (0) Table Ak6Ct5K_dopbsp_settings_calendar: Total expected rows (approximate): 3
+0147.999 (0) Table Ak6Ct5K_dopbsp_settings_calendar: Total rows added: 3 in 0.00 seconds
+0148.002 (0) Table Ak6Ct5K_dopbsp_settings_calendar: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_settings_calendar.table.gz - 0.5 KB)
+0148.014 (0) Table Ak6Ct5K_dopbsp_settings_notifications: Total expected rows (approximate): 2
+0148.019 (0) Table Ak6Ct5K_dopbsp_settings_notifications: Total rows added: 2 in 0.00 seconds
+0148.022 (0) Table Ak6Ct5K_dopbsp_settings_notifications: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_settings_notifications.table.gz - 0.5 KB)
+0148.033 (0) Table Ak6Ct5K_dopbsp_settings_payment: Total expected rows (approximate): 1
+0148.038 (0) Table Ak6Ct5K_dopbsp_settings_payment: Total rows added: 1 in 0.00 seconds
+0148.042 (0) Table Ak6Ct5K_dopbsp_settings_payment: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_settings_payment.table.gz - 0.4 KB)
+0148.057 (0) Table Ak6Ct5K_dopbsp_settings_search: Total expected rows (approximate): 0
+0148.061 (0) Table Ak6Ct5K_dopbsp_settings_search: Total rows added: 0 in 0.00 seconds
+0148.063 (0) Table Ak6Ct5K_dopbsp_settings_search: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_settings_search.table.gz - 0.4 KB)
+0148.073 (0) Table Ak6Ct5K_dopbsp_smses: Total expected rows (approximate): 1
+0148.078 (0) Table Ak6Ct5K_dopbsp_smses: Total rows added: 1 in 0.00 seconds
+0148.082 (0) Table Ak6Ct5K_dopbsp_smses: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_smses.table.gz - 0.4 KB)
+0148.092 (0) Table Ak6Ct5K_dopbsp_smses_translation: Total expected rows (approximate): 7
+0148.097 (0) Table Ak6Ct5K_dopbsp_smses_translation: Total rows added: 7 in 0.00 seconds
+0148.101 (0) Table Ak6Ct5K_dopbsp_smses_translation: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_smses_translation.table.gz - 0.6 KB)
+0148.112 (0) Table Ak6Ct5K_dopbsp_translation_en: Total expected rows (approximate): 1655
+0148.159 (0) Table Ak6Ct5K_dopbsp_translation_en: Total rows added: 1655 in 0.04 seconds
+0148.164 (0) Table Ak6Ct5K_dopbsp_translation_en: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_translation_en.table.gz - 35.1 KB)
+0148.173 (0) Table Ak6Ct5K_dopbsp_woocommerce: Total expected rows (approximate): 0
+0148.176 (0) Table Ak6Ct5K_dopbsp_woocommerce: Total rows added: 0 in 0.00 seconds
+0148.179 (0) Table Ak6Ct5K_dopbsp_woocommerce: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_woocommerce.table.gz - 0.5 KB)
+0148.188 (0) Table Ak6Ct5K_frmt_form_entry: Total expected rows (approximate): 3
+0148.192 (0) Table Ak6Ct5K_frmt_form_entry: Total rows added: 3 in 0.00 seconds
+0148.195 (0) Table Ak6Ct5K_frmt_form_entry: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_frmt_form_entry.table.gz - 0.5 KB)
+0148.204 (0) Table Ak6Ct5K_frmt_form_entry_meta: Total expected rows (approximate): 22
+0148.208 (0) Table Ak6Ct5K_frmt_form_entry_meta: Total rows added: 22 in 0.00 seconds
+0148.211 (0) Table Ak6Ct5K_frmt_form_entry_meta: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_frmt_form_entry_meta.table.gz - 1.9 KB)
+0148.220 (0) Table Ak6Ct5K_frmt_form_views: Total expected rows (approximate): 438
+0148.230 (0) Table Ak6Ct5K_frmt_form_views: Total rows added: 438 in 0.01 seconds
+0148.233 (0) Table Ak6Ct5K_frmt_form_views: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_frmt_form_views.table.gz - 5.3 KB)
+0148.244 (0) Table Ak6Ct5K_geodir_api_keys: Total expected rows (approximate): 0
+0148.248 (0) Table Ak6Ct5K_geodir_api_keys: Total rows added: 0 in 0.00 seconds
+0148.251 (0) Table Ak6Ct5K_geodir_api_keys: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_geodir_api_keys.table.gz - 0.4 KB)
+0148.260 (0) Table Ak6Ct5K_geodir_attachments: Total expected rows (approximate): 1
+0148.266 (0) Table Ak6Ct5K_geodir_attachments: Total rows added: 1 in 0.00 seconds
+0148.268 (0) Table Ak6Ct5K_geodir_attachments: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_geodir_attachments.table.gz - 1 KB)
+0148.284 (0) Table Ak6Ct5K_geodir_business_hours: Total expected rows (approximate): 0
+0148.289 (0) Table Ak6Ct5K_geodir_business_hours: Total rows added: 0 in 0.00 seconds
+0148.292 (0) Table Ak6Ct5K_geodir_business_hours: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_geodir_business_hours.table.gz - 0.3 KB)
+0148.306 (0) Table Ak6Ct5K_geodir_custom_fields: Total expected rows (approximate): 6
+0148.315 (0) Table Ak6Ct5K_geodir_custom_fields: Total rows added: 6 in 0.00 seconds
+0148.318 (0) Table Ak6Ct5K_geodir_custom_fields: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_geodir_custom_fields.table.gz - 1.3 KB)
+0148.328 (0) Table Ak6Ct5K_geodir_custom_sort_fields: Total expected rows (approximate): 0
+0148.332 (0) Table Ak6Ct5K_geodir_custom_sort_fields: Total rows added: 0 in 0.00 seconds
+0148.335 (0) Table Ak6Ct5K_geodir_custom_sort_fields: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_geodir_custom_sort_fields.table.gz - 0.4 KB)
+0148.352 (0) Table Ak6Ct5K_geodir_gd_place_detail: Total expected rows (approximate): 5
+0148.356 (0) Table Ak6Ct5K_geodir_gd_place_detail: Total rows added: 5 in 0.00 seconds
+0148.359 (0) Table Ak6Ct5K_geodir_gd_place_detail: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_geodir_gd_place_detail.table.gz - 0.8 KB)
+0148.373 (0) Table Ak6Ct5K_geodir_post_review: Total expected rows (approximate): 0
+0148.377 (0) Table Ak6Ct5K_geodir_post_review: Total rows added: 0 in 0.00 seconds
+0148.379 (0) Table Ak6Ct5K_geodir_post_review: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_geodir_post_review.table.gz - 0.4 KB)
+0148.391 (0) Table Ak6Ct5K_geodir_tabs_layout: Total expected rows (approximate): 4
+0148.394 (0) Table Ak6Ct5K_geodir_tabs_layout: Total rows added: 4 in 0.00 seconds
+0148.396 (0) Table Ak6Ct5K_geodir_tabs_layout: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_geodir_tabs_layout.table.gz - 0.7 KB)
+0148.407 (0) Table Ak6Ct5K_litespeed_img_optm: Total expected rows (approximate): 0
+0148.411 (0) Table Ak6Ct5K_litespeed_img_optm: Total rows added: 0 in 0.00 seconds
+0148.413 (0) Table Ak6Ct5K_litespeed_img_optm: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_litespeed_img_optm.table.gz - 0.5 KB)
+0148.424 (0) Table Ak6Ct5K_litespeed_optimizer: Total expected rows (approximate): 300
+0148.432 (0) Table Ak6Ct5K_litespeed_optimizer: Total rows added: 300 in 0.00 seconds
+0148.434 (0) Table Ak6Ct5K_litespeed_optimizer: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_litespeed_optimizer.table.gz - 5.3 KB)
+0148.445 (0) Table Ak6Ct5K_mondula_form_wizards: Total expected rows (approximate): 1
+0148.456 (0) Table Ak6Ct5K_mondula_form_wizards: Total rows added: 1 in 0.01 seconds
+0148.459 (0) Table Ak6Ct5K_mondula_form_wizards: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_mondula_form_wizards.table.gz - 0.8 KB)
+0148.467 (0) Table Ak6Ct5K_mphb_sync_logs: Total expected rows (approximate): 0
+0148.471 (0) Table Ak6Ct5K_mphb_sync_logs: Total rows added: 0 in 0.00 seconds
+0148.473 (0) Table Ak6Ct5K_mphb_sync_logs: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_mphb_sync_logs.table.gz - 0.3 KB)
+0148.485 (0) Table Ak6Ct5K_mphb_sync_queue: Total expected rows (approximate): 0
+0148.490 (0) Table Ak6Ct5K_mphb_sync_queue: Total rows added: 0 in 0.00 seconds
+0148.494 (0) Table Ak6Ct5K_mphb_sync_queue: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_mphb_sync_queue.table.gz - 0.3 KB)
+0148.504 (0) Table Ak6Ct5K_mphb_sync_stats: Total expected rows (approximate): 0
+0148.508 (0) Table Ak6Ct5K_mphb_sync_stats: Total rows added: 0 in 0.00 seconds
+0148.513 (0) Table Ak6Ct5K_mphb_sync_stats: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_mphb_sync_stats.table.gz - 0.3 KB)
+0148.523 (0) Table Ak6Ct5K_mphb_sync_urls: Total expected rows (approximate): 0
+0148.527 (0) Table Ak6Ct5K_mphb_sync_urls: Total rows added: 0 in 0.00 seconds
+0148.530 (0) Table Ak6Ct5K_mphb_sync_urls: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_mphb_sync_urls.table.gz - 0.3 KB)
+0148.539 (0) Table Ak6Ct5K_nf3_action_meta: Total expected rows (approximate): 78
+0148.545 (0) Table Ak6Ct5K_nf3_action_meta: Total rows added: 78 in 0.00 seconds
+0148.547 (0) Table Ak6Ct5K_nf3_action_meta: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_action_meta.table.gz - 1.4 KB)
+0148.556 (0) Table Ak6Ct5K_nf3_actions: Total expected rows (approximate): 4
+0148.559 (0) Table Ak6Ct5K_nf3_actions: Total rows added: 4 in 0.00 seconds
+0148.562 (0) Table Ak6Ct5K_nf3_actions: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_actions.table.gz - 0.5 KB)
+0148.570 (0) Table Ak6Ct5K_nf3_chunks: Total expected rows (approximate): 0
+0148.573 (0) Table Ak6Ct5K_nf3_chunks: Total rows added: 0 in 0.00 seconds
+0148.575 (0) Table Ak6Ct5K_nf3_chunks: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_chunks.table.gz - 0.3 KB)
+0148.583 (0) Table Ak6Ct5K_nf3_field_meta: Total expected rows (approximate): 260
+0148.592 (0) Table Ak6Ct5K_nf3_field_meta: Total rows added: 260 in 0.01 seconds
+0148.594 (0) Table Ak6Ct5K_nf3_field_meta: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_field_meta.table.gz - 2.5 KB)
+0148.602 (0) Table Ak6Ct5K_nf3_fields: Total expected rows (approximate): 4
+0148.608 (0) Table Ak6Ct5K_nf3_fields: Total rows added: 4 in 0.00 seconds
+0148.611 (0) Table Ak6Ct5K_nf3_fields: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_fields.table.gz - 0.5 KB)
+0148.620 (0) Table Ak6Ct5K_nf3_form_meta: Total expected rows (approximate): 98
+0148.625 (0) Table Ak6Ct5K_nf3_form_meta: Total rows added: 98 in 0.00 seconds
+0148.629 (0) Table Ak6Ct5K_nf3_form_meta: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_form_meta.table.gz - 1.5 KB)
+0148.640 (0) Table Ak6Ct5K_nf3_forms: Total expected rows (approximate): 1
+0148.643 (0) Table Ak6Ct5K_nf3_forms: Total rows added: 1 in 0.00 seconds
+0148.646 (0) Table Ak6Ct5K_nf3_forms: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_forms.table.gz - 0.5 KB)
+0148.655 (0) Table Ak6Ct5K_nf3_object_meta: Total expected rows (approximate): 0
+0148.658 (0) Table Ak6Ct5K_nf3_object_meta: Total rows added: 0 in 0.00 seconds
+0148.660 (0) Table Ak6Ct5K_nf3_object_meta: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_object_meta.table.gz - 0.3 KB)
+0148.673 (0) Table Ak6Ct5K_nf3_objects: Total expected rows (approximate): 0
+0148.677 (0) Table Ak6Ct5K_nf3_objects: Total rows added: 0 in 0.00 seconds
+0148.681 (0) Table Ak6Ct5K_nf3_objects: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_objects.table.gz - 0.3 KB)
+0148.698 (0) Table Ak6Ct5K_nf3_relationships: Total expected rows (approximate): 0
+0148.704 (0) Table Ak6Ct5K_nf3_relationships: Total rows added: 0 in 0.00 seconds
+0148.707 (0) Table Ak6Ct5K_nf3_relationships: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_relationships.table.gz - 0.4 KB)
+0148.718 (0) Table Ak6Ct5K_nf3_upgrades: Total expected rows (approximate): 1
+0148.721 (0) Table Ak6Ct5K_nf3_upgrades: Total rows added: 1 in 0.00 seconds
+0148.723 (0) Table Ak6Ct5K_nf3_upgrades: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_upgrades.table.gz - 2.6 KB)
+0148.735 (0) Table Ak6Ct5K_review_ratings: Total expected rows (approximate): 0
+0148.739 (0) Table Ak6Ct5K_review_ratings: Total rows added: 0 in 0.00 seconds
+0148.742 (0) Table Ak6Ct5K_review_ratings: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_review_ratings.table.gz - 0.3 KB)
+0148.752 (0) Table Ak6Ct5K_revslider_css: Total expected rows (approximate): 62
+0148.759 (0) Table Ak6Ct5K_revslider_css: Total rows added: 62 in 0.00 seconds
+0148.763 (0) Table Ak6Ct5K_revslider_css: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_revslider_css.table.gz - 3.5 KB)
+0148.774 (0) Table Ak6Ct5K_revslider_layer_animations: Total expected rows (approximate): 0
+0148.780 (0) Table Ak6Ct5K_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0148.783 (0) Table Ak6Ct5K_revslider_layer_animations: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_revslider_layer_animations.table.gz - 0.3 KB)
+0148.794 (0) Table Ak6Ct5K_revslider_navigations: Total expected rows (approximate): 4
+0148.801 (0) Table Ak6Ct5K_revslider_navigations: Total rows added: 4 in 0.01 seconds
+0148.806 (0) Table Ak6Ct5K_revslider_navigations: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_revslider_navigations.table.gz - 5.4 KB)
+0148.816 (0) Table Ak6Ct5K_revslider_sliders: Total expected rows (approximate): 23
+0148.832 (0) Table Ak6Ct5K_revslider_sliders: Total rows added: 26 in 0.01 seconds
+0148.835 (0) Table Ak6Ct5K_revslider_sliders: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_revslider_sliders.table.gz - 9.1 KB)
+0148.844 (0) Table Ak6Ct5K_revslider_slides: Total expected rows (approximate): 37
+0148.950 (0) Table Ak6Ct5K_revslider_slides: Total rows added: 76 in 0.10 seconds
+0148.955 (0) Table Ak6Ct5K_revslider_slides: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_revslider_slides.table.gz - 123.3 KB)
+0148.964 (0) Table Ak6Ct5K_revslider_static_slides: Total expected rows (approximate): 2
+0148.969 (0) Table Ak6Ct5K_revslider_static_slides: Total rows added: 2 in 0.00 seconds
+0148.972 (0) Table Ak6Ct5K_revslider_static_slides: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_revslider_static_slides.table.gz - 0.4 KB)
+0148.980 (0) Table Ak6Ct5K_smush_dir_images: Total expected rows (approximate): 0
+0148.984 (0) Table Ak6Ct5K_smush_dir_images: Total rows added: 0 in 0.00 seconds
+0148.987 (0) Table Ak6Ct5K_smush_dir_images: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_smush_dir_images.table.gz - 0.4 KB)
+0148.995 (0) Table Ak6Ct5K_socialsnap_stats: Total expected rows (approximate): 4
+0149.001 (0) Table Ak6Ct5K_socialsnap_stats: Total rows added: 4 in 0.00 seconds
+0149.003 (0) Table Ak6Ct5K_socialsnap_stats: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_socialsnap_stats.table.gz - 0.6 KB)
+0149.012 (0) Table Ak6Ct5K_tour_bookings: Total expected rows (approximate): 5
+0149.017 (0) Table Ak6Ct5K_tour_bookings: Total rows added: 5 in 0.00 seconds
+0149.021 (0) Table Ak6Ct5K_tour_bookings: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_tour_bookings.table.gz - 0.9 KB)
+0149.029 (0) Table Ak6Ct5K_tour_dates: Total expected rows (approximate): 4
+0149.033 (0) Table Ak6Ct5K_tour_dates: Total rows added: 4 in 0.00 seconds
+0149.037 (0) Table Ak6Ct5K_tour_dates: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_tour_dates.table.gz - 0.5 KB)
+0149.049 (0) Table Ak6Ct5K_tour_times: Total expected rows (approximate): 0
+0149.052 (0) Table Ak6Ct5K_tour_times: Total rows added: 0 in 0.00 seconds
+0149.054 (0) Table Ak6Ct5K_tour_times: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_tour_times.table.gz - 0.3 KB)
+0149.065 (0) Table Ak6Ct5K_uwp_form_extras: Total expected rows (approximate): 5
+0149.067 (0) Table Ak6Ct5K_uwp_form_extras: Total rows added: 5 in 0.00 seconds
+0149.070 (0) Table Ak6Ct5K_uwp_form_extras: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_uwp_form_extras.table.gz - 0.7 KB)
+0149.080 (0) Table Ak6Ct5K_uwp_form_fields: Total expected rows (approximate): 17
+0149.085 (0) Table Ak6Ct5K_uwp_form_fields: Total rows added: 17 in 0.00 seconds
+0149.090 (0) Table Ak6Ct5K_uwp_form_fields: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_uwp_form_fields.table.gz - 1.1 KB)
+0149.100 (0) Table Ak6Ct5K_wc_admin_note_actions: Total expected rows (approximate): 0
+0149.104 (0) Table Ak6Ct5K_wc_admin_note_actions: Total rows added: 0 in 0.00 seconds
+0149.107 (0) Table Ak6Ct5K_wc_admin_note_actions: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_admin_note_actions.table.gz - 0.4 KB)
+0149.116 (0) Table Ak6Ct5K_wc_admin_notes: Total expected rows (approximate): 0
+0149.118 (0) Table Ak6Ct5K_wc_admin_notes: Total rows added: 0 in 0.00 seconds
+0149.120 (0) Table Ak6Ct5K_wc_admin_notes: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_admin_notes.table.gz - 0.4 KB)
+0149.131 (0) Table Ak6Ct5K_wc_category_lookup: Total expected rows (approximate): 0
+0149.134 (0) Table Ak6Ct5K_wc_category_lookup: Total rows added: 0 in 0.00 seconds
+0149.136 (0) Table Ak6Ct5K_wc_category_lookup: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_category_lookup.table.gz - 0.3 KB)
+0149.147 (0) Table Ak6Ct5K_wc_customer_lookup: Total expected rows (approximate): 0
+0149.150 (0) Table Ak6Ct5K_wc_customer_lookup: Total rows added: 0 in 0.00 seconds
+0149.151 (0) Table Ak6Ct5K_wc_customer_lookup: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_customer_lookup.table.gz - 0.5 KB)
+0149.160 (0) Table Ak6Ct5K_wc_download_log: Total expected rows (approximate): 0
+0149.165 (0) Table Ak6Ct5K_wc_download_log: Total rows added: 0 in 0.00 seconds
+0149.167 (0) Table Ak6Ct5K_wc_download_log: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_download_log.table.gz - 0.4 KB)
+0149.176 (0) Table Ak6Ct5K_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0149.179 (0) Table Ak6Ct5K_wc_order_coupon_lookup: Total rows added: 0 in 0.00 seconds
+0149.181 (0) Table Ak6Ct5K_wc_order_coupon_lookup: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_order_coupon_lookup.table.gz - 0.4 KB)
+0149.189 (0) Table Ak6Ct5K_wc_order_product_lookup: Total expected rows (approximate): 0
+0149.191 (0) Table Ak6Ct5K_wc_order_product_lookup: Total rows added: 0 in 0.00 seconds
+0149.194 (0) Table Ak6Ct5K_wc_order_product_lookup: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_order_product_lookup.table.gz - 0.4 KB)
+0149.203 (0) Table Ak6Ct5K_wc_order_stats: Total expected rows (approximate): 0
+0149.206 (0) Table Ak6Ct5K_wc_order_stats: Total rows added: 0 in 0.00 seconds
+0149.207 (0) Table Ak6Ct5K_wc_order_stats: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_order_stats.table.gz - 0.5 KB)
+0149.216 (0) Table Ak6Ct5K_wc_order_tax_lookup: Total expected rows (approximate): 0
+0149.220 (0) Table Ak6Ct5K_wc_order_tax_lookup: Total rows added: 0 in 0.00 seconds
+0149.222 (0) Table Ak6Ct5K_wc_order_tax_lookup: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_order_tax_lookup.table.gz - 0.4 KB)
+0149.231 (0) Table Ak6Ct5K_wc_product_meta_lookup: Total expected rows (approximate): 23
+0149.237 (0) Table Ak6Ct5K_wc_product_meta_lookup: Total rows added: 23 in 0.00 seconds
+0149.240 (0) Table Ak6Ct5K_wc_product_meta_lookup: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_product_meta_lookup.table.gz - 0.7 KB)
+0149.247 (0) Table Ak6Ct5K_wc_tax_rate_classes: Total expected rows (approximate): 2
+0149.251 (0) Table Ak6Ct5K_wc_tax_rate_classes: Total rows added: 2 in 0.00 seconds
+0149.254 (0) Table Ak6Ct5K_wc_tax_rate_classes: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_tax_rate_classes.table.gz - 0.4 KB)
+0149.265 (0) Table Ak6Ct5K_wc_webhooks: Total expected rows (approximate): 0
+0149.268 (0) Table Ak6Ct5K_wc_webhooks: Total rows added: 0 in 0.00 seconds
+0149.270 (0) Table Ak6Ct5K_wc_webhooks: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_webhooks.table.gz - 0.5 KB)
+0149.283 (0) Table Ak6Ct5K_wdi_feeds: Total expected rows (approximate): 1
+0149.290 (0) Table Ak6Ct5K_wdi_feeds: Total rows added: 1 in 0.00 seconds
+0149.292 (0) Table Ak6Ct5K_wdi_feeds: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wdi_feeds.table.gz - 1.1 KB)
+0149.305 (0) Table Ak6Ct5K_wdi_themes: Total expected rows (approximate): 2
+0149.312 (0) Table Ak6Ct5K_wdi_themes: Total rows added: 2 in 0.00 seconds
+0149.316 (0) Table Ak6Ct5K_wdi_themes: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wdi_themes.table.gz - 2.3 KB)
+0149.325 (0) Table Ak6Ct5K_wfblockediplog: Total expected rows (approximate): 0
+0149.331 (0) Table Ak6Ct5K_wfblockediplog: Total rows added: 0 in 0.00 seconds
+0149.334 (0) Table Ak6Ct5K_wfblockediplog: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfblockediplog.table.gz - 0.3 KB)
+0149.345 (0) Table Ak6Ct5K_wfblocks7: Total expected rows (approximate): 0
+0149.349 (0) Table Ak6Ct5K_wfblocks7: Total rows added: 0 in 0.00 seconds
+0149.351 (0) Table Ak6Ct5K_wfblocks7: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfblocks7.table.gz - 0.4 KB)
+0149.362 (0) Table Ak6Ct5K_wfconfig: Total expected rows (approximate): 248
+0149.400 (0) Table Ak6Ct5K_wfconfig: Total rows added: 251 in 0.03 seconds
+0149.403 (0) Table Ak6Ct5K_wfconfig: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfconfig.table.gz - 373.2 KB)
+0149.412 (0) Table Ak6Ct5K_wfcrawlers: Total expected rows (approximate): 0
+0149.417 (0) Table Ak6Ct5K_wfcrawlers: Total rows added: 0 in 0.00 seconds
+0149.420 (0) Table Ak6Ct5K_wfcrawlers: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfcrawlers.table.gz - 0.3 KB)
+0149.428 (0) Table Ak6Ct5K_wffilechanges: Total expected rows (approximate): 0
+0149.433 (0) Table Ak6Ct5K_wffilechanges: Total rows added: 0 in 0.00 seconds
+0149.435 (0) Table Ak6Ct5K_wffilechanges: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wffilechanges.table.gz - 0.3 KB)
+0149.443 (0) Table Ak6Ct5K_wffilemods: Total expected rows (approximate): 11101
+0149.815 (0) Table Ak6Ct5K_wffilemods: Total rows added: 10764 in 0.37 seconds
+0149.819 (0) Table Ak6Ct5K_wffilemods: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wffilemods.table.gz - 949.1 KB)
+0149.829 (0) Table Ak6Ct5K_wfhits: Total expected rows (approximate): 5
+0149.836 (0) Table Ak6Ct5K_wfhits: Total rows added: 5 in 0.00 seconds
+0149.839 (0) Table Ak6Ct5K_wfhits: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfhits.table.gz - 0.9 KB)
+0149.849 (0) Table Ak6Ct5K_wfhoover: Total expected rows (approximate): 0
+0149.853 (0) Table Ak6Ct5K_wfhoover: Total rows added: 0 in 0.00 seconds
+0149.858 (0) Table Ak6Ct5K_wfhoover: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfhoover.table.gz - 0.3 KB)
+0149.867 (0) Table Ak6Ct5K_wfissues: Total expected rows (approximate): 11
+0149.872 (0) Table Ak6Ct5K_wfissues: Total rows added: 11 in 0.00 seconds
+0149.875 (0) Table Ak6Ct5K_wfissues: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfissues.table.gz - 3.8 KB)
+0149.884 (0) Table Ak6Ct5K_wfknownfilelist: Total expected rows (approximate): 10489
+0150.035 (0) Table Ak6Ct5K_wfknownfilelist: Total rows added: 10764 in 0.15 seconds
+0150.038 (0) Table Ak6Ct5K_wfknownfilelist: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfknownfilelist.table.gz - 108 KB)
+0150.052 (0) Table Ak6Ct5K_wflivetraffichuman: Total expected rows (approximate): 0
+0150.056 (0) Table Ak6Ct5K_wflivetraffichuman: Total rows added: 0 in 0.00 seconds
+0150.059 (0) Table Ak6Ct5K_wflivetraffichuman: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wflivetraffichuman.table.gz - 0.3 KB)
+0150.072 (0) Table Ak6Ct5K_wflocs: Total expected rows (approximate): 3
+0150.077 (0) Table Ak6Ct5K_wflocs: Total rows added: 3 in 0.00 seconds
+0150.080 (0) Table Ak6Ct5K_wflocs: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wflocs.table.gz - 0.5 KB)
+0150.089 (0) Table Ak6Ct5K_wflogins: Total expected rows (approximate): 4
+0150.093 (0) Table Ak6Ct5K_wflogins: Total rows added: 4 in 0.00 seconds
+0150.095 (0) Table Ak6Ct5K_wflogins: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wflogins.table.gz - 0.6 KB)
+0150.105 (0) Table Ak6Ct5K_wfls_2fa_secrets: Total expected rows (approximate): 0
+0150.108 (0) Table Ak6Ct5K_wfls_2fa_secrets: Total rows added: 0 in 0.00 seconds
+0150.110 (0) Table Ak6Ct5K_wfls_2fa_secrets: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfls_2fa_secrets.table.gz - 0.4 KB)
+0150.120 (0) Table Ak6Ct5K_wfls_settings: Total expected rows (approximate): 19
+0150.125 (0) Table Ak6Ct5K_wfls_settings: Total rows added: 19 in 0.00 seconds
+0150.133 (0) Table Ak6Ct5K_wfls_settings: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfls_settings.table.gz - 0.7 KB)
+0150.148 (0) Table Ak6Ct5K_wfnotifications: Total expected rows (approximate): 2
+0150.153 (0) Table Ak6Ct5K_wfnotifications: Total rows added: 2 in 0.00 seconds
+0150.156 (0) Table Ak6Ct5K_wfnotifications: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfnotifications.table.gz - 0.5 KB)
+0150.167 (0) Table Ak6Ct5K_wfpendingissues: Total expected rows (approximate): 0
+0150.171 (0) Table Ak6Ct5K_wfpendingissues: Total rows added: 0 in 0.00 seconds
+0150.175 (0) Table Ak6Ct5K_wfpendingissues: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfpendingissues.table.gz - 0.4 KB)
+0150.186 (0) Table Ak6Ct5K_wfreversecache: Total expected rows (approximate): 3
+0150.189 (0) Table Ak6Ct5K_wfreversecache: Total rows added: 3 in 0.00 seconds
+0150.190 (0) Table Ak6Ct5K_wfreversecache: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfreversecache.table.gz - 0.4 KB)
+0150.199 (0) Table Ak6Ct5K_wfsnipcache: Total expected rows (approximate): 1
+0150.203 (0) Table Ak6Ct5K_wfsnipcache: Total rows added: 1 in 0.00 seconds
+0150.207 (0) Table Ak6Ct5K_wfsnipcache: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfsnipcache.table.gz - 0.4 KB)
+0150.216 (0) Table Ak6Ct5K_wfstatus: Total expected rows (approximate): 242
+0150.227 (0) Table Ak6Ct5K_wfstatus: Total rows added: 242 in 0.01 seconds
+0150.231 (0) Table Ak6Ct5K_wfstatus: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfstatus.table.gz - 5 KB)
+0150.240 (0) Table Ak6Ct5K_wftrafficrates: Total expected rows (approximate): 0
+0150.244 (0) Table Ak6Ct5K_wftrafficrates: Total rows added: 0 in 0.00 seconds
+0150.247 (0) Table Ak6Ct5K_wftrafficrates: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wftrafficrates.table.gz - 0.3 KB)
+0150.258 (0) Table Ak6Ct5K_woocommerce_api_keys: Total expected rows (approximate): 0
+0150.261 (0) Table Ak6Ct5K_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0150.262 (0) Table Ak6Ct5K_woocommerce_api_keys: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_api_keys.table.gz - 0.4 KB)
+0150.273 (0) Table Ak6Ct5K_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0150.277 (0) Table Ak6Ct5K_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0150.279 (0) Table Ak6Ct5K_woocommerce_attribute_taxonomies: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0150.288 (0) Table Ak6Ct5K_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0150.292 (0) Table Ak6Ct5K_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0150.295 (0) Table Ak6Ct5K_woocommerce_downloadable_product_permissions: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0150.305 (0) Table Ak6Ct5K_woocommerce_log: Total expected rows (approximate): 0
+0150.309 (0) Table Ak6Ct5K_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0150.310 (0) Table Ak6Ct5K_woocommerce_log: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_log.table.gz - 0.4 KB)
+0150.320 (0) Table Ak6Ct5K_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0150.325 (0) Table Ak6Ct5K_woocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0150.327 (0) Table Ak6Ct5K_woocommerce_order_itemmeta: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0150.339 (0) Table Ak6Ct5K_woocommerce_order_items: Total expected rows (approximate): 0
+0150.342 (0) Table Ak6Ct5K_woocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0150.344 (0) Table Ak6Ct5K_woocommerce_order_items: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_order_items.table.gz - 0.4 KB)
+0150.373 (0) Table Ak6Ct5K_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0150.376 (0) Table Ak6Ct5K_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0150.378 (0) Table Ak6Ct5K_woocommerce_payment_tokenmeta: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0150.387 (0) Table Ak6Ct5K_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0150.391 (0) Table Ak6Ct5K_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0150.394 (0) Table Ak6Ct5K_woocommerce_payment_tokens: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0150.404 (0) Table Ak6Ct5K_woocommerce_sessions: Total expected rows (approximate): 1
+0150.408 (0) Table Ak6Ct5K_woocommerce_sessions: Total rows added: 1 in 0.00 seconds
+0150.410 (0) Table Ak6Ct5K_woocommerce_sessions: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_sessions.table.gz - 0.8 KB)
+0150.419 (0) Table Ak6Ct5K_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0150.422 (0) Table Ak6Ct5K_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0150.424 (0) Table Ak6Ct5K_woocommerce_shipping_zone_locations: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0150.445 (0) Table Ak6Ct5K_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0150.450 (0) Table Ak6Ct5K_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0150.452 (0) Table Ak6Ct5K_woocommerce_shipping_zone_methods: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0150.461 (0) Table Ak6Ct5K_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0150.464 (0) Table Ak6Ct5K_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0150.466 (0) Table Ak6Ct5K_woocommerce_shipping_zones: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0150.477 (0) Table Ak6Ct5K_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0150.480 (0) Table Ak6Ct5K_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0150.483 (0) Table Ak6Ct5K_woocommerce_tax_rate_locations: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0150.494 (0) Table Ak6Ct5K_woocommerce_tax_rates: Total expected rows (approximate): 0
+0150.498 (0) Table Ak6Ct5K_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0150.499 (0) Table Ak6Ct5K_woocommerce_tax_rates: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_tax_rates.table.gz - 0.4 KB)
+0150.512 (0) Table Ak6Ct5K_wpfm_backup: Total expected rows (approximate): 0
+0150.515 (0) Table Ak6Ct5K_wpfm_backup: Total rows added: 0 in 0.00 seconds
+0150.518 (0) Table Ak6Ct5K_wpfm_backup: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wpfm_backup.table.gz - 0.3 KB)
+0150.525 (0) Table Ak6Ct5K_yoast_seo_links: Total expected rows (approximate): 0
+0150.528 (0) Table Ak6Ct5K_yoast_seo_links: Total rows added: 0 in 0.00 seconds
+0150.531 (0) Table Ak6Ct5K_yoast_seo_links: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_yoast_seo_links.table.gz - 0.4 KB)
+0150.540 (0) Table Ak6Ct5K_yoast_seo_meta: Total expected rows (approximate): 2279
+0150.552 (0) Table Ak6Ct5K_yoast_seo_meta: Total rows added: 2279 in 0.01 seconds
+0150.554 (0) Table Ak6Ct5K_yoast_seo_meta: finishing file (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_yoast_seo_meta.table.gz - 6.3 KB)
+0150.558 (0) Skipping table (lacks our prefix (Ak6Ct5K_)): kdvFBWA0E_commentmeta
+0150.559 (0) Skipping table (lacks our prefix (Ak6Ct5K_)): kdvFBWA0E_comments
+0150.561 (0) Skipping table (lacks our prefix (Ak6Ct5K_)): kdvFBWA0E_links
+0150.562 (0) Skipping table (lacks our prefix (Ak6Ct5K_)): kdvFBWA0E_options
+0150.564 (0) Skipping table (lacks our prefix (Ak6Ct5K_)): kdvFBWA0E_postmeta
+0150.566 (0) Skipping table (lacks our prefix (Ak6Ct5K_)): kdvFBWA0E_posts
+0150.567 (0) Skipping table (lacks our prefix (Ak6Ct5K_)): kdvFBWA0E_term_relationships
+0150.570 (0) Skipping table (lacks our prefix (Ak6Ct5K_)): kdvFBWA0E_term_taxonomy
+0150.571 (0) Skipping table (lacks our prefix (Ak6Ct5K_)): kdvFBWA0E_termmeta
+0150.573 (0) Skipping table (lacks our prefix (Ak6Ct5K_)): kdvFBWA0E_terms
+0150.574 (0) Skipping table (lacks our prefix (Ak6Ct5K_)): kdvFBWA0E_usermeta
+0150.575 (0) Skipping table (lacks our prefix (Ak6Ct5K_)): kdvFBWA0E_users
+0150.580 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_options.table.gz (1/157): adding to final database dump
+0150.687 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_users.table.gz (2/157): adding to final database dump
+0150.690 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_usermeta.table.gz (3/157): adding to final database dump
+0150.694 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_commentmeta.table.gz (4/157): adding to final database dump
+0150.697 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_comments.table.gz (5/157): adding to final database dump
+0150.699 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_links.table.gz (6/157): adding to final database dump
+0150.701 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_postmeta.table.gz (7/157): adding to final database dump
+0152.629 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_posts.table.gz (8/157): adding to final database dump
+0153.327 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_term_relationships.table.gz (9/157): adding to final database dump
+0153.331 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_term_taxonomy.table.gz (10/157): adding to final database dump
+0153.337 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_termmeta.table.gz (11/157): adding to final database dump
+0153.340 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_terms.table.gz (12/157): adding to final database dump
+0153.348 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_addonlibrary_addons.table.gz (13/157): adding to final database dump
+0153.352 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_addonlibrary_categories.table.gz (14/157): adding to final database dump
+0153.354 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_atbdp_review.table.gz (15/157): adding to final database dump
+0153.355 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_countries.table.gz (16/157): adding to final database dump
+0153.361 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_api_keys.table.gz (17/157): adding to final database dump
+0153.363 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_availability.table.gz (18/157): adding to final database dump
+0153.366 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_availability_no.table.gz (19/157): adding to final database dump
+0153.367 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_availability_price.table.gz (20/157): adding to final database dump
+0153.369 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_calendars.table.gz (21/157): adding to final database dump
+0153.371 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_coupons.table.gz (22/157): adding to final database dump
+0153.373 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_days.table.gz (23/157): adding to final database dump
+0153.375 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_discounts.table.gz (24/157): adding to final database dump
+0153.377 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_discounts_items.table.gz (25/157): adding to final database dump
+0153.378 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_discounts_items_rules.table.gz (26/157): adding to final database dump
+0153.379 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_emails.table.gz (27/157): adding to final database dump
+0153.382 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_emails_translation.table.gz (28/157): adding to final database dump
+0153.383 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_extras.table.gz (29/157): adding to final database dump
+0153.385 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_extras_groups.table.gz (30/157): adding to final database dump
+0153.386 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_extras_groups_items.table.gz (31/157): adding to final database dump
+0153.387 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_fees.table.gz (32/157): adding to final database dump
+0153.390 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_forms.table.gz (33/157): adding to final database dump
+0153.391 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_forms_fields.table.gz (34/157): adding to final database dump
+0153.393 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_forms_select_options.table.gz (35/157): adding to final database dump
+0153.394 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_languages.table.gz (36/157): adding to final database dump
+0153.396 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_locations.table.gz (37/157): adding to final database dump
+0153.398 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_models.table.gz (38/157): adding to final database dump
+0153.399 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_reservations.table.gz (39/157): adding to final database dump
+0153.401 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_rules.table.gz (40/157): adding to final database dump
+0153.402 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_searches.table.gz (41/157): adding to final database dump
+0153.403 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_settings.table.gz (42/157): adding to final database dump
+0153.405 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_settings_calendar.table.gz (43/157): adding to final database dump
+0153.406 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_settings_notifications.table.gz (44/157): adding to final database dump
+0153.407 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_settings_payment.table.gz (45/157): adding to final database dump
+0153.410 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_settings_search.table.gz (46/157): adding to final database dump
+0153.411 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_smses.table.gz (47/157): adding to final database dump
+0153.413 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_smses_translation.table.gz (48/157): adding to final database dump
+0153.414 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_translation_en.table.gz (49/157): adding to final database dump
+0153.426 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_dopbsp_woocommerce.table.gz (50/157): adding to final database dump
+0153.428 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_frmt_form_entry.table.gz (51/157): adding to final database dump
+0153.431 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_frmt_form_entry_meta.table.gz (52/157): adding to final database dump
+0153.434 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_frmt_form_views.table.gz (53/157): adding to final database dump
+0153.436 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_geodir_api_keys.table.gz (54/157): adding to final database dump
+0153.439 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_geodir_attachments.table.gz (55/157): adding to final database dump
+0153.441 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_geodir_business_hours.table.gz (56/157): adding to final database dump
+0153.442 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_geodir_custom_fields.table.gz (57/157): adding to final database dump
+0153.444 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_geodir_custom_sort_fields.table.gz (58/157): adding to final database dump
+0153.446 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_geodir_gd_place_detail.table.gz (59/157): adding to final database dump
+0153.448 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_geodir_post_review.table.gz (60/157): adding to final database dump
+0153.450 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_geodir_tabs_layout.table.gz (61/157): adding to final database dump
+0153.451 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_litespeed_img_optm.table.gz (62/157): adding to final database dump
+0153.454 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_litespeed_optimizer.table.gz (63/157): adding to final database dump
+0153.456 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_mondula_form_wizards.table.gz (64/157): adding to final database dump
+0153.458 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_mphb_sync_logs.table.gz (65/157): adding to final database dump
+0153.460 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_mphb_sync_queue.table.gz (66/157): adding to final database dump
+0153.462 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_mphb_sync_stats.table.gz (67/157): adding to final database dump
+0153.465 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_mphb_sync_urls.table.gz (68/157): adding to final database dump
+0153.466 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_action_meta.table.gz (69/157): adding to final database dump
+0153.468 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_actions.table.gz (70/157): adding to final database dump
+0153.470 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_chunks.table.gz (71/157): adding to final database dump
+0153.471 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_field_meta.table.gz (72/157): adding to final database dump
+0153.474 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_fields.table.gz (73/157): adding to final database dump
+0153.476 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_form_meta.table.gz (74/157): adding to final database dump
+0153.478 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_forms.table.gz (75/157): adding to final database dump
+0153.479 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_object_meta.table.gz (76/157): adding to final database dump
+0153.481 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_objects.table.gz (77/157): adding to final database dump
+0153.483 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_relationships.table.gz (78/157): adding to final database dump
+0153.485 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_nf3_upgrades.table.gz (79/157): adding to final database dump
+0153.487 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_review_ratings.table.gz (80/157): adding to final database dump
+0153.490 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_revslider_css.table.gz (81/157): adding to final database dump
+0153.492 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_revslider_layer_animations.table.gz (82/157): adding to final database dump
+0153.495 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_revslider_navigations.table.gz (83/157): adding to final database dump
+0153.498 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_revslider_sliders.table.gz (84/157): adding to final database dump
+0153.505 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_revslider_slides.table.gz (85/157): adding to final database dump
+0153.575 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_revslider_static_slides.table.gz (86/157): adding to final database dump
+0153.577 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_smush_dir_images.table.gz (87/157): adding to final database dump
+0153.578 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_socialsnap_stats.table.gz (88/157): adding to final database dump
+0153.579 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_tour_bookings.table.gz (89/157): adding to final database dump
+0153.582 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_tour_dates.table.gz (90/157): adding to final database dump
+0153.583 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_tour_times.table.gz (91/157): adding to final database dump
+0153.585 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_uwp_form_extras.table.gz (92/157): adding to final database dump
+0153.586 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_uwp_form_fields.table.gz (93/157): adding to final database dump
+0153.588 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_admin_note_actions.table.gz (94/157): adding to final database dump
+0153.590 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_admin_notes.table.gz (95/157): adding to final database dump
+0153.591 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_category_lookup.table.gz (96/157): adding to final database dump
+0153.593 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_customer_lookup.table.gz (97/157): adding to final database dump
+0153.594 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_download_log.table.gz (98/157): adding to final database dump
+0153.595 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_order_coupon_lookup.table.gz (99/157): adding to final database dump
+0153.599 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_order_product_lookup.table.gz (100/157): adding to final database dump
+0153.602 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_order_stats.table.gz (101/157): adding to final database dump
+0153.603 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_order_tax_lookup.table.gz (102/157): adding to final database dump
+0153.605 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_product_meta_lookup.table.gz (103/157): adding to final database dump
+0153.606 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_tax_rate_classes.table.gz (104/157): adding to final database dump
+0153.608 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wc_webhooks.table.gz (105/157): adding to final database dump
+0153.610 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wdi_feeds.table.gz (106/157): adding to final database dump
+0153.611 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wdi_themes.table.gz (107/157): adding to final database dump
+0153.615 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfblockediplog.table.gz (108/157): adding to final database dump
+0153.617 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfblocks7.table.gz (109/157): adding to final database dump
+0153.618 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfconfig.table.gz (110/157): adding to final database dump
+0153.647 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfcrawlers.table.gz (111/157): adding to final database dump
+0153.650 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wffilechanges.table.gz (112/157): adding to final database dump
+0153.651 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wffilemods.table.gz (113/157): adding to final database dump
+0153.780 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfhits.table.gz (114/157): adding to final database dump
+0153.782 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfhoover.table.gz (115/157): adding to final database dump
+0153.783 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfissues.table.gz (116/157): adding to final database dump
+0153.786 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfknownfilelist.table.gz (117/157): adding to final database dump
+0153.825 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wflivetraffichuman.table.gz (118/157): adding to final database dump
+0153.827 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wflocs.table.gz (119/157): adding to final database dump
+0153.829 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wflogins.table.gz (120/157): adding to final database dump
+0153.831 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfls_2fa_secrets.table.gz (121/157): adding to final database dump
+0153.833 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfls_settings.table.gz (122/157): adding to final database dump
+0153.834 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfnotifications.table.gz (123/157): adding to final database dump
+0153.835 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfpendingissues.table.gz (124/157): adding to final database dump
+0153.838 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfreversecache.table.gz (125/157): adding to final database dump
+0153.839 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfsnipcache.table.gz (126/157): adding to final database dump
+0153.841 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wfstatus.table.gz (127/157): adding to final database dump
+0153.844 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wftrafficrates.table.gz (128/157): adding to final database dump
+0153.847 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_api_keys.table.gz (129/157): adding to final database dump
+0153.848 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_attribute_taxonomies.table.gz (130/157): adding to final database dump
+0153.850 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_downloadable_product_permissions.table.gz (131/157): adding to final database dump
+0153.851 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_log.table.gz (132/157): adding to final database dump
+0153.853 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_order_itemmeta.table.gz (133/157): adding to final database dump
+0153.854 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_order_items.table.gz (134/157): adding to final database dump
+0153.856 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_payment_tokenmeta.table.gz (135/157): adding to final database dump
+0153.858 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_payment_tokens.table.gz (136/157): adding to final database dump
+0153.859 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_sessions.table.gz (137/157): adding to final database dump
+0153.861 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_shipping_zone_locations.table.gz (138/157): adding to final database dump
+0153.862 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_shipping_zone_methods.table.gz (139/157): adding to final database dump
+0153.863 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_shipping_zones.table.gz (140/157): adding to final database dump
+0153.865 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_tax_rate_locations.table.gz (141/157): adding to final database dump
+0153.866 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_woocommerce_tax_rates.table.gz (142/157): adding to final database dump
+0153.868 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_wpfm_backup.table.gz (143/157): adding to final database dump
+0153.870 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_yoast_seo_links.table.gz (144/157): adding to final database dump
+0153.871 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db-table-Ak6Ct5K_yoast_seo_meta.table.gz (145/157): adding to final database dump
+0153.877 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db.gz: finished writing out complete database file (9928 KB)
+0154.053 (0) Total database tables backed up: 145 (backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db.gz, size: 10178203, sha1: 71b8fe5305dd8567798a48ecc9fe7db3c4856871, sha256: fb63c7feb967a95ddba4e0a846d1e778ff1d3c8926ab86ed08290ff24c62a371)
+0154.067 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0154.070 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0154.071 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0154.073 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0154.074 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip: uploads: This file has not yet been successfully uploaded: will queue
+0154.075 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-others.zip: others: This file has not yet been successfully uploaded: will queue
+0154.077 (0) backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db.gz: db: This file has not yet been successfully uploaded: will queue
+0154.078 (0) Saving backup history. Total backup size: 1.1 GB
+0154.082 (0) Requesting upload of the files that have not yet been successfully uploaded (7)
+0154.090 (0) Cloud backup selection (1/1): s3 with instance (1/1) (last)
+0154.092 (0) Beginning dispatch of backup to remote (s3) (instance identifier s-2909e9694bd2896e462dae6c6bec319f)
+0154.436 (0) Amazon S3: Set region: us-west-1
+0154.439 (0) Amazon S3: upload (us-west-1): backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip (chunks: 9) -> s3://puntacanawellness/backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip
+0154.492 (0) Amazon S3: chunked upload: got multipart ID: hKygaCQAWiZmiWg8u4M3pc6K.tA4fkCmpDleOYj.v.KPM7EUmMekmOfhNxNhr0zVF8q.mvc8jjmkbRRpBhCHsdyAY5tUZRSAZDj9TVnHXrmU8yNj_oPDWt6Px7VU3LlG
+0154.724 (0) S3 chunked upload: 11.1 % uploaded (1, "b5e61b6885fcb515284316554bf79625")
+0154.982 (0) S3 chunked upload: 22.2 % uploaded (2, "795ef1a052f40459aaf091c5290b65f8")
+0155.194 (0) S3 chunked upload: 33.3 % uploaded (3, "abadcbf2aa75e90fa730cb21bbea5bf5")
+0155.394 (0) S3 chunked upload: 44.4 % uploaded (4, "e36a9798ae8383c85f07ae40da5fb103")
+0155.582 (0) S3 chunked upload: 55.6 % uploaded (5, "04454bf935f06a4a925ee4dcf321b92c")
+0155.790 (0) S3 chunked upload: 66.7 % uploaded (6, "028bd95c95182deec62d3ec0537b64f0")
+0156.005 (0) S3 chunked upload: 77.8 % uploaded (7, "c27126e40686e7f1892b38c76473e680")
+0156.211 (0) S3 chunked upload: 88.9 % uploaded (8, "cdf5e11f2716e910c322d76a74385bbd")
+0156.435 (0) S3 chunked upload: 100 % uploaded (9, "dbd157effa3f50c8c0591e8b625e0ff2")
+0156.439 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+0156.539 (0) Amazon S3: upload (plugins0): re-assembly succeeded
+0156.541 (0) Recording as successfully uploaded: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip
+0156.546 (0) Deleting local file: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-plugins.zip: OK
+0156.548 (0) Amazon S3: upload (us-west-1): backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-themes.zip (chunks: 9) -> s3://puntacanawellness/backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-themes.zip
+0156.560 (0) Amazon S3: chunked upload: got multipart ID: SYHfUTxndiPrVoQOSHhARs3YnDLP9YB.p9tO8FJCUBPICDFAJjh_esVPv.VMLlRumjFHKP2ymsjdJlWoSpUclgHNhljIHbNzknBWZnyrLnI9_u41zSkNDirzdT8OR7_3
+0156.767 (0) S3 chunked upload: 11.1 % uploaded (1, "615924b846ca49024a2d12f94aeb9503")
+0156.946 (0) S3 chunked upload: 22.2 % uploaded (2, "26ffa735abb01ebec201e07ca6b6f6e6")
+0157.134 (0) S3 chunked upload: 33.3 % uploaded (3, "b01cb322b5e90517d4bcf8df379549b5")
+0157.342 (0) S3 chunked upload: 44.4 % uploaded (4, "c7b1869e2542b18a6a78c77c02f4b929")
+0157.489 (0) S3 chunked upload: 55.6 % uploaded (5, "b0832e8b709e602bb75afe5ca0a341d7")
+0157.706 (0) S3 chunked upload: 66.7 % uploaded (6, "67e8aed8b9939aa2b2cbd41754d0bb9f")
+0157.922 (0) S3 chunked upload: 77.8 % uploaded (7, "5037dc54c1719140b9db10b9f73b0b88")
+0158.116 (0) S3 chunked upload: 88.9 % uploaded (8, "676ad57ea3d75603fb7046f8773b27a0")
+0158.211 (0) S3 chunked upload: 100 % uploaded (9, "362d7ef92393168a692257da5c1540f2")
+0158.219 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+0160.772 (0) Amazon S3: upload (themes0): re-assembly succeeded
+0160.775 (0) Recording as successfully uploaded: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-themes.zip
+0160.781 (0) Deleting local file: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-themes.zip: OK
+0160.784 (0) Amazon S3: upload (us-west-1): backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip (chunks: 80) -> s3://puntacanawellness/backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip
+0160.800 (0) Amazon S3: chunked upload: got multipart ID: _AwSmce8WlEGMPw0VWYaMs8_bcpw8qIppCnmknMyUVQMFZHKWEYXyTYls0j.nghNDgSW_3OWyWdvX3ZebqwHMOVif4oO8zz1SKlcBnDVHtrDY0Z2EQA_7xrLixWU2Xme
+0160.998 (0) S3 chunked upload: 1.3 % uploaded (1, "37ff2b735439e4d383da5e40e41e9bfd")
+0161.190 (0) S3 chunked upload: 2.5 % uploaded (2, "80861f6884c9c8a9ef4b260067e064af")
+0161.510 (0) S3 chunked upload: 3.8 % uploaded (3, "6cfdb9908f6ea665412ac57810f673b5")
+0161.726 (0) S3 chunked upload: 5 % uploaded (4, "a33b2e3168a59912ed45666ce5823a3f")
+0161.925 (0) S3 chunked upload: 6.3 % uploaded (5, "1bd83e089601545ef46d13d16bae387a")
+0162.129 (0) S3 chunked upload: 7.5 % uploaded (6, "69f84b50f7286ff2d3ba145368b8dbe7")
+0162.339 (0) S3 chunked upload: 8.8 % uploaded (7, "f43efb5e0ee1e05e59e15ccbed55a12e")
+0162.495 (0) S3 chunked upload: 10 % uploaded (8, "ab074100f330b7d744fd31261e4e8389")
+0162.741 (0) S3 chunked upload: 11.3 % uploaded (9, "963d5c2f86a5db2323e98ac9afa61352")
+0162.928 (0) S3 chunked upload: 12.5 % uploaded (10, "cc3f9a457cee87217174deae36b96628")
+0163.192 (0) S3 chunked upload: 13.8 % uploaded (11, "5a92a8e8ea876d106cf75e354ba9a971")
+0163.435 (0) S3 chunked upload: 15 % uploaded (12, "2568126e975cc1b219e50eb3a9148f19")
+0163.599 (0) S3 chunked upload: 16.3 % uploaded (13, "10a6a253f0385c179454fc2dd56064b6")
+0163.800 (0) S3 chunked upload: 17.5 % uploaded (14, "8d93d57893188556ed9f306dc64922d7")
+0163.977 (0) S3 chunked upload: 18.8 % uploaded (15, "e9f8f664e67f4403383fa0ee6d9a6773")
+0164.167 (0) S3 chunked upload: 20 % uploaded (16, "95116eefc3c8a0bd03662191b310c834")
+0164.423 (0) S3 chunked upload: 21.3 % uploaded (17, "b1a68522d537269a1c93fcc28ed17896")
+0164.629 (0) S3 chunked upload: 22.5 % uploaded (18, "2efda6aed4c2430387be45c3ba5a49f5")
+0164.788 (0) S3 chunked upload: 23.8 % uploaded (19, "6dc43d3d6c517203856f493cb49e51e9")
+0165.014 (0) S3 chunked upload: 25 % uploaded (20, "bd13cc8e71f285a1f20b6a6b2a736b8a")
+0165.201 (0) S3 chunked upload: 26.3 % uploaded (21, "5be31d0844cd18818c0d50a768ef6db8")
+0165.396 (0) S3 chunked upload: 27.5 % uploaded (22, "ac8c934b2834fc2075f1dbe7f711eacf")
+0165.706 (0) S3 chunked upload: 28.8 % uploaded (23, "0bef25bbda6bbe1dfb8d96bdde10d3b3")
+0165.918 (0) S3 chunked upload: 30 % uploaded (24, "4ce0da14473204431aa9c5ea750761ec")
+0166.141 (0) S3 chunked upload: 31.3 % uploaded (25, "7d8f0cf2ebe807dc9ac63b9e8843af2f")
+0166.481 (0) S3 chunked upload: 32.5 % uploaded (26, "f8ca60988c08a312d2d4ad8bc9ad928b")
+0166.680 (0) S3 chunked upload: 33.8 % uploaded (27, "4ee0feaa5cdba010527dd99102771ced")
+0166.869 (0) S3 chunked upload: 35 % uploaded (28, "d547709e3191fb7a61b4f4cdf4997e55")
+0167.106 (0) S3 chunked upload: 36.3 % uploaded (29, "016af882b792480e1ea623ef4e2d8285")
+0167.298 (0) S3 chunked upload: 37.5 % uploaded (30, "f0b8cc11c156b6d926ee9ee65149d285")
+0167.503 (0) S3 chunked upload: 38.8 % uploaded (31, "72414eefcf5f2433f6aa18ad96249f25")
+0167.696 (0) S3 chunked upload: 40 % uploaded (32, "29d90b6e9a6e8ad14fdb7ddec6bfa328")
+0167.873 (0) S3 chunked upload: 41.3 % uploaded (33, "6e2ec28b0d6614613411536eb8e41490")
+0168.068 (0) S3 chunked upload: 42.5 % uploaded (34, "82d007fe1884917a2f4404c429c5e7ae")
+0168.314 (0) S3 chunked upload: 43.8 % uploaded (35, "572add47baa12a4b3b0d7ad47691d77e")
+0168.537 (0) S3 chunked upload: 45 % uploaded (36, "2f42c1334463f8be96cf58b550ad8f79")
+0168.721 (0) S3 chunked upload: 46.3 % uploaded (37, "011115da5b0dee47e0c627130cbef9fd")
+0168.929 (0) S3 chunked upload: 47.5 % uploaded (38, "0f4ef4c51cded6fdd369d1761f9ce7ae")
+0169.151 (0) S3 chunked upload: 48.8 % uploaded (39, "4d8804c6e64601d2c10e77d1de2e73d9")
+0169.410 (0) S3 chunked upload: 50 % uploaded (40, "3af5f5f798202a67617ec34fbe5d87d5")
+0169.611 (0) S3 chunked upload: 51.3 % uploaded (41, "0fb69d7638dcb3b80915b410e65f063f")
+0169.814 (0) S3 chunked upload: 52.5 % uploaded (42, "02fc9373bd28da905776ca339c6376ed")
+0170.027 (0) S3 chunked upload: 53.8 % uploaded (43, "d4dc1610f72c00a7cd63a95fa9947ec9")
+0170.240 (0) S3 chunked upload: 55 % uploaded (44, "8c236954d84cbf5e32a1b4510b43986e")
+0170.483 (0) S3 chunked upload: 56.3 % uploaded (45, "1ce48c8afea22fe86ca8b5c0687166cc")
+0170.657 (0) S3 chunked upload: 57.5 % uploaded (46, "b5a41f6ad35120e032c4bbd45c3f4e7b")
+0170.885 (0) S3 chunked upload: 58.8 % uploaded (47, "50f810cbb5c08fc6c7a43f1eb568bfcd")
+0171.090 (0) S3 chunked upload: 60 % uploaded (48, "ade32fc088c22321229d7333b1489ac4")
+0171.303 (0) S3 chunked upload: 61.3 % uploaded (49, "d5cf90bb59f7cddb1204f115efa45702")
+0171.500 (0) S3 chunked upload: 62.5 % uploaded (50, "e457e9e5694794ba676091efe07dc807")
+0171.700 (0) S3 chunked upload: 63.8 % uploaded (51, "c1f90fd446bc52741456373c37aa49ef")
+0171.933 (0) S3 chunked upload: 65 % uploaded (52, "91619aaa6f6da0217922bd6936adc4db")
+0172.100 (0) S3 chunked upload: 66.3 % uploaded (53, "8b5afa2cc008965f822e94e38a19cefd")
+0172.257 (0) S3 chunked upload: 67.5 % uploaded (54, "a3e4d0da1f7a9d3808fba58db89e6699")
+0172.540 (0) S3 chunked upload: 68.8 % uploaded (55, "4c9e781ff8e68e59755832619d3689e0")
+0172.802 (0) S3 chunked upload: 70 % uploaded (56, "59f66605491f9c8471a018dfe7cb9daf")
+0172.966 (0) S3 chunked upload: 71.3 % uploaded (57, "1df29c305600cb664212203468a85c66")
+0173.233 (0) S3 chunked upload: 72.5 % uploaded (58, "2109c19d5b7c2422ad6ec934b768a0f5")
+0173.446 (0) S3 chunked upload: 73.8 % uploaded (59, "557f9ed622587a37667836c32a931ab3")
+0173.645 (0) S3 chunked upload: 75 % uploaded (60, "197d4fe3bb4c13cc6b8be945cd53cee7")
+0173.867 (0) S3 chunked upload: 76.3 % uploaded (61, "8735445b39a6746c97b03ab556eec905")
+0174.056 (0) S3 chunked upload: 77.5 % uploaded (62, "b96aa85cc4f4d634e388e7b055c6b4b7")
+0174.239 (0) S3 chunked upload: 78.8 % uploaded (63, "1497a673831f9f553549cb41dcffacb3")
+0174.453 (0) S3 chunked upload: 80 % uploaded (64, "66112ce6fb936cd9e10bede647847054")
+0174.654 (0) S3 chunked upload: 81.3 % uploaded (65, "aa9e1332cd5a0eeec937b8d4de62da5f")
+0174.843 (0) S3 chunked upload: 82.5 % uploaded (66, "f80029ef1a0e2751cd0221f64eac412a")
+0175.063 (0) S3 chunked upload: 83.8 % uploaded (67, "3f492f470aaa9febfc38fc09b2206ce0")
+0175.285 (0) S3 chunked upload: 85 % uploaded (68, "c046173a26ae8c9eae46ffb9a346d3b3")
+0175.499 (0) S3 chunked upload: 86.3 % uploaded (69, "09c5195f4f7e13284040e7f67cc59c92")
+0175.719 (0) S3 chunked upload: 87.5 % uploaded (70, "7c1ef76cbdab0382e96435959cd6371c")
+0175.922 (0) S3 chunked upload: 88.8 % uploaded (71, "4a6b269b0c9ce70e183d7707476c1b86")
+0176.104 (0) S3 chunked upload: 90 % uploaded (72, "e7695f57c26c8d4c20f5b655300504f3")
+0176.299 (0) S3 chunked upload: 91.3 % uploaded (73, "388aaf9193da98ca3b739ff0401db093")
+0176.543 (0) S3 chunked upload: 92.5 % uploaded (74, "3b5fa4c8fa9277661d855fa9109f1771")
+0176.734 (0) S3 chunked upload: 93.8 % uploaded (75, "43a28bf31baf8b7c961a0d9ea8b68ceb")
+0176.925 (0) S3 chunked upload: 95 % uploaded (76, "b0392ae620961bef6b75476ed16c2581")
+0177.113 (0) S3 chunked upload: 96.3 % uploaded (77, "879da184a3ad85d8531de7b7452cf04e")
+0177.346 (0) S3 chunked upload: 97.5 % uploaded (78, "1edada453e962fcc3cd3528fa5516507")
+0177.546 (0) S3 chunked upload: 98.8 % uploaded (79, "b96af73e133f04f0dcf05d1eb6e6bb07")
+0177.738 (0) S3 chunked upload: 100 % uploaded (80, "c4c36032396717b06c0148449df96ec2")
+0177.745 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+0177.852 (0) Amazon S3: upload (uploads0): re-assembly succeeded
+0177.855 (0) Recording as successfully uploaded: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip
+0177.895 (0) Deleting local file: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads.zip: OK
+0177.898 (0) Amazon S3: upload (us-west-1): backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip (chunks: 80) -> s3://puntacanawellness/backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip
+0177.908 (0) Amazon S3: chunked upload: got multipart ID: Z4NfGJm4JnfjQTQ9zHomKNRBjJmiz8fzAO1cImdeZTFOk0ORqEQhZPVueUvVfULvn4B2MQC2c3xe7Cl6_53H7UNJKIz6jaiJYckkHZJkzCikFvVbILKMay5p.NN9lQtU
+0178.108 (0) S3 chunked upload: 1.3 % uploaded (1, "26dd6c0a879b1357e47fc54a7b98ad4a")
+0178.312 (0) S3 chunked upload: 2.5 % uploaded (2, "fa729e1de4502c26c3b58e1260fdd5aa")
+0178.505 (0) S3 chunked upload: 3.8 % uploaded (3, "e4a921d7d6afb5207b45b4bc1fe6036c")
+0178.699 (0) S3 chunked upload: 5 % uploaded (4, "41d36a8bd405932bb23598a697e8a298")
+0178.881 (0) S3 chunked upload: 6.3 % uploaded (5, "003cee1351c76c153197f30238a40740")
+0179.076 (0) S3 chunked upload: 7.5 % uploaded (6, "cb1c00def04efa453f63c7c5bcef7487")
+0179.265 (0) S3 chunked upload: 8.8 % uploaded (7, "409f62794580aef08c6f860e1daa790b")
+0179.463 (0) S3 chunked upload: 10 % uploaded (8, "aab7efe50094e3a3378c778f3298c62c")
+0179.685 (0) S3 chunked upload: 11.3 % uploaded (9, "247497c67d5c21176cccd84eb32225ae")
+0179.949 (0) S3 chunked upload: 12.5 % uploaded (10, "786a3a192354fd688a1d773ee03aa5b3")
+0180.201 (0) S3 chunked upload: 13.8 % uploaded (11, "18627ee40d8380abd08ccafa6ce780d0")
+0180.358 (0) S3 chunked upload: 15 % uploaded (12, "cce7448ec458d806a9b72621bede2c31")
+0180.558 (0) S3 chunked upload: 16.3 % uploaded (13, "4eef5ec651cc57946749bdb1086f4212")
+0180.762 (0) S3 chunked upload: 17.5 % uploaded (14, "c191a3629a831be795fa8f71c14309d9")
+0180.954 (0) S3 chunked upload: 18.8 % uploaded (15, "cdfcbf4bde7f19034a5735c7909c11ad")
+0181.131 (0) S3 chunked upload: 20 % uploaded (16, "cd075a5b638acd34899ac0ddd2493c08")
+0181.301 (0) S3 chunked upload: 21.3 % uploaded (17, "69f0c29ad8ec8a71cb43692205a1d12a")
+0181.522 (0) S3 chunked upload: 22.5 % uploaded (18, "a2a166b6a4ea15360403da80c17b078e")
+0181.725 (0) S3 chunked upload: 23.8 % uploaded (19, "6e7ba19057b45da0c81bc5a7fe627ed8")
+0181.958 (0) S3 chunked upload: 25 % uploaded (20, "47a3b72517f4fa706539db39ce532b56")
+0182.160 (0) S3 chunked upload: 26.3 % uploaded (21, "7a575c523d427ac87da6b286723e9a11")
+0182.335 (0) S3 chunked upload: 27.5 % uploaded (22, "588541ef5c77b57a2e046cf9e72c7d27")
+0182.530 (0) S3 chunked upload: 28.8 % uploaded (23, "aa1a25b487a59f2b78349e394601addc")
+0182.744 (0) S3 chunked upload: 30 % uploaded (24, "dd71c781b02c396c70c73d2956304790")
+0182.953 (0) S3 chunked upload: 31.3 % uploaded (25, "fe07a2ddaaf2f7ec477ec999a810642c")
+0183.149 (0) S3 chunked upload: 32.5 % uploaded (26, "e72a73103517958a0142f7de17c0280e")
+0183.355 (0) S3 chunked upload: 33.8 % uploaded (27, "f230200f2bdfff74c654e8ccc3b371b5")
+0183.555 (0) S3 chunked upload: 35 % uploaded (28, "8d4737479cd241789ba0353a68f7885d")
+0183.763 (0) S3 chunked upload: 36.3 % uploaded (29, "1a6c5528066e4e868c26c963d78175d5")
+0183.960 (0) S3 chunked upload: 37.5 % uploaded (30, "ea3c2feb48ff1e65d0e630f889ca8d35")
+0184.170 (0) S3 chunked upload: 38.8 % uploaded (31, "d679a5e2d574bcb246e75ec800121ec1")
+0184.450 (0) S3 chunked upload: 40 % uploaded (32, "1e3e00e56f9c92f7b73acd322fdb73e2")
+0184.649 (0) S3 chunked upload: 41.3 % uploaded (33, "358d590d56b577edfe5911e751641d2d")
+0184.888 (0) S3 chunked upload: 42.5 % uploaded (34, "5e5c3829f0fb807122483d275288c1e3")
+0185.076 (0) S3 chunked upload: 43.8 % uploaded (35, "68d956fd6310795975cd1b6036778fe0")
+0185.273 (0) S3 chunked upload: 45 % uploaded (36, "6a697ebdfb9c2fa6767ecca30d5d81c9")
+0185.503 (0) S3 chunked upload: 46.3 % uploaded (37, "2dbf95fba6ff4425d0115bf76a1bbcf7")
+0185.703 (0) S3 chunked upload: 47.5 % uploaded (38, "a1f54b71c15fb9ba51dd8f046ee7e4f2")
+0185.920 (0) S3 chunked upload: 48.8 % uploaded (39, "8b91f2c202e220ef7764bb25df459748")
+0186.138 (0) S3 chunked upload: 50 % uploaded (40, "e238b25dabd85d3a150b7ebe17c69fe7")
+0186.347 (0) S3 chunked upload: 51.3 % uploaded (41, "5b64cc952799fd8a5c4953b24c5c35fe")
+0186.542 (0) S3 chunked upload: 52.5 % uploaded (42, "80fd8c919457777f3c920f8045643cbe")
+0186.802 (0) S3 chunked upload: 53.8 % uploaded (43, "27b27f17b464fa11682a78bd2ab5e75a")
+0187.012 (0) S3 chunked upload: 55 % uploaded (44, "f71b3b056b81990b5cdf1072485718e5")
+0187.192 (0) S3 chunked upload: 56.3 % uploaded (45, "5743bfc51db452268a0f3c334094bf71")
+0187.390 (0) S3 chunked upload: 57.5 % uploaded (46, "e823a77818cfecb2f87e1781d7bdd0be")
+0187.576 (0) S3 chunked upload: 58.8 % uploaded (47, "5e07bed7500a2ce32925b56401148c24")
+0187.751 (0) S3 chunked upload: 60 % uploaded (48, "48a1413973b7a2d8e0278837d94522db")
+0188.029 (0) S3 chunked upload: 61.3 % uploaded (49, "30487614e4dd27209658f7dfda30f2e1")
+0188.233 (0) S3 chunked upload: 62.5 % uploaded (50, "33b348de790292328f839310ac60b2d5")
+0188.423 (0) S3 chunked upload: 63.8 % uploaded (51, "eaf067e8cab845bfa7dd5f632684872a")
+0188.610 (0) S3 chunked upload: 65 % uploaded (52, "5c95f3d1abb61457c443b0c604a8ea4c")
+0188.795 (0) S3 chunked upload: 66.3 % uploaded (53, "d28fe783173e8ceb771f36285a1d286d")
+0188.978 (0) S3 chunked upload: 67.5 % uploaded (54, "aaeeaf2f47eda11744699eaead4c8224")
+0189.179 (0) S3 chunked upload: 68.8 % uploaded (55, "c0ca3d24799dacdaffbfa748da8b93e3")
+0189.414 (0) S3 chunked upload: 70 % uploaded (56, "1e43cf126ebd6391de33d0d79d61eb68")
+0189.617 (0) S3 chunked upload: 71.3 % uploaded (57, "a67c0419606020c70cd955372e2b220b")
+0189.899 (0) S3 chunked upload: 72.5 % uploaded (58, "36f583769721884353c49c4e5cf650d7")
+0190.076 (0) S3 chunked upload: 73.8 % uploaded (59, "3852b9edc03769bd849ae802683219aa")
+0190.263 (0) S3 chunked upload: 75 % uploaded (60, "c577b49a12ee2f0d0fcf5d7b9be08fb8")
+0190.463 (0) S3 chunked upload: 76.3 % uploaded (61, "a9cb7cb5e59da6246d5fbe960d54613a")
+0190.667 (0) S3 chunked upload: 77.5 % uploaded (62, "8274d0f9660e79bee03638ce89ed723d")
+0190.883 (0) S3 chunked upload: 78.8 % uploaded (63, "81deb6e23a8a42407902e16f40cb64c3")
+0191.079 (0) S3 chunked upload: 80 % uploaded (64, "65ebf0e73a7bb11ff2b1f308d414c76f")
+0191.282 (0) S3 chunked upload: 81.3 % uploaded (65, "ec95de544f16e45dc2063234009d7833")
+0191.464 (0) S3 chunked upload: 82.5 % uploaded (66, "35303fe3520110e0889028c6092b1942")
+0191.640 (0) S3 chunked upload: 83.8 % uploaded (67, "5c6fce086d8e34853526bb6cfa608c10")
+0191.856 (0) S3 chunked upload: 85 % uploaded (68, "4ec3373e3961c1f00b8a8fc0227602cb")
+0192.067 (0) S3 chunked upload: 86.3 % uploaded (69, "a46dec32ebeb150af3a1f7c342b16eb8")
+0192.293 (0) S3 chunked upload: 87.5 % uploaded (70, "88ce94c94df83c1ddc440ea2efb4a69f")
+0192.483 (0) S3 chunked upload: 88.8 % uploaded (71, "61abb808484f6e4d32d32078ec7a928c")
+0192.771 (0) S3 chunked upload: 90 % uploaded (72, "22c239e5b66dcb920678f30aba4c739d")
+0192.970 (0) S3 chunked upload: 91.3 % uploaded (73, "f5d0bb913f694db011c03fc4b7212c1b")
+0193.193 (0) S3 chunked upload: 92.5 % uploaded (74, "c6cb3515db7fd5fc4500a5a06f92bcb7")
+0193.406 (0) S3 chunked upload: 93.8 % uploaded (75, "eb0703a5848b858020c84e82849222ef")
+0193.557 (0) S3 chunked upload: 95 % uploaded (76, "fc0b40032a6ac6e50ef52b7db7f3be75")
+0193.816 (0) S3 chunked upload: 96.3 % uploaded (77, "3180f6c80fffc49f046d3a186d6e4011")
+0194.032 (0) S3 chunked upload: 97.5 % uploaded (78, "531fc717ba8ed9462460e56011efd6bb")
+0194.227 (0) S3 chunked upload: 98.8 % uploaded (79, "99780c96b93bc1154186f340f3d51074")
+0194.342 (0) S3 chunked upload: 100 % uploaded (80, "04e70885e44888e160dcdd19d3c5beb1")
+0194.353 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+0194.491 (0) Amazon S3: upload (uploads1): re-assembly succeeded
+0194.493 (0) Recording as successfully uploaded: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip
+0194.528 (0) Deleting local file: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads2.zip: OK
+0194.530 (0) Amazon S3: upload (us-west-1): backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip (chunks: 42) -> s3://puntacanawellness/backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip
+0194.542 (0) Amazon S3: chunked upload: got multipart ID: w0_lVtHUspeub9gXfj3QCLXil1tREPWU0qMMG8.al4L6boiKGqjYKwbuPqUEFmEssl_IXP7ab7miq8GRWrMeGxW1OEXwC5PwtgCau1YC0ZOTKxtwyOCq_XuwVjJfPveV
+0194.776 (0) S3 chunked upload: 2.4 % uploaded (1, "e164fbcef633df5e9df5a78a7710588f")
+0194.988 (0) S3 chunked upload: 4.8 % uploaded (2, "7f2daa59a19d7f5d31f4eb2f519a81d8")
+0195.210 (0) S3 chunked upload: 7.1 % uploaded (3, "f430f277a8f65220bde6ad343d23928a")
+0195.420 (0) S3 chunked upload: 9.5 % uploaded (4, "250049c37bcd7388840ced1c6595a305")
+0195.614 (0) S3 chunked upload: 11.9 % uploaded (5, "a206722125d404e37d755f65837123ff")
+0195.799 (0) S3 chunked upload: 14.3 % uploaded (6, "e72370a83173611fb38eb8a58d6a76dc")
+0195.993 (0) S3 chunked upload: 16.7 % uploaded (7, "7aa95fce90e999c06fd5f48e81823726")
+0196.239 (0) S3 chunked upload: 19 % uploaded (8, "4cfcb85213cc310925024b1fbca836a5")
+0196.432 (0) S3 chunked upload: 21.4 % uploaded (9, "73ea22438476ce361b0a2ef251602b91")
+0196.629 (0) S3 chunked upload: 23.8 % uploaded (10, "d96acd87675d7e482fc83d90e08643ac")
+0196.808 (0) S3 chunked upload: 26.2 % uploaded (11, "a6526920c5c33a85ef3612d04f904c77")
+0197.019 (0) S3 chunked upload: 28.6 % uploaded (12, "78875689d9dbdf969a9c7447f0354102")
+0197.205 (0) S3 chunked upload: 31 % uploaded (13, "fed0d3695fe895756d5846067b3955ca")
+0197.455 (0) S3 chunked upload: 33.3 % uploaded (14, "5c15fbdb0b82d91244143be409d1c1fe")
+0197.723 (0) S3 chunked upload: 35.7 % uploaded (15, "0f5a2f0eec62ed1ae1bd373d62e9e673")
+0197.908 (0) S3 chunked upload: 38.1 % uploaded (16, "df12e5bf9a45cb13d6ecbb3d51998765")
+0198.065 (0) S3 chunked upload: 40.5 % uploaded (17, "7b78a776b9f4446925f79b47ce554444")
+0198.272 (0) S3 chunked upload: 42.9 % uploaded (18, "210cc9fbb1c7bd67081eab2e96fe5702")
+0198.469 (0) S3 chunked upload: 45.2 % uploaded (19, "ce66f97264fc3e86ffbdf08c5c517662")
+0198.637 (0) S3 chunked upload: 47.6 % uploaded (20, "13c3c41641c21f6c1b06edbe62d43a14")
+0198.850 (0) S3 chunked upload: 50 % uploaded (21, "b1d2afbc9eabb3e59f8d564edcc9bbf1")
+0199.031 (0) S3 chunked upload: 52.4 % uploaded (22, "d4d0801348aa4775366b87f73156080e")
+0199.224 (0) S3 chunked upload: 54.8 % uploaded (23, "1ca06f206e7b6cd4cd8a23b2b3f3cbd0")
+0199.425 (0) S3 chunked upload: 57.1 % uploaded (24, "4383634eef38b37b6765673e5ab7f376")
+0199.740 (0) S3 chunked upload: 59.5 % uploaded (25, "d6be87a226fadfa17a9d946f55d147b4")
+0199.926 (0) S3 chunked upload: 61.9 % uploaded (26, "6cbd357930ef5ebc5d8a251633b34bc2")
+0200.134 (0) S3 chunked upload: 64.3 % uploaded (27, "ce0804bf59c69cdbcf23e8eeb267a541")
+0200.311 (0) S3 chunked upload: 66.7 % uploaded (28, "f26c8808f59012b3461889faa2477439")
+0200.491 (0) S3 chunked upload: 69 % uploaded (29, "e2b2214785d0c48b3a812ff19d71d561")
+0200.637 (0) S3 chunked upload: 71.4 % uploaded (30, "9bbde96bf7610c902951e0dea10d0f32")
+0200.807 (0) S3 chunked upload: 73.8 % uploaded (31, "f470587f870532a7a89b314b887f004b")
+0200.972 (0) S3 chunked upload: 76.2 % uploaded (32, "ab996d962a6280a5ed104c6233878409")
+0201.152 (0) S3 chunked upload: 78.6 % uploaded (33, "19440fc5c7db2b308b3cc12b71080b19")
+0201.347 (0) S3 chunked upload: 81 % uploaded (34, "e727649ffeaf8e765e5ccfe51a9d9096")
+0201.519 (0) S3 chunked upload: 83.3 % uploaded (35, "50e0f8047ec033de8da0ee9d70cd202c")
+0201.711 (0) S3 chunked upload: 85.7 % uploaded (36, "eb88b468b442e31bad5459c953de26c0")
+0201.885 (0) S3 chunked upload: 88.1 % uploaded (37, "3973f740da8de94ca045f2b22def7254")
+0202.073 (0) S3 chunked upload: 90.5 % uploaded (38, "efd18921abd4264732d14a23ef660789")
+0202.250 (0) S3 chunked upload: 92.9 % uploaded (39, "aaacca59bf4ecf2be32015087edbe39c")
+0202.428 (0) S3 chunked upload: 95.2 % uploaded (40, "64fe103402110e065a28510876985d74")
+0202.638 (0) S3 chunked upload: 97.6 % uploaded (41, "acc5a6ad750a92b225d82c39581a616e")
+0202.748 (0) S3 chunked upload: 100 % uploaded (42, "4b4d9208ff507ad6e2355d825a178918")
+0202.757 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+0202.859 (0) Amazon S3: upload (uploads2): re-assembly succeeded
+0202.861 (0) Recording as successfully uploaded: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip
+0202.881 (0) Deleting local file: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-uploads3.zip: OK
+0202.883 (0) Amazon S3: upload (us-west-1): backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-others.zip (chunks: 2) -> s3://puntacanawellness/backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-others.zip
+0202.894 (0) Amazon S3: chunked upload: got multipart ID: xG4pu2wIALYzlpdsC.oOMvbuD1VXxT4eH.HfDA85kdCWlboV.1SORBluC439g5fp2QxUWiigkqa0LsIwvXK82Zjn.yP17NL3Irsooj6N5JE8_YS0Z.3rK566jp.tMSJO
+0203.077 (0) S3 chunked upload: 50 % uploaded (1, "3c56214491c0a3a5b9ba94ce4d971b38")
+0203.153 (0) S3 chunked upload: 100 % uploaded (2, "d068410b59651ad594d393aa8a21a8d6")
+0203.161 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+0203.252 (0) Amazon S3: upload (others0): re-assembly succeeded
+0203.254 (0) Recording as successfully uploaded: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-others.zip
+0203.260 (0) Deleting local file: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-others.zip: OK
+0203.262 (0) Amazon S3: upload (us-west-1): backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db.gz (chunks: 2) -> s3://puntacanawellness/backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db.gz
+0203.272 (0) Amazon S3: chunked upload: got multipart ID: AAw2lYcwAfmQOZRMNQvbtw4ObUElNzhbiQHaNtAMSbcsztXRv2J.URKphsP49m27do1jvsRB2MQ6wK.VY2TV3rqVuWslyo8i.ltnZe13wXCH0U1XrefzKNJmlzfQUbXL
+0203.444 (0) S3 chunked upload: 50 % uploaded (1, "8f468731cb22703d0313b504088c9e99")
+0203.599 (0) S3 chunked upload: 100 % uploaded (2, "024687add975c71844ce0d6127256286")
+0203.607 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+0203.755 (0) Amazon S3: upload (db0): re-assembly succeeded
+0203.757 (0) Recording as successfully uploaded: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db.gz
+0203.763 (0) Deleting local file: backup_2020-02-29-0955_Saturdays_AI_afbf5af38472-db.gz: OK
+0203.772 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=5, retain_db=5
+0203.774 (0) Number of backup sets in history: 5; groups (db): 1
+0203.775 (0) Examining (for databases) backup set with group_id=0, nonce=fa7fa59ee6bd, datestamp=1582970135 (Feb 29 2020 09:55:35)
+0203.777 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0203.778 (0) Examining (for databases) backup set with group_id=0, nonce=9c11116ebb1c, datestamp=1582875639 (Feb 28 2020 07:40:39)
+0203.778 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0203.778 (0) Examining (for databases) backup set with group_id=0, nonce=7bf66b6a8ef1, datestamp=1582789273 (Feb 27 2020 07:41:13)
+0203.778 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0203.778 (0) Examining (for databases) backup set with group_id=0, nonce=6836118ff620, datestamp=1582702873 (Feb 26 2020 07:41:13)
+0203.778 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0203.778 (0) Examining (for databases) backup set with group_id=0, nonce=a33c0f4d5079, datestamp=1582617036 (Feb 25 2020 07:50:36)
+0203.778 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0203.778 (0) Number of backup sets in history: 5; groups (files): 1
+0203.779 (0) Examining (for files) backup set with nonce=fa7fa59ee6bd, datestamp=1582970135 (Feb 29 2020 09:55:35)
+0203.779 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0203.780 (0) Examining (for files) backup set with nonce=9c11116ebb1c, datestamp=1582875639 (Feb 28 2020 07:40:39)
+0203.780 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0203.780 (0) Examining (for files) backup set with nonce=7bf66b6a8ef1, datestamp=1582789273 (Feb 27 2020 07:41:13)
+0203.780 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0203.780 (0) Examining (for files) backup set with nonce=6836118ff620, datestamp=1582702873 (Feb 26 2020 07:41:13)
+0203.780 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0203.780 (0) Examining (for files) backup set with nonce=a33c0f4d5079, datestamp=1582617036 (Feb 25 2020 07:50:36)
+0203.780 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0203.780 (0) Retain: saving new backup history (sets now: 5) and finishing retain operation
+0203.786 (0) Resume backup (afbf5af38472, 0): finish run
+0203.789 (0) Decremented the semaphore (fd) by 1
+0203.790 (0) Semaphore (fd, Ak6Ct5K_options) still locked (0)
+0203.791 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0203.798 (0) No email will/can be sent - the user has not configured an email address.
+0203.799 (0) The backup apparently succeeded and is now complete

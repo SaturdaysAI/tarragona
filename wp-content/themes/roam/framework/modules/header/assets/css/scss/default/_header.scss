@@ -1,0 +1,295 @@
+/* ==========================================================================
+   Header styles - begin
+   ========================================================================== */
+
+$logo-area-height: 90px;
+$menu-area-height: 90px;
+
+.mkdf-page-header {
+    @include mkdfRelativeHolderLayout();
+    margin: 0;
+    padding: 0;
+    z-index: 110;
+    box-sizing: border-box;
+
+    /* ==========================================================================
+    #General header layout - start
+    ========================================================================== */
+    a img {
+        display: block;
+    }
+
+    p {
+        margin: 0;
+    }
+    
+    .mkdf-vertical-align-containers {
+        padding: 0 40px;
+    
+        .mkdf-paspartu-enabled & {
+            padding: 0;
+        }
+    }
+
+    .mkdf-grid {
+        height: 100%;
+
+        .mkdf-vertical-align-containers {
+            padding: 0;
+            @include mkdfTransition(background-color 0.3s ease);
+        }
+    }
+
+    /* ==========================================================================
+    #General header layout - end
+    ========================================================================== */
+
+    /* ==========================================================================
+    #Logo area styles - start
+    ========================================================================== */
+    .mkdf-logo-area {
+	    position: relative;
+	    height: $logo-area-height;
+	    overflow: hidden;
+        background-color: #fff;
+
+        .mkdf-logo-wrapper a {
+            max-height: $logo-area-height;
+        }
+    }
+    /* ==========================================================================
+    #Logo area styles - end
+    ========================================================================== */
+
+    /* ==========================================================================
+    #Menu area styles - start
+    ========================================================================== */
+    .mkdf-menu-area {
+        position: relative;
+        height: $menu-area-height;
+        background-color: #fff;
+        box-sizing: border-box;
+
+        .mkdf-boxed & {
+            padding: 0;
+        }
+
+        .mkdf-logo-wrapper a {
+            max-height: $menu-area-height;
+        }
+
+        .widget {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0;
+        }
+    }
+    /* ==========================================================================
+    #Menu area styles - end
+    ========================================================================== */
+    
+    /* ==========================================================================
+    #Specific styles - start
+    ========================================================================== */
+    
+    .mkdf-logo-area {
+    
+        .mkdf-logo-area-border-disable & {
+            border: none;
+        }
+        
+        .mkdf-logo-area-in-grid-border-disable & {
+    
+            .mkdf-grid {
+                
+                .mkdf-vertical-align-containers {
+                    border: none;
+                }
+            }
+        }
+    
+        .mkdf-header-logo-area-in-grid-padding & {
+        
+            .mkdf-vertical-align-containers {
+                padding: 0 25px;
+            }
+        }
+    }
+    
+    .mkdf-menu-area {
+    
+        .mkdf-menu-area-shadow-disable & {
+            box-shadow: none;
+    
+            .mkdf-grid {
+        
+                .mkdf-vertical-align-containers {
+                    box-shadow: none;
+                }
+            }
+        }
+    
+        .mkdf-menu-area-border-disable & {
+            border: none;
+        }
+    
+        .mkdf-menu-area-in-grid-border-disable & {
+        
+            .mkdf-grid {
+            
+                .mkdf-vertical-align-containers {
+                    border: none;
+                }
+            }
+        }
+    
+        .mkdf-header-logo-area-in-grid-padding & {
+    
+            .mkdf-vertical-align-containers {
+                padding: 0 25px;
+            }
+        }
+    }
+    /* ==========================================================================
+    #Specific styles - end
+    ========================================================================== */
+}
+
+/* ==========================================================================
+#Light header - begin
+========================================================================== */
+
+.mkdf-light-header {
+
+    .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) {
+
+        .mkdf-logo-wrapper {
+
+            .mkdf-light-logo {
+                opacity: 1;
+            }
+
+            .mkdf-normal-logo,
+            .mkdf-dark-logo {
+                opacity: 0;
+            }
+        }
+
+        .mkdf-menu-area {
+            color: $header-light-color !important; //Beacause of inline color styles
+
+            .widget {
+                color: $header-light-color !important; //Beacause of inline color styles
+
+                p,
+                a,
+                span,
+                i,
+                .widgettitle {
+                    color: $header-light-color !important; //Beacause of inline color styles
+                }
+
+                a:hover {
+                    color: $header-light-hover-color !important; //Beacause of inline color styles
+                }
+            }
+        }
+
+        &.mkdf-menu-area {
+            color: $header-light-color !important; //Beacause of inline color styles
+
+            .widget {
+                color: $header-light-color !important; //Beacause of inline color styles
+
+                p,
+                a,
+                span,
+                i,
+                .widgettitle {
+                    color: $header-light-color !important; //Beacause of inline color styles
+                }
+
+                a:hover {
+                    color: $header-light-hover-color !important; //Beacause of inline color styles
+                }
+            }
+        }
+    }
+}
+
+/* ==========================================================================
+#Light header - end
+========================================================================== */
+
+/* ==========================================================================
+#Dark header - begin
+========================================================================== */
+
+.mkdf-dark-header {
+
+    .mkdf-page-header {
+
+        > div:not(.fixed):not(.mkdf-sticky-header) {
+
+            .mkdf-logo-wrapper {
+
+                .mkdf-dark-logo {
+                    opacity: 1;
+                }
+
+                .mkdf-normal-logo,
+                .mkdf-light-logo {
+                    opacity: 0;
+                }
+            }
+
+            .mkdf-menu-area {
+                color: $header-dark-color !important; //Because of inline color styles
+
+                .widget {
+                    color: $header-dark-color !important; //Beacause of inline color styles
+
+                    p,
+                    a,
+                    span,
+                    i,
+                    .widgettitle {
+                        color: $header-dark-color !important; //Beacause of inline color styles
+                    }
+
+                    a:hover {
+                        color: $header-dark-hover-color !important; //Beacause of inline color styles
+                    }
+                }
+            }
+
+            &.mkdf-menu-area {
+                color: $header-dark-color !important; //Because of inline color styles
+
+                .widget {
+                    color: $header-dark-color !important; //Beacause of inline color styles
+
+                    p,
+                    a,
+                    span,
+                    i,
+                    .widgettitle {
+                        color: $header-dark-color !important; //Beacause of inline color styles
+                    }
+
+                    a:hover {
+                        color: $header-dark-hover-color !important; //Beacause of inline color styles
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ==========================================================================
+#Dark header - end
+========================================================================== */
+
+/* ==========================================================================
+   Header end - end
+   ========================================================================== */

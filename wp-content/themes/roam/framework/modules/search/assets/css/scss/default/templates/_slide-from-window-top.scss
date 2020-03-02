@@ -1,0 +1,123 @@
+/* ==========================================================================
+# Slide From Window top search general style - start
+========================================================================== */
+
+.mkdf-search-slides-from-window-top {
+
+    .mkdf-top-bar,
+    .mkdf-page-header,
+    .mkdf-fixed-wrapper.fixed,
+    .mkdf-mobile-header {
+	    top: 0;
+        @include mkdfTransition(top 0.25s ease-out);
+    }
+	
+	&.mkdf-search-open {
+		
+		.mkdf-top-bar,
+		.mkdf-page-header,
+		.mkdf-fixed-wrapper.fixed,
+		.mkdf-mobile-header {
+			top: 50px;
+		}
+		
+		.mkdf-search-slide-window-top {
+			height: 50px;
+		}
+		
+		&.mkdf-sticky-up-mobile-header .mkdf-animate-mobile-header .mkdf-mobile-header-inner,
+		.mkdf-sticky-header.header-appear {
+			@include mkdfTransform(translateY(50px));
+		}
+		
+		&.admin-bar {
+			
+			&.mkdf-sticky-up-mobile-header .mkdf-animate-mobile-header .mkdf-mobile-header-inner,
+			.mkdf-sticky-header.header-appear {
+				@include mkdfTransform(translateY(82px));
+			}
+		}
+	}
+}
+
+.mkdf-search-slide-window-top {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0;
+	margin: 0;
+	color: #fff;
+	background-color: $default-heading-color;
+	overflow: hidden;
+	z-index: 201;
+    @include mkdfTransition(top 0.25s ease-out, height 0.25s ease-out);
+    
+    .admin-bar & {
+        top: 32px;
+    }
+	
+	.mkdf-grid {
+		
+		.mkdf-search-form-inner {
+			padding: 0;
+		}
+	}
+	
+	.mkdf-search-form-inner {
+		@include mkdfRelativeHolderLayout();
+		height: 40px;
+		padding: 0 40px;
+		margin: 5px 0;
+		box-sizing: border-box;
+	}
+
+    .mkdf-swt-search-icon {
+	    position: absolute;
+	    top: calc(50%);
+	    left: 0;
+	    color: #fff;
+	    font-size: 14px;
+	    line-height: 1;
+	    @include mkdfTransform(translateY(-50%));
+	    
+	    > * {
+		    color: inherit;
+		    font-size: inherit;
+		    line-height: inherit;
+	    }
+    }
+	
+	.mkdf-swt-search-close {
+		position: absolute;
+		top: calc(50%);
+		right: 0;
+		color: #fff;
+		font-size: 20px;
+		line-height: 1;
+		@include mkdfTransform(translateY(-50%));
+		
+		> * {
+			color: inherit;
+			font-size: inherit;
+			line-height: inherit;
+		}
+	}
+	
+	.mkdf-swt-search-field {
+		@include mkdfRelativeHolderLayout();
+		height: 40px;
+		padding: 0 30px 0 22px;
+		@include mkdfTypographyLayout();
+	    background-color: transparent;
+	    border: none;
+	    border-radius: 0;
+	    outline: none;
+	    box-shadow: none;
+	    -webkit-appearance: none;
+		box-sizing: border-box;
+    }
+}
+/* ==========================================================================
+# Slide From Window top search general style - end
+========================================================================== */

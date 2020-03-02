@@ -1,0 +1,34 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+.mkdf-side-menu
+{
+  background-color: rgba(38, 92, 163, 0.65) !important;
+}
+
+.hs-field-desc
+{
+  color: white !important;
+}
+
+
+@media only screen and (max-width: 600px)
+  {
+    
+.sr-fb-lm
+    {
+      left: 0 !important;
+    }
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

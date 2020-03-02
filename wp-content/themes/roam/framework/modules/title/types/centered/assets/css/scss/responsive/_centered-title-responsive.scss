@@ -1,0 +1,19 @@
+/* ==========================================================================
+   Centered Title type responsive style - begin
+   ========================================================================== */
+
+@include ipad-landscape {
+	
+	.mkdf-title-holder {
+		
+		&.mkdf-centered-type {
+			
+			.mkdf-page-subtitle {
+				padding: 0 !important; // it can be set inline with option
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Centered Title type responsive style - end
+   ========================================================================== */

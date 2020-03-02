@@ -1,0 +1,241 @@
+/* ==========================================================================
+   Header Vertical navigation style - begin
+   ========================================================================== */
+
+.mkdf-header-vertical {
+
+    .mkdf-vertical-alignment-center {
+	    
+        .mkdf-vertical-menu-outer {
+	        position: absolute;
+	        top: 0;
+	        left: 0;
+	        height: 100%;
+	        width: 100%;
+	        display: table;
+	        padding: 100px 0 150px;
+        }
+
+        .mkdf-vertical-menu {
+            display: table-cell;
+            height: auto;
+            min-height: 0;
+            vertical-align: middle;
+        }
+    }
+    
+    .mkdf-vertical-menu-outer {
+        @include mkdfRelativeHolderLayout();
+	    box-sizing: border-box;
+        text-align: center;
+    }
+
+    .mkdf-vertical-menu {
+        @include mkdfRelativeHolderLayout();
+        margin: 58px 0 0;
+        padding: 0;
+        z-index: 100;
+        
+        ul {
+            position: relative;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            
+            li {
+                position: relative;
+                padding: 0;
+                margin: 0;
+                
+                a {
+	                position: relative;
+	                display: block;
+	                margin: 0;
+	                padding: 5px 0;
+                    color: $default-text-color;
+                    font-weight: 400;
+                    font-size: 14px;
+                    
+                    &:hover {
+                        color: $first-main-color;
+                        
+                        .mkdf-menu-arrow {
+                            @include mkdfTransform(rotate(0deg));
+                        }
+                    }
+                    
+                    .item_outer {
+                        position: relative;
+                        display: block;
+                        padding: 0 15px;
+                        box-sizing: border-box;
+                    }
+                    
+                    .mkdf-menu-arrow {
+                        position: absolute;
+                        top: 1px;
+                        right: 0;
+	                    font-size: inherit;
+	                    line-height: inherit;
+                        margin: 0;
+                        color: rgba(48,48,48,.3);
+                        -webkit-transition: -webkit-transform .2s ease-in-out;
+                        -moz-transition: -moz-transform .2s ease-in-out;
+                        transition: transform .2s ease-in-out;
+                        @include mkdfTransform(rotate(-90deg));
+                    }
+                    
+                    .mkdf-menu-featured-icon {
+                        position: relative;
+                        top: -4px;
+                        left: 3px;
+                        color: $default-heading-color;
+                        font-size: 12px;
+                        margin: 0;
+                    }
+                    
+                    .menu_icon:not(.blank):not(.null) {
+                        padding: 0 5px 0 0;
+                    }
+                }
+	
+	            &.mkdf-active-item > a,
+	            &.current_page_item > a,
+	            &.current-menu-item > a,
+	            &.current-menu-ancestor > a {
+		            color: $first-main-color;
+                    
+                    .mkdf-menu-arrow {
+                        @include mkdfTransform(rotate(0deg));
+                    }
+                }
+                
+                ul {
+                    padding: 3px 0;
+                    
+                    li {
+                        
+                        &.sub {
+                            
+                            > a {
+                                
+                                .item_outer {
+                                    position: relative;
+                                    display: block;
+                                    
+                                    &:after {
+                                        position: absolute;
+                                        top: -1px;
+                                        right: 0;
+                                        margin: 0;
+                                        font-family: 'FontAwesome';
+	                                    font-size: inherit;
+	                                    line-height: inherit;
+                                        content: "\f105";
+                                    }
+                                }
+                            }
+                            
+                            &.current_page_item > a,
+                            &.current-menu-ancestor > a {
+                                
+                                .item_outer:after {
+                                    content: "\f107";
+                                }
+                            }
+                        }
+                    }
+                }
+                
+                .second {
+                    display: none;
+                    @include mkdfTransform(translateZ(0));
+                    
+                    .inner {
+                        position: relative;
+                        display: block;
+                        padding: 0;
+                        z-index: 997;
+                    }
+                }
+            }
+        }
+        
+        > ul {
+            
+            > li {
+                
+                > a {
+                    font-size: 16px;
+                    line-height: 36px;
+                    font-weight: 500;
+                    
+                    span.item_text {
+	                    position: relative;
+	                    display: inline-block;
+	                    vertical-align: top;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.mkdf-light-header.mkdf-header-vertical .mkdf-vertical-menu ul li {
+    
+    a {
+        color: $header-light-color !important;
+        
+        &:hover {
+            color: $header-light-hover-color !important;
+        }
+    }
+    
+    ul li {
+        
+        &.current_page_item > a,
+        &.current-menu-item > a,
+        &.current-menu-ancestor > a {
+            color: $header-light-hover-color !important;
+        }
+    }
+}
+
+.mkdf-light-header.mkdf-header-vertical .mkdf-vertical-menu > ul > li {
+    
+    &.mkdf-active-item > a,
+    &.current-menu-ancestor > a {
+        color: $header-light-hover-color !important;
+    }
+}
+
+.mkdf-dark-header.mkdf-header-vertical .mkdf-vertical-menu ul li {
+    
+    a {
+        color: #151515 !important;
+        
+        &:hover {
+            color: $first-main-color !important;
+        }
+    }
+    
+    ul li {
+        
+        &.current_page_item > a,
+        &.current-menu-item > a,
+        &.current-menu-ancestor > a {
+            color: $first-main-color !important;
+        }
+    }
+}
+
+.mkdf-dark-header.mkdf-header-vertical .mkdf-vertical-menu > ul > li {
+    
+    &.mkdf-active-item > a,
+    &.current-menu-ancestor > a {
+        color: $first-main-color !important;
+    }
+}
+/* ==========================================================================
+   Header Vertical navigation style - end
+   ========================================================================== */

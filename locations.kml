@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+	<Document>
+		<name>Locations for Punta Cana Wellness.</name>
+		<atom:author>
+			<atom:name>DR Wellness LLC</atom:name>
+		</atom:author>
+		<atom:link rel="related" href="https://puntacanawellness.com" />
+		<Folder>
+			<Placemark>
+				<name><![CDATA[Punta Cana Wellness]]></name>
+				<address><![CDATA[1963 Route 214, Lanesville, NY, 12450, United States]]></address>
+				<phoneNumber><![CDATA[(347) 542-0105]]></phoneNumber>
+				<description><![CDATA[We are creating a conversation that brings people and wellness professionals together, allowing for abetter understanding of choices that lead to the nurturing that we all need.]]></description>
+				<Point>
+					<coordinates>-74.246474,42.130838,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+</kml>

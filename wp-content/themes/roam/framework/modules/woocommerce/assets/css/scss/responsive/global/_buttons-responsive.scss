@@ -1,0 +1,21 @@
+/* ==========================================================================
+   WooCommerce Buttons responsive styles - begin
+   ========================================================================== */
+
+@include ipad-landscape {
+
+    .woocommerce-page .mkdf-content,
+    div.woocommerce {
+    
+        a.button,
+        a.added_to_cart,
+        input[type="submit"],
+        button[type="submit"]:not(.mkdf-woo-search-widget-button),
+        .wc-forward:not(.added_to_cart):not(.checkout-button) {
+            @include mkdfButtonSmallParams();
+        }
+    }
+}
+/* ==========================================================================
+   WooCommerce Buttons responsive styles - end
+   ========================================================================== */

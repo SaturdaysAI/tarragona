@@ -1,0 +1,38 @@
+/* ==========================================================================
+   Blog List widget style - begin
+   ========================================================================== */
+
+.widget.mkdf-blog-list-widget {
+    margin: 0 0 20px;
+
+    > div.mkdf-widget-title-holder {
+        margin: 0 0 25px;
+    }
+
+    .mkdf-blog-list-holder.mkdf-bl-simple {
+
+        .mkdf-bl-item {
+
+            margin-bottom: 3px;
+
+            a{
+            	color: inherit;
+            }
+
+            .mkdf-bli-content {
+                vertical-align: middle;
+            }
+        }
+    }
+
+    footer .mkdf-footer-top &,
+    .mkdf-top-bar & {
+
+        > h2 {
+            margin: 0 0 8px;
+        }
+    }
+}
+/* ==========================================================================
+   Blog List widget style - end
+   ========================================================================== */

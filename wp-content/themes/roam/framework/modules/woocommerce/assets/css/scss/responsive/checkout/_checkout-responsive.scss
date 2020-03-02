@@ -1,0 +1,47 @@
+/* ==========================================================================
+   WooCommerce Checkout page responsive styles - begin
+   ========================================================================== */
+
+@include ipad-portrait {
+    
+    .mkdf-woocommerce-page .woocommerce-checkout {
+        
+        .col-1,
+        .col-2 {
+            width: 100%;
+        }
+        
+        .col-1 {
+            margin: 0 0 25px;
+        }
+    }
+}
+
+@include phone-landscape {
+    
+    .mkdf-woocommerce-page .woocommerce-checkout {
+        
+        .col-1,
+        .col-2 {
+            
+            .form-row {
+                width: 100%;
+                margin: 0;
+                float: none;
+            }
+        }
+    }
+}
+
+@include phone-portrait {
+    
+    .mkdf-woocommerce-page .woocommerce-checkout {
+        
+        .woocommerce-checkout-payment ul li.payment_method_paypal label img {
+            display: none;
+        }
+    }
+}
+/* ==========================================================================
+   WooCommerce Checkout page responsive styles - end
+   ========================================================================== */

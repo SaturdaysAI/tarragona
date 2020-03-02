@@ -1,0 +1,17 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+#popuptext
+{
+    background-image: url(https://puntacanawellness.com/wp-content/uploads/2019/06/Pop_Up_2-1.jpg) !important;
+    padding: 12%;
+    background-size: cover;
+}
+#popuptext, h6
+{
+   margin: 0!important;
+}
+#popupcolum .vc_column-inner
+{
+  padding: 0 !important;
+}</style>
+<!-- end Simple Custom CSS and JS -->

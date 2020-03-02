@@ -1,0 +1,35 @@
+/* ==========================================================================
+   Header Minimal style - begin
+   ========================================================================== */
+
+.mkdf-header-minimal {
+	
+    .mkdf-page-header {
+	    
+	    .mkdf-menu-area {
+		
+		    .mkdf-position-right-inner {
+			    height: auto;
+		    }
+	    }
+	
+	    .mkdf-position-left:before,
+	    .mkdf-position-right:before {
+		    content: "";
+	    }
+	
+	    .mkdf-sticky-header {
+		
+		    .mkdf-position-left-inner {
+			    height: auto;
+		    }
+		
+		    .mkdf-vertical-align-containers .mkdf-position-right .mkdf-position-right-inner {
+			    height: auto;
+		    }
+	    }
+    }
+}
+/* ==========================================================================
+   Header Minimal style - end
+   ========================================================================== */

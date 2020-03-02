@@ -1,0 +1,25 @@
+/* ==========================================================================
+   WooCommerce styles - begin
+   ========================================================================== */
+@import '../../../../../../assets/css/scss/variables';
+@import '../../../../../../assets/css/scss/mixins';
+
+/*------------------------------------------------------------------
+ * This is main woocommerce css file for theme. It is broken into following sections:
+ * 1.  Global
+ * 2.  Single Product
+ * 3.  WooCommerce Product Lists and Shortcodes
+ * 4.  Cart
+ * 5.  Checkout
+ * 6.  My Account
+ * 7.  Shortcodes
+ * 8.  Widgets
+-------------------------------------------------------------------*/
+
+@import 'default/**/*.scss';
+@import '../../../shortcodes/**/assets/css/scss/default/*.scss';
+@import '../../../plugins/**/assets/css/scss/default/*.scss';
+
+/* ==========================================================================
+   WooCommerce styles - end
+   ========================================================================== */

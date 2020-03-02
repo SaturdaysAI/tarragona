@@ -1,0 +1,25 @@
+/* ==========================================================================
+   WooCommerce Result and Ordering Responsive styles - begin
+   ========================================================================== */
+.mkdf-woocommerce-page {
+
+    @include phone-landscape {
+        
+        .woocommerce-result-count,
+        .woocommerce-ordering {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    
+        .woocommerce-ordering {
+            text-align: initial;
+            
+            .orderby {
+                display: block;
+            }
+        }
+    }
+}
+/* ==========================================================================
+   WooCommerce Result and Ordering Responsive styles - end
+   ========================================================================== */

@@ -1,0 +1,26 @@
+/* ==========================================================================
+   WooCommerce Responsive styles - begin
+   ========================================================================== */
+@import '../../../../../../assets/css/scss/variables';
+@import '../../../../../../assets/css/scss/mixins';
+
+/*------------------------------------------------------------------
+ * This is main woocommerce responsive css file for theme. It is broken into following sections:
+ * 1.  Global Responsive
+ * 2.  Single Product Responsive
+ * 3.  WooCommerce Product Lists and Shortcodes Responsive
+ * 4.  Cart Responsive
+ * 5.  Checkout Responsive
+ * 6.  My Account Responsive
+ * 7.  Shortcodes Responsive
+ * 8.  Widgets Responsive
+-------------------------------------------------------------------*/
+
+@import 'responsive/**/*.scss';
+@import '../../../shortcodes/**/assets/css/scss/responsive/*.scss';
+@import '../../../plugins/**/assets/css/scss/responsive/*.scss';
+
+
+/* ==========================================================================
+   WooCommerce Responsive styles - end
+   ========================================================================== */

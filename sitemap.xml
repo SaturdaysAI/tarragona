@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+  <loc>https://puntacanawellness.com/</loc>
+  <changefreq>always</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://puntacanawellness.com/planyourwellnessvacation/</loc>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://puntacanawellness.com/joinus/</loc>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://puntacanawellness.com/blog/</loc>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://puntacanawellness.com/aboutus/</loc>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://puntacanawellness.com/contactus/</loc>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://puntacanawellness.com/privacy-policy/</loc>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://puntacanawellness.com/terms-and-condition/</loc>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

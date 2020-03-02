@@ -1,0 +1,22 @@
+/* ==========================================================================
+   WooCommerce Dropdown Cart Responsive styles - begin
+   ========================================================================== */
+
+@media only screen and (max-width: $ipad-portrait) {
+
+    .mkdf-shopping-cart-dropdown {
+
+        ul {
+            margin: 20px;
+        }
+    }
+}
+
+@include laptop-landscape-medium{
+    .price_label{
+        font-size: 14px;
+    }
+}
+/* ==========================================================================
+   WooCommerce Dropdown Cart Responsive styles - end
+   ========================================================================== */

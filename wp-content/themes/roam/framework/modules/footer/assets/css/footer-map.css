@@ -1,0 +1,98 @@
+/* ==========================================================================
+   Footer styles - begin
+   ========================================================================== */
+/* Button mixins - start */
+/* Button mixins - end */
+/* ==========================================================================
+   #Content bottom styles - begin
+   ========================================================================== */
+.mkdf-content-bottom .mkdf-content-bottom-inner {
+  box-sizing: border-box;
+}
+
+.mkdf-content-bottom .mkdf-content-bottom-inner.mkdf-grid {
+  padding: 20px 0;
+}
+
+.mkdf-content-bottom .mkdf-content-bottom-inner.mkdf-full-width {
+  padding: 20px 50px;
+}
+
+/* ==========================================================================
+   #Content bottom styles - end
+   ========================================================================== */
+/* ==========================================================================
+   Footer style - begin
+   ========================================================================== */
+.mkdf-page-footer {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  z-index: 100;
+  box-sizing: border-box;
+}
+
+.mkdf-page-footer .mkdf-footer-top-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  background-color: #151515;
+  box-sizing: border-box;
+}
+
+.mkdf-page-footer .mkdf-footer-top-holder .mkdf-footer-top-alignment-center {
+  text-align: center;
+}
+
+.mkdf-page-footer .mkdf-footer-top-holder .mkdf-footer-top-alignment-left {
+  text-align: left;
+}
+
+.mkdf-page-footer .mkdf-footer-top-holder .mkdf-footer-top-alignment-right {
+  text-align: right;
+}
+
+.mkdf-page-footer .mkdf-footer-top-holder .mkdf-footer-top-inner {
+  box-sizing: border-box;
+}
+
+.mkdf-page-footer .mkdf-footer-top-holder .mkdf-footer-top-inner.mkdf-grid {
+  padding: 154px 0;
+}
+
+.mkdf-page-footer .mkdf-footer-top-holder .mkdf-footer-top-inner.mkdf-full-width {
+  padding: 140px 120px;
+}
+
+.mkdf-page-footer .mkdf-footer-bottom-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  background-color: #151515;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.mkdf-page-footer .mkdf-footer-bottom-holder .mkdf-footer-bottom-inner {
+  box-sizing: border-box;
+}
+
+.mkdf-page-footer .mkdf-footer-bottom-holder .mkdf-footer-bottom-inner.mkdf-grid {
+  padding: 19px 0;
+}
+
+.mkdf-page-footer .mkdf-footer-bottom-holder .mkdf-footer-bottom-inner.mkdf-full-width {
+  padding: 19px 120px;
+}
+
+/* ==========================================================================
+   Footer style - end
+   ========================================================================== */
+/* ==========================================================================
+   Footer styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../css/footer-map.css.map */

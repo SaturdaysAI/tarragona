@@ -1,0 +1,277 @@
+/* ==========================================================================
+   WooCommerce Dropdown Cart styles - begin
+   ========================================================================== */
+
+.mkdf-shopping-cart-holder {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    padding: 0 17px;
+
+    .touch & {
+        cursor: pointer;
+    }
+
+    .mkdf-shopping-cart-inner {
+        position: relative;
+        display: table;
+        height: 100%;
+    }
+
+    .mkdf-header-cart {
+        position: relative;
+        display: table-cell;
+        vertical-align: middle;
+
+        .mkdf-cart-icon {
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+            font-size: 20px;
+            line-height: 1em;
+
+            &:before {
+                display: block;
+                line-height: inherit;
+            }
+        }
+
+        .mkdf-cart-count {
+            position: absolute;
+            top: 50%;
+            margin-top: -19px;
+            right: -8px;
+            width: 15px;
+            height: 15px;
+            line-height: 15px;
+            font-size: 10px;
+            font-weight: 700;
+            border-radius: 50%;
+            text-align: center;
+            color: #fff;
+            background-color: $first-main-color;
+        }
+    }
+
+    &:hover {
+
+        .mkdf-shopping-cart-dropdown {
+            top: 100%;
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}
+
+.mkdf-dark-header .mkdf-page-header > div:not(.mkdf-sticky-header):not(.fixed) .mkdf-shopping-cart-holder .mkdf-header-cart {
+    color: $header-dark-color;
+
+    &:hover {
+        color: $header-dark-hover-color;
+    }
+}
+
+.mkdf-light-header .mkdf-page-header > div:not(.mkdf-sticky-header):not(.fixed) .mkdf-shopping-cart-holder .mkdf-header-cart {
+    color: $header-light-color;
+
+    &:hover {
+        color: $header-light-hover-color;
+    }
+}
+
+.mkdf-shopping-cart-dropdown {
+    position: absolute;
+    top: calc(100% + 50px);
+    left: auto;
+    right: -20px;
+    width: 280px;
+    background-color: rgba(46,46,46,.95);
+    text-align: left;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    box-sizing: border-box;
+    @include mkdfTransition(all 0.35s cubic-bezier(.53,.01,.18,1));
+
+    ul {
+        margin: 30px 30px 14px;
+        padding: 0;
+
+        li {
+            @include mkdfTableLayout();
+            padding: 14px 0;
+            box-sizing: border-box;
+
+            &:first-child {
+                padding-top: 0;
+            }
+
+            &:last-child {
+                padding-bottom: 0;
+            }
+
+            &.mkdf-empty-cart {
+                color: #fff;
+                padding-bottom: 16px;
+                border-bottom: 0;
+            }
+        }
+    }
+
+    .mkdf-item-image-holder {
+        position: relative;
+        display: table-cell;
+        height: 100%;
+        width: 55px;
+        vertical-align: top;
+
+        img {
+            display: block;
+        }
+    }
+
+    .mkdf-item-info-holder {
+        @include mkdfTableCellLayout();
+        vertical-align: top;
+        padding-left: 20px;
+
+        .mkdf-product-title {
+            display: block;
+            margin: 0;
+            padding: 0 20px 0 0;
+            box-sizing: border-box;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        .remove {
+            position: absolute;
+            top: -1px;
+            right: 0;
+	        font-size: 15px;
+            color: #fff;
+	        line-height: 1;
+
+            span {
+                display: block;
+                line-height: inherit;
+
+                &:before {
+                    display: block;
+                    line-height: inherit;
+                }
+            }
+
+            &:hover {
+                color: $first-main-color;
+            }
+        }
+
+        .mkdf-quantity,
+        .amount {
+            display: inline-block;
+            color: rgba(255,255,255,.6);
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
+
+    .mkdf-cart-bottom {
+        padding: 5px 0 0;
+
+        .mkdf-subtotal-holder {
+            position: relative;
+            display: table;
+            width: 100%;
+            margin: 0 0 32px;
+
+            > * {
+                display: inline-block;
+                color: #fff;
+                line-height: 20px;
+                font-size: 12px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+
+            &:after {
+                content: '';
+                display: block;
+                border-bottom: 1px solid $first-main-color;
+                width: calc(100% + 60px);
+                left: -30px;
+                bottom: -18px;
+                position: absolute;
+            }
+        }
+
+        .mkdf-btn-holder {
+
+            .view-cart,
+            .checkout {
+                color: #fff;
+                font-size: 14px;
+                font-weight: 500;
+                text-transform: none;
+                letter-spacing: 0;
+
+                &:hover{
+                	color: $first-main-color;
+                }
+            }
+            .view-cart {
+                padding: 9px 9px 9px 0;
+
+                &:before {
+                    content: "\f110";
+                    display: inline-block;
+                    font-family: "Ionicons";
+                    font-size: 20px;
+                    color: $first-main-color;
+                    vertical-align: top;
+                    margin-right: 7px;
+                }
+            }
+            .checkout {
+                padding: 9px 0 9px 9px;
+                float: right;
+
+                &:before {
+                    content: "\f3fe";
+                    display: inline-block;
+                    font-family: "Ionicons";
+                    font-size: 20px;
+                    color: $first-main-color;
+                    vertical-align: top;
+                    margin-right: 7px;
+                }
+            }
+        }
+    }
+
+    &:after {
+        content: '';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 10px 8px 10px;
+        border-color: transparent transparent #2e2e2e transparent;
+        margin: 0;
+        padding-top: 1px;
+        position: absolute;
+        top: -9px;
+        left: calc(100% - 40px);
+    }
+}
+
+.mkdf-vertical-menu-area {
+
+    .mkdf-shopping-cart-dropdown {
+        display: none !important;
+    }
+}
+/* ==========================================================================
+   WooCommerce Dropdown Cart styles - end
+   ========================================================================== */

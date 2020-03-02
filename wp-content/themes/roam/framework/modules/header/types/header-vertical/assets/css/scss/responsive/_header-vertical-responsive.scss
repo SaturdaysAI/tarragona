@@ -1,0 +1,90 @@
+/* ==========================================================================
+   Header Vertical responsive style - begin
+   ========================================================================== */
+
+@include laptop-landscape-large {
+	.mkdf-header-vertical {
+		.mkdf-vertical-menu-area {
+			overflow: hidden;
+
+            .mkdf-vertical-menu-area-inner {
+                overflow-y: scroll;
+                padding-right: 45px;
+                left: 9px;
+            }
+
+            .mkdf-vertical-area-widget-holder-bottom {
+                left: -23px;
+            }
+		}
+
+		.mkdf-vertical-menu {
+			margin-top: 28px;
+		}
+
+        .mkdf-vertical-menu>ul>li>a {
+            line-height: 30px;
+        }
+	}
+}
+
+@media only screen and (min-width: $ipad-landscape-plus-pixel) {
+	
+	.mkdf-header-vertical .mkdf-404-page .mkdf-content {
+		margin: 0 !important;
+	}
+}
+
+@include ipad-landscape {
+	
+	.mkdf-header-vertical {
+		
+		.mkdf-vertical-menu-area {
+			display: none;
+		}
+		
+		.mkdf-content,
+		footer {
+			padding-left: 0;
+		}
+	}
+}
+
+.mkdf-header-vertical {
+	
+	.mkdf-grid,
+	.mkdf-container-inner,
+	.mkdf-row-grid-section {
+		
+		@include laptop-landscape-large {
+			width: $grid-width-laptop-landscape;
+		}
+		
+		@include laptop-landscape {
+			width: $grid-width-ipad-landscape;
+		}
+		
+		@include ipad-landscape {
+			width: $grid-width-ipad-landscape;
+		}
+		
+		@include ipad-portrait {
+			width: $grid-width-ipad-portrait;
+		}
+		
+		@include phone-landscape {
+			width: $grid-width-phone-landscape;
+		}
+		
+		@include phone-portrait {
+			width: $grid-width-phone-portrait;
+		}
+		
+		@include smaller-phone-portrait {
+			width: $grid-width-smaller-phone-portrait;
+		}
+	}
+}
+/* ==========================================================================
+   Header Vertical responsive style - end
+   ========================================================================== */

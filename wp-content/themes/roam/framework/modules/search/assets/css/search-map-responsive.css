@@ -1,0 +1,60 @@
+/* ==========================================================================
+   Search responsive styles - begin
+   ========================================================================== */
+/* Button mixins - start */
+/* Button mixins - end */
+/* ==========================================================================
+# Search template responsive style - begin
+========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .mkdf-search-page-holder article .mkdf-post-image {
+    width: 80px;
+  }
+  .mkdf-search-page-holder article .mkdf-post-title-area {
+    padding: 0 0 0 105px;
+    min-height: 80px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-search-page-holder article .mkdf-post-image {
+    width: 60px;
+  }
+  .mkdf-search-page-holder article .mkdf-post-title-area {
+    padding: 0 0 0 80px;
+    min-height: 60px;
+  }
+}
+
+/* ==========================================================================
+# Search template responsive style - end
+========================================================================== */
+/* ==========================================================================
+# Fullscreen search responsive - start
+========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .mkdf-fullscreen-search-holder .mkdf-form-holder-inner {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mkdf-fullscreen-search-holder .mkdf-search-submit {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .mkdf-fullscreen-search-holder .mkdf-form-holder-inner {
+    width: 80%;
+  }
+}
+
+/* ==========================================================================
+# Fullscreen search responsive - end
+========================================================================== */
+/* ==========================================================================
+   Search responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../css/search-map-responsive.css.map */

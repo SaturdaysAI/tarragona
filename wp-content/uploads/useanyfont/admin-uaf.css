@@ -1,0 +1,10 @@
+			@font-face {
+				font-family: 'island-style';
+				font-style: normal;
+				src: url('/wp-content/uploads/useanyfont/190918115536Island-Style.eot');
+				src: local('island-style'), url('/wp-content/uploads/useanyfont/190918115536Island-Style.eot') format('embedded-opentype'), url('/wp-content/uploads/useanyfont/190918115536Island-Style.woff') format('woff');
+			}
+            
+            .et_gf_island-style{background:none !important;font-family:island-style;text-indent:0 !important;font-size:25px;}
+            
+		

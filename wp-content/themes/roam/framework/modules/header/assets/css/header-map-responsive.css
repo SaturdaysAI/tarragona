@@ -1,0 +1,245 @@
+/* ==========================================================================
+   Header responsive styles - begin
+   ========================================================================== */
+/* Button mixins - start */
+/* Button mixins - end */
+/* ==========================================================================
+   Header responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1280px) {
+  .mkdf-page-header .mkdf-vertical-align-containers {
+    padding: 0 40px;
+  }
+  .mkdf-drop-down .second .inner ul li a {
+    padding: 8px 22px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .mkdf-drop-down .wide .second > .inner > ul {
+    width: 950px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-page-header {
+    display: none;
+  }
+  .mkdf-drop-down .wide .second > .inner > ul {
+    width: 768px;
+  }
+}
+
+/* ==========================================================================
+   Header responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Fixed header responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1200px) {
+  .mkdf-boxed .mkdf-page-header .mkdf-fixed-wrapper.fixed {
+    width: 1000px;
+  }
+}
+
+/* ==========================================================================
+   Fixed header responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Minimal Fullscreen Menu responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 480px) {
+  nav.mkdf-fullscreen-menu > ul > li > a {
+    font-size: 20px;
+    margin: 3px 0;
+  }
+}
+
+/* ==========================================================================
+   Header Minimal Fullscreen Menu responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Standard style - begin
+   ========================================================================== */
+/* ==========================================================================
+   Header Standard style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Vertical responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1440px) {
+  .mkdf-header-vertical .mkdf-vertical-menu-area {
+    overflow: hidden;
+  }
+  .mkdf-header-vertical .mkdf-vertical-menu-area .mkdf-vertical-menu-area-inner {
+    overflow-y: scroll;
+    padding-right: 45px;
+    left: 9px;
+  }
+  .mkdf-header-vertical .mkdf-vertical-menu-area .mkdf-vertical-area-widget-holder-bottom {
+    left: -23px;
+  }
+  .mkdf-header-vertical .mkdf-vertical-menu {
+    margin-top: 28px;
+  }
+  .mkdf-header-vertical .mkdf-vertical-menu > ul > li > a {
+    line-height: 30px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .mkdf-header-vertical .mkdf-404-page .mkdf-content {
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-header-vertical .mkdf-vertical-menu-area {
+    display: none;
+  }
+  .mkdf-header-vertical .mkdf-content,
+  .mkdf-header-vertical footer {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .mkdf-header-vertical .mkdf-grid,
+  .mkdf-header-vertical .mkdf-container-inner,
+  .mkdf-header-vertical .mkdf-row-grid-section {
+    width: 950px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .mkdf-header-vertical .mkdf-grid,
+  .mkdf-header-vertical .mkdf-container-inner,
+  .mkdf-header-vertical .mkdf-row-grid-section {
+    width: 768px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-header-vertical .mkdf-grid,
+  .mkdf-header-vertical .mkdf-container-inner,
+  .mkdf-header-vertical .mkdf-row-grid-section {
+    width: 768px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mkdf-header-vertical .mkdf-grid,
+  .mkdf-header-vertical .mkdf-container-inner,
+  .mkdf-header-vertical .mkdf-row-grid-section {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-header-vertical .mkdf-grid,
+  .mkdf-header-vertical .mkdf-container-inner,
+  .mkdf-header-vertical .mkdf-row-grid-section {
+    width: 420px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .mkdf-header-vertical .mkdf-grid,
+  .mkdf-header-vertical .mkdf-container-inner,
+  .mkdf-header-vertical .mkdf-row-grid-section {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .mkdf-header-vertical .mkdf-grid,
+  .mkdf-header-vertical .mkdf-container-inner,
+  .mkdf-header-vertical .mkdf-row-grid-section {
+    width: 90%;
+  }
+}
+
+/* ==========================================================================
+   Header Vertical responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Mobile header responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .mkdf-mobile-header {
+    display: block;
+  }
+}
+
+/* ==========================================================================
+   Mobile header responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Sticky header responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1200px) {
+  .mkdf-boxed .mkdf-page-header .mkdf-sticky-header {
+    width: 1000px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-boxed.mkdf-sticky-up-mobile-header .mobile-header-appear .mkdf-mobile-header-inner {
+    width: 818px;
+    left: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mkdf-boxed.mkdf-sticky-up-mobile-header .mobile-header-appear .mkdf-mobile-header-inner {
+    width: 650px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-boxed.mkdf-sticky-up-mobile-header .mobile-header-appear .mkdf-mobile-header-inner {
+    width: 470px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .mkdf-boxed.mkdf-sticky-up-mobile-header .mobile-header-appear .mkdf-mobile-header-inner {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .mkdf-boxed.mkdf-sticky-up-mobile-header .mobile-header-appear .mkdf-mobile-header-inner {
+    width: 92%;
+  }
+}
+
+/* ==========================================================================
+   Sticky header responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Top header responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1280px) {
+  .mkdf-top-bar > .mkdf-vertical-align-containers {
+    padding: 0 40px;
+  }
+  .mkdf-top-bar-in-grid-padding .mkdf-top-bar .mkdf-grid .mkdf-vertical-align-containers {
+    padding: 0 40px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-top-bar {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Top header responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../css/header-map-responsive.css.map */

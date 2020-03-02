@@ -1,0 +1,83 @@
+/* ==========================================================================
+   #Content bottom styles - begin
+   ========================================================================== */
+
+.mkdf-content-bottom {
+    
+    .mkdf-content-bottom-inner{
+        box-sizing: border-box;
+        
+        &.mkdf-grid{
+            padding: 20px 0;
+        }
+        
+        &.mkdf-full-width{
+            padding: 20px 50px;
+        }
+    }
+}
+/* ==========================================================================
+   #Content bottom styles - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Footer style - begin
+   ========================================================================== */
+
+.mkdf-page-footer {
+    @include mkdfRelativeHolderLayout();
+    z-index: 100;
+    box-sizing: border-box;
+
+    .mkdf-footer-top-holder {
+        @include mkdfRelativeHolderLayout();
+        background-color: #151515;
+        box-sizing: border-box;
+
+        .mkdf-footer-top-alignment-center{
+            text-align: center;
+        }
+	    
+        .mkdf-footer-top-alignment-left{
+            text-align: left;
+        }
+	    
+        .mkdf-footer-top-alignment-right{
+            text-align: right;
+        }
+
+        .mkdf-footer-top-inner{
+            box-sizing: border-box;
+	        
+            &.mkdf-grid{
+                padding: 154px 0;
+            }
+	        
+            &.mkdf-full-width{
+                padding: 140px 120px;
+            }
+        }
+    }
+
+    .mkdf-footer-bottom-holder {
+        @include mkdfRelativeHolderLayout();
+        background-color: #151515;
+        box-sizing: border-box;
+        text-align: center;
+
+        .mkdf-footer-bottom-inner {
+            box-sizing: border-box;
+	        
+            &.mkdf-grid {
+                padding: 19px 0;
+            }
+	        
+            &.mkdf-full-width {
+                padding: 19px 120px;
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Footer style - end
+   ========================================================================== */

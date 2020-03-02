@@ -1,0 +1,22 @@
+/* ==========================================================================
+   Blog Slider shortcode responsive style - begin
+   ========================================================================== */
+
+@include ipad-landscape {
+    
+    .mkdf-blog-slider-holder {
+        
+        &.mkdf-bs-carousel-centered {
+            
+            .active.center {
+                
+                .mkdf-item-text-wrapper {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Blog Slider shortcode responsive style - end
+   ========================================================================== */

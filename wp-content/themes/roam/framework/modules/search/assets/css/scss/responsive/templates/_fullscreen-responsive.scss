@@ -1,0 +1,30 @@
+/* ==========================================================================
+# Fullscreen search responsive - start
+========================================================================== */
+
+.mkdf-fullscreen-search-holder {
+    
+    @include ipad-landscape {
+        
+        .mkdf-form-holder-inner {
+            width: 75%;
+        }
+    }
+    
+    @include ipad-portrait {
+        
+        .mkdf-search-submit {
+            font-size: 25px;
+        }
+    }
+    
+    @include phone-portrait {
+        
+        .mkdf-form-holder-inner {
+            width: 80%;
+        }
+    }
+}
+/* ==========================================================================
+# Fullscreen search responsive - end
+========================================================================== */

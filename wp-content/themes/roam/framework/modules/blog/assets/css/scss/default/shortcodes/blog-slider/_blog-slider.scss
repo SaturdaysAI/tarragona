@@ -1,0 +1,211 @@
+/* ==========================================================================
+   Blog Slider shortcode style - begin
+   ========================================================================== */
+
+.mkdf-blog-slider-holder {
+    
+    /***** Slider Type Style - begin *****/
+    
+    &.mkdf-bs-slider {
+        
+        .mkdf-blog-slider-item {
+            text-align: center;
+            
+            .touch & {
+                cursor: pointer;
+            }
+            
+            &:hover {
+                
+                .mkdf-item-text-wrapper {
+                    opacity: 1;
+                }
+            }
+        }
+        
+        .mkdf-post-title {
+            color: #fff;
+            
+            a {
+                
+                &:hover {
+                    color: rgba(#fff, .8);
+                }
+            }
+        }
+        
+        .mkdf-post-read-more-button {
+            
+            a {
+                color: #fff;
+                
+                &:hover {
+                    color: rgba(#fff, .8) !important;
+                }
+            }
+        }
+    }
+    
+    /***** Slider Type Style - end *****/
+    
+    /***** Carousel Type Style - begin *****/
+    
+    &.mkdf-bs-carousel {
+        
+        .mkdf-item-image {
+            
+            a {
+                
+                &:hover {
+                    
+                    &:after {
+                        opacity: 1;
+                    }
+                }
+                
+                &:after {
+                    @include mkdfAbsoluteHolderLayout();
+                    content: '';
+                    background-color: rgba(#fff, .15);
+                    opacity: 0;
+                    @include mkdfTransition(opacity .3s ease);
+                }
+            }
+        }
+        
+        .mkdf-post-title {
+            margin: 29px 0 0;
+        }
+        
+        .mkdf-post-read-more-button {
+            margin: 15px 0 0;
+        }
+    }
+    
+    /***** Carousel Type Style - end *****/
+    
+    /***** Carousel Centered Type Style - begin *****/
+    
+    &.mkdf-bs-carousel-centered {
+        
+        .active.center {
+            
+            .mkdf-item-text-wrapper {
+                opacity: 1;
+            }
+        }
+        
+        .mkdf-blog-slider-item {
+            text-align: center;
+        }
+        
+        .mkdf-post-title {
+            color: #fff;
+            
+            a {
+                
+                &:hover {
+                    color: rgba(#fff, .8);
+                }
+            }
+        }
+        
+        .mkdf-post-read-more-button {
+            
+            a {
+                color: #fff;
+                
+                &:hover {
+                    color: rgba(#fff, .8) !important;
+                }
+            }
+        }
+    }
+    
+    /***** Carousel Centered Type Style - end *****/
+    
+    .mkdf-blog-slider-item {
+        @include mkdfRelativeHolderLayout();
+        list-style-type: none;
+    }
+    
+    .mkdf-item-image {
+        @include mkdfRelativeHolderLayout();
+    }
+    
+    .mkdf-item-text-wrapper {
+        @include mkdfAbsoluteHolderLayout();
+        background-color: rgba($first-main-color, .85);
+        opacity: 0;
+        @include mkdfTransition(opacity .45s ease-out);
+    }
+    
+    .mkdf-item-text-holder {
+        @include mkdfTableLayout();
+    }
+    
+    .mkdf-item-text-holder-inner {
+        @include mkdfTableCellLayout();
+        padding: 0 5%;
+    }
+    
+    .mkdf-item-info-section {
+        @include mkdfRelativeHolderLayout();
+        margin-bottom: 2px;
+        
+        > div {
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+            padding-right: 10px;
+            margin-right: 3px;
+            color: #fff;
+            font-size: 12px;
+            line-height: 24px;
+            
+            a {
+                @include mkdfTypographyLayout();
+                
+                &:hover {
+                    color: rgba(#fff, .8);
+                }
+            }
+            
+            &:after {
+                content: "/";
+                position: absolute;
+                top: 0;
+                right: 2px;
+            }
+            
+            &:last-child {
+                padding-right: 0;
+                margin-right: 0;
+                
+                &:after {
+                    content: '';
+                }
+            }
+        }
+    }
+    
+    .mkdf-post-title {
+        margin: 0;
+    }
+    
+    .mkdf-bli-excerpt {
+        @include mkdfRelativeHolderLayout();
+        margin: 12px 0 0;
+        
+        p {
+            margin: 0;
+        }
+    }
+    
+    .mkdf-post-read-more-button {
+        margin: 5px 0 0;
+    }
+}
+/* ==========================================================================
+   Blog Slider shortcode style - end
+   ========================================================================== */

@@ -1,0 +1,337 @@
+/* ==========================================================================
+   Pretty Photo style - begin
+   ========================================================================== */
+
+body {
+    div.pp_default .pp_content {
+        background-color: transparent;
+    }
+    
+    .pp_pic_holder {
+        position: fixed !important;
+        top: 50% !important;
+        left: 50% !important;
+        display: none;
+        width: 100px;
+        z-index: 10001 !important;
+        @include mkdfTransform(translateX(-50%) translateY(-50%));
+
+        .pp_top,
+        .pp_bottom {
+            display: none !important;
+        }
+        
+        .pp_content {
+            position: relative;
+            background: none;
+            margin: 0 auto;
+            height: 40px;
+            min-width: 40px;
+            width: 100%;
+            
+            @include ipad-portrait {
+                width: 100% !important;
+            }
+            
+            * html & {
+                width: 40px;
+            }
+        }
+        
+        .pp_content_container {
+            position: relative;
+            text-align: left;
+            width: 100%;
+            
+            .pp_left,
+            .pp_right {
+                background: none !important;
+                padding: 0 !important;
+            }
+        }
+        
+        #pp_full_res {
+            line-height: 1 !important;
+            
+            .pp_inline {
+                color: $default-heading-color;
+                text-align: left;
+                
+                p {
+                    margin: 0 0 15px;
+                }
+            }
+            
+            img {
+                display: block;
+                
+                @include ipad-portrait {
+                    width: 100% !important;
+                }
+            }
+        }
+        
+        .ppt,
+        .pp_gallery,
+        .pp_description {
+            display: none !important;
+        }
+        
+        .pp_loaderIcon {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 32px;
+            height: 32px;
+            margin: -16px 0 0 -16px;
+            background-color: #fff;
+            border-radius: 16px;
+            -webkit-animation: scaleout 1.0s infinite ease-in-out;
+            animation: scaleout 1.0s infinite ease-in-out;
+        }
+        
+        .pp_fade {
+            position: relative;
+            top: 50%;
+            display: none;
+            @include mkdfTransform(translateY(-50%) translateZ(0));
+        }
+        
+        .pp_details {
+            position: relative;
+            top: -1px;
+            display: table;
+            vertical-align: top;
+            width: 100% !important;
+            float: none !important;
+            margin: 0 !important;
+            padding: 15px 24px;
+            background-color: #fff;
+            box-sizing: border-box;
+            
+            .pp_nav {
+                position: relative;
+                display: table-cell;
+                vertical-align: middle;
+                width: 100%;
+                height: auto;
+                float: none;
+                margin: 0 !important;
+                
+                .pp_play,
+                .pp_pause {
+                    display: none;
+                }
+                
+                .currentTextHolder {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    width: auto;
+                    margin: 0;
+                    padding: 0;
+                    float: none;
+                    color: $default-text-color;
+                    font-family: inherit;
+                    font-size: inherit;
+                    line-height: 30px;
+                    font-style: inherit;
+                    letter-spacing: 5px;
+                }
+            }
+        }
+        
+        a {
+            
+            &:focus {
+                outline: none;
+            }
+            
+            &.pp_arrow_previous,
+            &.pp_arrow_next {
+                position: relative;
+                display: inline-block;
+                vertical-align: top;
+                left: auto !important;
+                float: none;
+                width: auto !important;
+                height: auto !important;
+                margin: 0 !important;
+                color: $default-text-color;
+                font-family: 'Ionicons';
+                font-size: 0;
+                line-height: 1;
+                text-indent: 0;
+                background: none !important;
+                opacity: 1 !important;
+                overflow: visible;
+                
+                &:after {
+                    font-size: 30px;
+                }
+                
+                &:hover {
+                    color: $default-heading-color;
+                }
+            }
+            
+            &.pp_arrow_previous {
+                
+                &:after {
+                    content: "\f3d2";
+                }
+            }
+            
+            &.pp_arrow_next {
+                margin: 0 0 0 14px !important;
+                
+                &:after {
+                    content: "\f3d3";
+                }
+            }
+            
+            &.pp_next,
+            &.pp_previous {
+                position: absolute;
+                top: calc(50% - 20px);
+                width: auto;
+                height: auto;
+                display: inline-block;
+                margin: 0 !important;
+                background: none !important;
+                color: $default-heading-color;
+                font-family: 'Ionicons';
+                font-size: 40px;
+                line-height: 1;
+                text-indent: -9999px !important;
+                opacity: 0;
+                @include mkdfTransition(opacity 0.2s ease-out, color 0.2s ease-out);
+                
+                > * {
+                    display: none;
+                }
+                
+                &:after {
+                    display: block;
+                    line-height: inherit;
+                    text-indent: 0 !important;
+                }
+                
+                &:hover {
+                    color: rgba($default-heading-color, .8);
+                }
+            }
+            
+            &.pp_previous {
+                left: 30px;
+                
+                @include ipad-portrait {
+                    left: 20px;
+                }
+                
+                &:after {
+                    content: "\f3d2";
+                }
+            }
+            
+            &.pp_next {
+                right: 30px;
+                
+                @include ipad-portrait {
+                    right: 20px;
+                }
+                
+                &:after {
+                    content: "\f3d3";
+                }
+            }
+            
+            &.pp_close {
+                position: relative;
+                display: table-cell;
+                vertical-align: middle;
+                width: auto;
+                height: auto;
+                margin: 0 !important;
+                background: none !important;
+                color: $default-text-color;
+                font-family: 'Ionicons';
+                font-size: 0;
+                line-height: 1;
+                text-indent: 0;
+                cursor: pointer;
+                opacity: 1 !important;
+                
+                &:after {
+                    content: "\f2d7";
+                    font-size: 28px;
+                }
+                
+                &:hover {
+                    color: $default-heading-color;
+                }
+            }
+            
+            &.pp_expand {
+                position: absolute;
+                right: -22px;
+                top: -18px;
+                display: block;
+                height: auto;
+                width: auto;
+                color: #fff;
+                font-family: 'Ionicons';
+                font-size: 0;
+                line-height: 1;
+                text-align: center;
+                text-indent: 0;
+                background: none !important;
+                z-index: 2001;
+                
+                &:after {
+                    content: "\f386";
+                    font-size: 22px;
+                }
+                
+                &:hover {
+                    color: rgba(#fff, .8);
+                }
+            }
+        }
+    }
+    
+    .pp_hoverContainer {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 2000;
+        
+        @include ipad-portrait {
+            width: 100% !important;
+        }
+        
+        &:hover {
+            
+            a {
+                
+                &.pp_next,
+                &.pp_previous {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    
+    .pp_overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: none;
+        background-color: $default-heading-color;
+        z-index: 10000 !important;
+    }
+}
+/* ==========================================================================
+   Pretty Photo style - end
+   ========================================================================== */

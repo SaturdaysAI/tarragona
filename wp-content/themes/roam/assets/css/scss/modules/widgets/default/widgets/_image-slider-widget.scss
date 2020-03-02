@@ -1,0 +1,22 @@
+/* ==========================================================================
+   Image Slider widget style - begin
+   ========================================================================== */
+
+.widget.mkdf-image-slider-widget {
+    @include mkdfRelativeHolderLayout();
+    
+    .mkdf-is-widget-inner {
+        @include mkdfRelativeHolderLayout();
+    }
+    
+    .mkdf-widget-title {
+        margin: 0 0 32px;
+    }
+    
+    img {
+        display: block;
+    }
+}
+/* ==========================================================================
+   Image Slider widget style - end
+   ========================================================================== */

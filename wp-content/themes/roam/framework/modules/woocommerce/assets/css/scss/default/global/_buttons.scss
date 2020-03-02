@@ -1,0 +1,30 @@
+/* ==========================================================================
+   WooCommerce Buttons styles - begin
+   ========================================================================== */
+
+.woocommerce-page .mkdf-content,
+div.woocommerce {
+    
+    a.button,
+    a.added_to_cart,
+    input[type="submit"],
+    button[type="submit"]:not(.mkdf-woo-search-widget-button),
+    .wc-forward:not(.added_to_cart):not(.checkout-button) {
+        @include mkdfButtonDefaultStyle();
+        @include mkdfButtonMediumParams();
+        @include mkdfButtonSolidColor();
+        cursor: pointer;
+        z-index: 3;
+
+        &:hover {
+            @include mkdfButtonSolidHoverColor();
+        }
+    }
+    
+    a.button.added {
+        display: none;
+    }
+}
+/* ==========================================================================
+   WooCommerce Buttons styles - end
+   ========================================================================== */

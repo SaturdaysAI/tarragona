@@ -1,0 +1,67 @@
+/* ==========================================================================
+   WooCommerce MyAccount page responsive styles - begin
+   ========================================================================== */
+
+@include ipad-landscape {
+	
+	.mkdf-woocommerce-page.woocommerce-account {
+		
+		.woocommerce-MyAccount-navigation {
+			width: 28%;
+		}
+		
+		.woocommerce-MyAccount-content {
+			width: 72%;
+			padding: 0 0 0 20px;
+		}
+	}
+}
+
+@include ipad-portrait {
+	
+	.mkdf-woocommerce-page.woocommerce-account {
+		
+		.woocommerce-MyAccount-navigation,
+		.woocommerce-MyAccount-content {
+			float: none;
+			width: 100%;
+			padding: 0;
+		}
+		
+		.woocommerce-MyAccount-navigation {
+			
+			ul {
+				border-right: none;
+				
+				li {
+					
+					&:not(:last-child) {
+						margin: 0 0 14px;
+					}
+				}
+			}
+		}
+		
+		.woocommerce-MyAccount-content {
+			margin: 40px 0 0;
+		}
+		
+		.woocommerce {
+			
+			.col2-set.addresses {
+				
+				.col-1,
+				.col-2 {
+					width: 100%;
+				}
+				
+				.col-1 {
+					margin: 0 0 25px;
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   WooCommerce MyAccount page responsive styles - end
+   ========================================================================== */

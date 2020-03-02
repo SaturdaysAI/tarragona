@@ -1,0 +1,67 @@
+/* ==========================================================================
+   Standard With Breadcrumbs Title type style - begin
+   ========================================================================== */
+
+.mkdf-title-holder {
+	
+	&.mkdf-standard-with-breadcrumbs-type {
+		
+		.mkdf-title-info,
+		.mkdf-breadcrumbs-info {
+			display: table-cell;
+			vertical-align: middle;
+		}
+		
+		.mkdf-title-info {
+			width: 99%;
+		}
+		
+		.mkdf-breadcrumbs-info {
+			width: 1%;
+			text-align: right;
+			white-space: nowrap;
+		}
+		
+		.mkdf-page-title {
+			margin: 0;
+		}
+		
+		.mkdf-page-subtitle {
+			margin: 3px 0 0;
+		}
+		
+		.mkdf-breadcrumbs {
+			color: $default-text-color;
+			font-size: 20px;
+			font-weight: 700;
+			
+			&.mkdf-has-inline-style {
+				
+				a {
+					opacity: 1;
+					@include mkdfTransition(opacity .2s ease-out);
+					
+					&:hover {
+						color: inherit;
+						opacity: 0.9;
+					}
+				}
+			}
+			
+			a,
+			span {
+				position: relative;
+				display: inline-block;
+				vertical-align: middle;
+				color: inherit;
+			}
+			
+			a:hover {
+				color: $default-heading-color;
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Standard With Breadcrumbs Title type style - end
+   ========================================================================== */

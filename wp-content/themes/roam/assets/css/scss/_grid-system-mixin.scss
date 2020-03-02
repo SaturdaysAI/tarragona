@@ -1,0 +1,239 @@
+/* ==========================================================================
+   Grid System Mixin style - begin
+   ========================================================================== */
+
+$gridConfig: (
+        gutter: 15,
+        numberOfCols: 12,
+        stackOn: ipad-landscape
+);
+
+@function getColWidth($col, $colsNumber: map-get($gridConfig, numberOfCols)) {
+    @if ($col != '' and round($col) == $col) {
+        $col: $col;
+    } @else {
+        $col: $colsNumber;
+    }
+    
+    @return ($col / $colsNumber) * 100%;
+}
+
+@mixin createGridRow($padding: '') {
+    
+    @if ($padding == '') {
+        $padding: map-get($gridConfig, gutter);
+    }
+    
+    margin-left: -#{$padding}px;
+    margin-right: -#{$padding}px;
+}
+
+@mixin createGridColumn($cols: map-get($gridConfig, numberOfCols), $padding: '', $colsNumber: map-get($gridConfig, numberOfCols)) {
+    position: relative;
+    float: left;
+    width: getColWidth($cols, $colsNumber);
+    min-height: 1px;
+    
+    @if ($padding == '') {
+        $padding: map-get($gridConfig, gutter);
+    }
+    
+    @include createGridColumnPadding($padding);
+    
+    box-sizing: border-box;
+    @include mkdfClearfix();
+}
+
+@mixin createGridColumnPadding($padding) {
+    padding-left: #{$padding}px;
+    padding-right: #{$padding}px;
+}
+
+@mixin createGridColumnPush($cols: 1, $size: map-get($gridConfig, stackOn)) {
+    left: getColWidth($cols);
+    
+    @include createGridColumnPushResponsive($size);
+}
+
+@mixin createGridColumnPull($cols: 1, $size: map-get($gridConfig, stackOn)) {
+    right: getColWidth($cols);
+    
+    @include createGridColumnPullResponsive($size);
+}
+
+@mixin createGridColumnResponsive($size: map-get($gridConfig, stackOn), $cols: map-get($gridConfig, numberOfCols), $stack: true) {
+    $colWidth: getColWidth($cols);
+    
+    @if ($size == 'laptop-landscape-large') {
+        @include laptop-landscape-large {
+            width: $colWidth;
+            
+            @if ($stack) {
+                float: none;
+            } @else {
+                float: left;
+            }
+        }
+    } @else if ($size == 'laptop-landscape-medium') {
+        @include laptop-landscape-medium {
+            width: $colWidth;
+            
+            @if ($stack) {
+                float: none;
+            } @else {
+                float: left;
+            }
+        }
+    } @else if ($size == 'laptop-landscape') {
+        @include laptop-landscape {
+            width: $colWidth;
+            
+            @if ($stack) {
+                float: none;
+            } @else {
+                float: left;
+            }
+        }
+    } @else if ($size == 'ipad-landscape') {
+        @include ipad-landscape {
+            width: $colWidth;
+            
+            @if ($stack) {
+                float: none;
+            } @else {
+                float: left;
+            }
+        }
+    } @else if ($size == 'ipad-portrait') {
+        @include ipad-portrait {
+            width: $colWidth;
+            
+            @if ($stack) {
+                float: none;
+            } @else {
+                float: left;
+            }
+        }
+    } @else if ($size == 'phone-landscape') {
+        @include phone-landscape {
+            width: $colWidth;
+            
+            @if ($stack) {
+                float: none;
+            } @else {
+                float: left;
+            }
+        }
+    } @else if ($size == 'phone-portrait') {
+        @include phone-portrait {
+            width: $colWidth;
+            
+            @if ($stack) {
+                float: none;
+            } @else {
+                float: left;
+            }
+        }
+    } @else if ($size == 'smaller-phone-portrait') {
+        @include smaller-phone-portrait {
+            width: $colWidth;
+            
+            @if ($stack) {
+                float: none;
+            } @else {
+                float: left;
+            }
+        }
+    }
+}
+
+@mixin createGridColumnPushResponsive($size: map-get($gridConfig, stackOn)) {
+    @if ($size == 'laptop-landscape-large') {
+        @include laptop-landscape-large {
+            left: 0;
+        }
+    } @else if ($size == 'laptop-landscape-medium') {
+        @include laptop-landscape-medium {
+            left: 0;
+        }
+    } @else if ($size == 'laptop-landscape') {
+        @include laptop-landscape {
+            left: 0;
+        }
+    } @else if ($size == 'ipad-landscape') {
+        @include ipad-landscape {
+            left: 0;
+        }
+    } @else if ($size == 'ipad-portrait') {
+        @include ipad-portrait {
+            left: 0;
+        }
+    } @else if ($size == 'phone-landscape') {
+        @include phone-landscape {
+            left: 0;
+        }
+    } @else if ($size == 'phone-portrait') {
+        @include phone-portrait {
+            left: 0;
+        }
+    } @else if ($size == 'smaller-phone-portrait') {
+        @include smaller-phone-portrait {
+            left: 0;
+        }
+    }
+}
+
+@mixin createGridColumnPullResponsive($size: map-get($gridConfig, stackOn)) {
+    @if ($size == 'laptop-landscape-large') {
+        @include laptop-landscape-large {
+            right: 0;
+        }
+    } @else if ($size == 'laptop-landscape-medium') {
+        @include laptop-landscape-medium {
+            right: 0;
+        }
+    } @else if ($size == 'laptop-landscape') {
+        @include laptop-landscape {
+            right: 0;
+        }
+    } @else if ($size == 'ipad-landscape') {
+        @include ipad-landscape {
+            right: 0;
+        }
+    } @else if ($size == 'ipad-portrait') {
+        @include ipad-portrait {
+            right: 0;
+        }
+    } @else if ($size == 'phone-landscape') {
+        @include phone-landscape {
+            right: 0;
+        }
+    } @else if ($size == 'phone-portrait') {
+        @include phone-portrait {
+            right: 0;
+        }
+    } @else if ($size == 'smaller-phone-portrait') {
+        @include smaller-phone-portrait {
+            right: 0;
+        }
+    }
+}
+
+@mixin mkdfClearfix() {
+    &:before,
+    &:after {
+        content: " "; /* 1 */
+        display: table; /* 2 */
+    }
+    
+    &:after {
+        clear: both;
+    }
+    
+    & {
+        *zoom: 1;
+    }
+}
+/* ==========================================================================
+   Grid System Mixin style - end
+   ========================================================================== */

@@ -1,0 +1,258 @@
+/* ==========================================================================
+   Product List shortcode responsive styles - begin
+   ========================================================================== */
+@include laptop-landscape-large {
+
+    .mkdf-pl-holder {
+	    
+	    &.mkdf-standard-layout {
+		    $standard_list_columns: ('six');
+		
+		    @for $i from 0 to length($standard_list_columns) {
+			    &.mkdf-#{nth($standard_list_columns,$i+1)}-columns {
+				    $column_width: 100%/5;
+				
+				    .mkdf-pli {
+					    width: $column_width;
+					
+					    @media only screen and (min-width: $laptop-landscape-plus-pixel) {
+						    &:nth-child(6n+1) {
+							    clear: none;
+						    }
+						
+						    &:nth-child(5n+1) {
+							    clear: both;
+						    }
+					    }
+				    }
+			    }
+		    }
+	    }
+	    
+	    &.mkdf-masonry-layout {
+		    $masonry_list_columns: ('five', 'six');
+		
+		    @for $i from 0 to length($masonry_list_columns) {
+			    &.mkdf-#{nth($masonry_list_columns,$i+1)}-columns {
+				    $column_width: 100%/4;
+				
+				    .mkdf-pli,
+				    .mkdf-pl-sizer {
+					    width: $column_width;
+				    }
+				
+				    .mkdf-pli.mkdf-woo-image-large-width {
+					    width: $column_width*2;
+				    }
+			    }
+		    }
+	    }
+    }
+}
+
+@include laptop-landscape {
+
+    .mkdf-pl-holder {
+	    
+	    &.mkdf-standard-layout {
+		    $standard_list_columns: ('five', 'six');
+		
+		    @for $i from 0 to length($standard_list_columns) {
+			    &.mkdf-#{nth($standard_list_columns,$i+1)}-columns {
+				    $column_width: 100%/4;
+				
+				    .mkdf-pli {
+					    width: $column_width;
+					    $standard_list_columns_label: #{nth($standard_list_columns,$i+1)};
+					
+					    @media only screen and (min-width: $ipad-landscape-plus-pixel) {
+						    @if $standard_list_columns_label == "five" {
+							    &:nth-child(5n+1) {
+								    clear: none;
+							    }
+						    } @else if $standard_list_columns_label == "six" {
+							    &:nth-child(6n+1) {
+								    clear: none;
+							    }
+						    }
+						
+						    &:nth-child(4n+1) {
+							    clear: both;
+						    }
+					    }
+				    }
+			    }
+		    }
+	    }
+	    
+	    &.mkdf-masonry-layout {
+		    $masonry_list_columns: ('two', 'three', 'four', 'five', 'six');
+		
+		    @for $i from 0 to length($masonry_list_columns) {
+			    &.mkdf-#{nth($masonry_list_columns,$i+1)}-columns {
+				    $column_width: 100%/($i+2);
+				
+				    @if ($i+2) == 5 {
+					    $column_width: 100%/4;
+				    } @else if ($i+2) == 6 {
+					    $column_width: 100%/4;
+				    }
+				
+				    .mkdf-pli,
+				    .mkdf-pl-sizer {
+					    width: $column_width;
+				    }
+				
+				    .mkdf-pli.mkdf-woo-image-large-width {
+					    width: $column_width*2;
+				    }
+			    }
+		    }
+	    }
+    }
+}
+
+@include ipad-landscape {
+
+    .mkdf-pl-holder {
+	    
+	    &.mkdf-standard-layout {
+		    $standard_list_columns_clear: ('two', 'three');
+		    $standard_list_columns: ('four', 'five', 'six');
+		
+		    @for $i from 0 to length($standard_list_columns) {
+			    &.mkdf-#{nth($standard_list_columns,$i+1)}-columns {
+				    $column_width: 100%/3;
+				
+				    .mkdf-pli {
+					    width: $column_width;
+					
+					    @media only screen and (min-width: $ipad-portrait-plus-pixel) {
+						    &:nth-child(3n+1) {
+							    clear: both;
+						    }
+					    }
+				    }
+			    }
+		    }
+		
+		    @for $i from 0 to length($standard_list_columns_clear) {
+			    &.mkdf-#{nth($standard_list_columns_clear,$i+1)}-columns {
+				    .mkdf-pli {
+					
+					    @media only screen and (min-width: $ipad-portrait-plus-pixel) {
+						    &:nth-child(#{$i+2}n+1) {
+							    clear: both;
+						    }
+					    }
+				    }
+			    }
+		    }
+	    }
+	    
+	    &.mkdf-masonry-layout {
+		    $masonry_list_columns: ('two', 'three', 'four', 'five', 'six');
+		
+		    @for $i from 0 to length($masonry_list_columns) {
+			    &.mkdf-#{nth($masonry_list_columns,$i+1)}-columns {
+				    $column_width: 50%;
+				
+				    @if ($i+2) != 2 {
+					    $column_width: 100%/3;
+				    }
+				
+				    .mkdf-pli,
+				    .mkdf-pl-sizer {
+					    width: $column_width;
+				    }
+				
+				    .mkdf-pli.mkdf-woo-image-large-width {
+					    width: $column_width*2;
+				    }
+			    }
+		    }
+	    }
+    }
+}
+
+@include ipad-portrait {
+
+    .mkdf-pl-holder {
+	    
+	    &.mkdf-standard-layout {
+		    $standard_list_columns: ('two', 'three', 'four', 'five', 'six');
+		
+		    @for $i from 0 to length($standard_list_columns) {
+			    &.mkdf-#{nth($standard_list_columns,$i+1)}-columns {
+				    $column_width: 50%;
+				
+				    .mkdf-pli {
+					    width: $column_width;
+					
+					    @media only screen and (min-width: $phone-landscape-plus-pixel) {
+						    &:nth-child(2n+1) {
+							    clear: both;
+						    }
+					    }
+				    }
+			    }
+		    }
+	    }
+	    
+	    &.mkdf-masonry-layout {
+		    $masonry_list_columns: ('two', 'three', 'four', 'five', 'six');
+		
+		    @for $i from 0 to length($masonry_list_columns) {
+			    &.mkdf-#{nth($masonry_list_columns,$i+1)}-columns {
+				    $column_width: 50%;
+				
+				    .mkdf-pli,
+				    .mkdf-pl-sizer {
+					    width: $column_width;
+				    }
+				
+				    .mkdf-pli.mkdf-woo-image-large-width {
+					    width: $column_width*2;
+				    }
+			    }
+		    }
+	    }
+    }
+}
+
+@include phone-landscape {
+
+    .mkdf-pl-holder {
+        
+        &.mkdf-standard-layout {
+            $standard_list_columns: ('two', 'three', 'four', 'five', 'six');
+    
+            @for $i from 0 to length($standard_list_columns) {
+                &.mkdf-#{nth($standard_list_columns,$i+1)}-columns {
+                    $column_width: 100%;
+            
+                    .mkdf-pli {
+                        width: $column_width;
+                    }
+                }
+            }
+        }
+        
+        &.mkdf-masonry-layout {
+            $masonry_list_columns: ('two', 'three', 'four', 'five', 'six');
+    
+            @for $i from 0 to length($masonry_list_columns) {
+                &.mkdf-#{nth($masonry_list_columns,$i+1)}-columns {
+                    .mkdf-pli,
+                    .mkdf-pl-sizer,
+                    .mkdf-pli.mkdf-woo-image-large-width {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Product List shortcode responsive styles - end
+   ========================================================================== */

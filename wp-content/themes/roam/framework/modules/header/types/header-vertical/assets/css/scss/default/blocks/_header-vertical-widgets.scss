@@ -1,0 +1,29 @@
+.mkdf-header-vertical {
+
+    .mkdf-vertical-area-widget-holder {
+        @include mkdfRelativeHolderLayout();
+        margin: 10px 0 0;
+        z-index: 100;
+        text-align: center;
+    }
+
+    .mkdf-vertical-alignment-center{
+
+        .mkdf-vertical-area-widget-holder {
+            position: absolute;
+            width: 100%;
+            bottom: 0px;
+            left: 0px;
+        }
+    }
+
+    .mkdf-vertical-area-widget-holder-bottom {
+        position: absolute;
+        display: inline-block;
+        width: 100%;
+        vertical-align: middle;
+        margin: 10px 0 0;
+        z-index: 99;
+        bottom: 0;
+    }
+}

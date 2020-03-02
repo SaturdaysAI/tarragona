@@ -1,0 +1,155 @@
+/* ==========================================================================
+# Search template style - begin
+========================================================================== */
+
+.mkdf-search-page-holder {
+    @include mkdfRelativeHolderLayout();
+    margin: 0 0 80px;
+    
+    .mkdf-search-page-form {
+        @include mkdfRelativeHolderLayout();
+        margin: 0 0 30px;
+        
+        .mkdf-search-title {
+            margin: 0 0 20px;
+        }
+        
+        .mkdf-search-label {
+            display: block;
+            font-size: 13px;
+        }
+        
+        .mkdf-form-holder {
+            @include mkdfRelativeHolderLayout();
+            margin: 0 0 10px;
+            clear: both;
+            border-bottom: 1px solid $default-border-color;
+            
+            .mkdf-column-left {
+                display: table-cell;
+                vertical-align: top;
+            }
+            
+            .mkdf-column-right {
+                display: table-cell;
+                width: 1%;
+                text-align: left;
+                vertical-align: top;
+            }
+            
+            .mkdf-search-field {
+                position: relative;
+                width: 100%;
+                height: 40px;
+                line-height: 40px;
+                margin: 0;
+                padding: 0 20px 0 3px;
+                font-family: inherit;
+                font-size: inherit;
+                color: inherit;
+                background-color: transparent;
+                border: none;
+                outline: 0;
+                vertical-align: middle;
+                -webkit-appearance: none;
+                box-sizing: border-box;
+                
+                @include mkdfPlaceholder {
+                    color: inherit;
+                }
+            }
+            
+            .mkdf-search-submit {
+                position: relative;
+                display: inline-block;
+                width: auto;
+                height: 40px;
+                line-height: 40px;
+                padding: 0;
+                font-size: 18px;
+                color: $default-text-color;
+                background-color: transparent;
+                border: 0;
+                outline: 0;
+                cursor: pointer;
+                vertical-align: middle;
+                @include mkdfTransition(color .2s ease-in-out);
+                
+                &:hover {
+                    color: $default-heading-color;
+                }
+            }
+        }
+    }
+    
+    article {
+        @include mkdfRelativeHolderLayout();
+        padding: 30px 0;
+        margin: 0;
+        border-bottom: 1px solid $default-border-color;
+        
+        &.sticky {
+            
+            .mkdf-post-title a {
+                color: $first-main-color;
+            }
+        }
+        
+        &.page {
+            
+            .mkdf-post-title-area .mkdf-post-info > div.mkdf-post-info-category {
+                display: none;
+            }
+        }
+        
+        .mkdf-post-content {
+            @include mkdfRelativeHolderLayout();
+        }
+        
+        .mkdf-post-image {
+            display: block;
+            float: left;
+            width: 130px;
+            
+            a, img {
+                display: block;
+            }
+        }
+        
+        .mkdf-post-title-area {
+            min-height: 130px;
+            padding: 0 0 0 150px;
+            
+            &.mkdf-no-thumbnail{
+                padding: 0;
+                min-height: inherit;
+            }
+            
+            .mkdf-post-title-area-inner {
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                box-sizing: border-box;
+                
+                .mkdf-post-title {
+                    margin: 0;
+                }
+                
+                .mkdf-post-excerpt {
+                    margin: 7px 0 0;
+                }
+            }
+
+            .mkdf-btn{
+            	margin: 20px 0 0;
+            }
+        }
+    }
+    
+    .mkdf-blog-pagination {
+        margin: 50px 0 0;
+    }
+}
+/* ==========================================================================
+# Search template style - end
+========================================================================== */

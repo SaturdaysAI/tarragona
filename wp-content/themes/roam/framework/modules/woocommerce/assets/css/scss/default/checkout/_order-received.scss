@@ -1,0 +1,107 @@
+/* ==========================================================================
+   WooCommerce Checkout page - Order Received styles - begin
+   ========================================================================== */
+
+.mkdf-woocommerce-page.woocommerce-order-received {
+    
+    .woocommerce {
+        display: block;
+        margin: 0 0 45px;
+        
+        > p {
+            display: block;
+            margin: 0 0 30px;
+        }
+        
+        > h2,
+        > header h2 {
+            display: block;
+            margin: 16px 0 25px;
+        }
+        
+        ul.order_details {
+            list-style: none;
+            margin: 0 0 30px;
+            
+            li {
+                padding: 14px 0;
+                border-bottom: 1px solid $default-border-color;
+                
+                strong {
+                    color: $default-heading-color;
+                    font-weight: 400;
+                }
+            }
+        }
+        
+        table.shop_table {
+            padding: 0;
+            margin: 0 0 35px;
+            
+            tr {
+                border: 0;
+                border-bottom: 1px solid $default-border-color;
+            }
+            
+            td, th {
+                padding: 14px 0;
+                text-align: left;
+                vertical-align: middle;
+            }
+            
+            th {
+                border: 0;
+            }
+            
+            .variation {
+                
+                > * {
+                    display: inline-block;
+                    vertical-align: middle;
+                    padding: 0;
+                    margin: 0;
+                }
+                
+                p {
+                    margin: 0;
+                }
+            }
+        }
+        
+        .col2-set.addresses {
+            @include mkdfRelativeHolderLayout();
+            clear: both;
+            margin: 0 0 15px;
+            
+            .col-1,
+            .col-2 {
+                position: relative;
+                display: inline-block;
+                width: 49%;
+                margin-right: 1%;
+                float: left;
+                vertical-align: middle;
+            }
+            
+            .col-2 {
+                margin-left: 1%;
+                margin-right: 0;
+            }
+            
+            .title {
+                margin: 4px 0 25px;
+            }
+            
+            h3 {
+                margin: 0;
+            }
+            
+            address {
+                font-style: normal;
+            }
+        }
+    }
+}
+/* ==========================================================================
+   WooCommerce Checkout page - Order Received styles - end
+   ========================================================================== */

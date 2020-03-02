@@ -1,0 +1,54 @@
+//global partials
+@import 'variables';
+@import 'mixins';
+/*------------------------------------------------------------------
+ * This is main css file for theme. It is broken into following sections:
+ * 1.  Global styles and reset
+ * 2.  Widgets styles
+ * 3.  Plugins styles
+ * 4.  Blog styles
+ * 5.  Footer styles
+ * 6.  Header styles
+ * 7.  Side area styles
+ * 8.  Search styles
+ * 9.  Title area styles
+ * 10. Shortcodes styles
+ * 11. Custom Post Types styles
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+ * Color codes
+
+ * Accent color: #{$first-main-color}
+ * Background: #{$default-background-color}
+ * Content: #{$default-text-color}
+ * Header h1: #{$default-heading-color}
+ * Header h2: #{$default-heading-color}
+ * Header h3: #{$default-heading-color}
+ * Header h4: #{$default-heading-color}
+ * Header h5: #{$default-heading-color}
+ * Header h6: #{$default-text-color}
+ * Header Background: #ffffff
+ * Footer Top Background: #{$default-heading-color}
+ * Footer Bottom Background: #{$default-heading-color}
+
+ * a (standard): #{$first-main-color}
+ * a (hover): #{$first-main-color}
+ */
+/* ==========================================================================
+   1. Global styles and reset
+   ========================================================================== */
+@import 'global';
+@import 'grid-system';
+@import 'animations';
+@import 'spinners';
+@import 'common';
+
+/* ==========================================================================
+   4. Widgets styles
+   ========================================================================== */
+@import 'modules/widgets/default/**/*.scss';
+
+/* ==========================================================================
+   5. Plugins styles
+   ========================================================================== */
+@import 'modules/plugins/default/*.scss';

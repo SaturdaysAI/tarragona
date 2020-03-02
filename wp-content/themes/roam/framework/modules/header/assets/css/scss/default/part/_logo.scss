@@ -1,0 +1,38 @@
+/* ==========================================================================
+   Header logo styles - begin
+   ========================================================================== */
+
+.mkdf-logo-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+
+    a {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        max-width: 100%;
+
+        img {
+            height: 100%;
+			width: auto;
+            @include mkdfTransition(opacity 0.2s ease);
+
+            &.mkdf-normal-logo{
+                opacity: 1;
+            }
+
+            &.mkdf-dark-logo{
+                opacity: 0;
+                @include mkdfTransform(translateY(-100%));
+            }
+
+            &.mkdf-light-logo{
+                opacity: 0;
+                @include mkdfTransform(translateY(-200%));
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Header logo styles - end
+   ========================================================================== */

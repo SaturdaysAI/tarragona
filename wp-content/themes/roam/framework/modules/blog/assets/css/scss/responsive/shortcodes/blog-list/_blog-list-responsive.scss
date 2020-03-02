@@ -1,0 +1,151 @@
+/* ==========================================================================
+   Blog List shortcode responsive style - begin
+   ========================================================================== */
+
+@include laptop-landscape-large {
+    
+    .mkdf-blog-list-holder {
+        
+        &.mkdf-bl-masonry {
+            
+            $masonry_columns_number: ('five');
+            
+            @for $i from 0 to length($masonry_columns_number) {
+                &.mkdf-bl-#{nth($masonry_columns_number,$i+1)}-columns {
+                    $column_width: 100%/4;
+    
+                    .mkdf-bl-item,
+                    .mkdf-bl-grid-sizer {
+                        width: $column_width;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include laptop-landscape-medium {
+    
+    .mkdf-blog-list-holder {
+        
+        &.mkdf-bl-standard,
+        &.mkdf-bl-boxed {
+    
+            $columns_number: ('four', 'five');
+            
+            @for $i from 0 to length($columns_number) {
+                &.mkdf-bl-#{nth($columns_number,$i+1)}-columns {
+                    $column_width: 100% / 3;
+    
+                    .mkdf-bl-item {
+                        width: $column_width;
+                    }
+                    
+                    @media only screen and (min-width: $ipad-landscape-plus-pixel) {
+                        
+                        .mkdf-bl-item {
+                            
+                            &:nth-child(3n+1) {
+                                clear: both;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        &.mkdf-bl-masonry {
+            
+            $masonry_columns_number: ('four', 'five');
+            
+            @for $i from 0 to length($masonry_columns_number) {
+                &.mkdf-bl-#{nth($masonry_columns_number,$i+1)}-columns {
+                    $column_width: 100% / 3;
+                    
+                    .mkdf-bl-item,
+                    .mkdf-bl-grid-sizer {
+                        width: $column_width;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include ipad-landscape {
+    
+    .mkdf-blog-list-holder {
+        
+        &.mkdf-bl-standard,
+        &.mkdf-bl-boxed {
+            
+            $columns_number: ('three', 'four', 'five');
+            
+            @for $i from 0 to length($columns_number) {
+                &.mkdf-bl-#{nth($columns_number,$i+1)}-columns {
+                    
+                    .mkdf-bl-item {
+                        width: 50%;
+                    }
+                    
+                    @media only screen and (min-width: $phone-landscape-plus-pixel) {
+                        
+                        .mkdf-bl-item {
+                            
+                            &:nth-child(2n+1) {
+                                clear: both;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        &.mkdf-bl-masonry {
+            
+            $masonry_columns_number: ('three', 'four', 'five');
+            
+            @for $i from 0 to length($masonry_columns_number) {
+                &.mkdf-bl-#{nth($masonry_columns_number,$i+1)}-columns {
+                    
+                    .mkdf-bl-item,
+                    .mkdf-bl-grid-sizer {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include phone-landscape {
+    
+    .mkdf-blog-list-holder {
+        
+        &.mkdf-bl-standard,
+        &.mkdf-bl-boxed {
+            
+            .mkdf-bl-item {
+                width: 100% !important; // !important is set to override all other stronger selectors
+            }
+        }
+        
+        &.mkdf-bl-masonry {
+            
+            $masonry_columns_number: ('two', 'three', 'four', 'five');
+            
+            @for $i from 0 to length($masonry_columns_number) {
+                &.mkdf-bl-#{nth($masonry_columns_number,$i+1)}-columns {
+                    
+                    .mkdf-bl-item,
+                    .mkdf-bl-grid-sizer {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Blog List shortcode responsive style - end
+   ========================================================================== */
